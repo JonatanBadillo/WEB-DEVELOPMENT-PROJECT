@@ -11,7 +11,7 @@ section {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background: url("../img/estadio.jpeg") no-repeat;
+  background: url("../img/fondo.png") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -19,9 +19,9 @@ section {
 .contenedor {
   position: relative;
   width: 400px;
-  background-color: red;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 20px;
+  backdrop-filter : blur(15px);
   height: 450px;
   display: flex;
   justify-content: center;
