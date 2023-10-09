@@ -19,6 +19,7 @@
  .contenedor{
     position: relative;
     width: 400px;
+    background-color: red;
     border: 2px solid rgba(255,255,255,.6);
     border-radius: 20px;
     height: 450px;
@@ -27,7 +28,7 @@
     align-items: center;
  }
 
- .contender h2{
+ .contenedor h2{
     font-size: 2.3rem;
     color: #fff;
     text-align: center;
@@ -49,6 +50,7 @@
     font-size: 1rem;
     pointer-events: none;
     transition: .6s;
+    font-weight: bold;
  }
 
  input:focus ~ label,
@@ -68,10 +70,10 @@
  }
 
  .input-contenedor i{
-    -moz-context-properties: absolute;
+    position: absolute;
     color: #fff;
     font-size: 1.6rem;
-    top: 10px;
+    top: 19px;
     right: 8px;
  }
 
