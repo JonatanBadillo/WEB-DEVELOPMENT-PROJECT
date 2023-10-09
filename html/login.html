@@ -11,25 +11,32 @@
 <body>
     <section>
         <div class="contenedor">
-            <form action="#">
-                <h2>Iniciar Sesi&oacute;n</h2>
-                <div class="input-contenedor">
-                    <i class="fa-solid fa-user" style="color: #ffff;"></i>
-                    <input type="email" required>
-                    <label for="#">Usuario</label>
+            <div class="formulario">
+                <form action="#">
+                    <h2>Iniciar Sesi&oacute;n</h2>
+
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="username" required>
+                        <label for="#">Usuario</label>
+                    </div>
+
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" required>
+                        <label for="#">Contraseña</label>
+                    </div>
+
+                </form>
+                <div>
+                    <button>Acceder</button>
+                    <div class="registrar">
+                        <p>No tengo Cuenta <a href="#">Crear Cuenta</a></p>
+                    </div>
                 </div>
-                <div class="input-contenedor">
-                    <i class="fa-solid fa-lock"></i>
-                    <input type="password" required>
-                    <label for="#">Contraseña</label>
-                </div>
-            </form>
-            <div>
-                <button>Acceder</button>
-                <div class="registrar">
-                    <p>No tengo Cuenta <a href="#">Crear Cuenta</a></p>
-                </div>
+
             </div>
+            
         </div>
     </section>
 </body>
