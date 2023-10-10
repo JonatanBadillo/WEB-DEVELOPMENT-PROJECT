@@ -4,44 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="/css/estilos2.css">
+    <script src="https://kit.fontawesome.com/8201687cad.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form>
-        <fieldset>
-            <legend>Ingresa tus datos: </legend>
+    <section>
+        <div class="contenedor2">
+            <div class="formulario">
+                <form action="#">
+                    <h2>Registro</h2>
 
-            <div>
-                <label>Nombre: </label>
-                <input type="text" placeholder="Tu nombre" required>
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <input type="name" required>
+                        <label for="#">Nombre</label>
+                        
+                    </div>
+
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <input type="lastname" required>
+                        <label for="#">Apellido</label>
+                    </div>
+
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" required>
+                        <label for="#">Correo</label>
+                    </div>
+
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="username" required>
+                        <label for="#">Username</label>
+                    </div>
+
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="lastname" required>
+                        <label for="#">Contraseña</label>
+                        
+                    </div>
+                </form>
+
+                <div>
+                    <button>Registrarse</button>
+                    <div class="registrar">
+                        <p>Tengo una Cuenta <a href="/html/signin.html">Ingresar</a></p>
+                    </div>
+                </div>
+
             </div>
-
-            <br>
-
-            <div>
-                <label>Apellidos: </label>
-                <input type="text" placeholder="Tu apellido" required>
-            </div>
-
-            <br>
-
-            <div>
-                <label>Usuario: </label>
-                <input type="text" placeholder="Tu usuario" required>
-            </div>
-
-            <br>
-
-            <div>
-                <label>Contraseña: </label>
-                <input type="password" placeholder="Tu contraseña" required>
-            </div>
-
-            <br>
             
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-         </fieldset>
-    </form>  
+        </div>
+    </section>
 </body>
 </html>
