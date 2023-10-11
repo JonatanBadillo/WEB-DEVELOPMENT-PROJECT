@@ -25,7 +25,17 @@
         ';
         exit();
     }
-    
+    // Verificar que el user no se repita en la BD
+    $verificar_usuario = mysqli_query($conexion,"SELECT * FROM usuarios where usuario='$usuario'");
+    if(mysqli_num_rows($verificar_usuario) > 0 ){ // si ecnuentra un dato repetido
+        echo'
+            <script>
+                alert("Este usuario ya esta registrado, intenta con otro diferente");
+                window.location = "../index.php";
+            </script>
+        ';
+        exit();
+    }
     $ejecutar = mysqli_query($conexion, $query);
     if($ejecutar){
         echo '
