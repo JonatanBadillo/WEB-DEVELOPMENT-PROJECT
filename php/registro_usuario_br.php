@@ -19,5 +19,14 @@
                 window.location = "../index.php"
             </script>
         ';
+    }else{
+        echo '
+        <script>
+            alert("Intentalo de nuevo, usuario no almacenado");
+            window.location = "../index.php"
+        </script>
+    '; 
     }
+
+    mysqli_close($conexion);
 ?>
