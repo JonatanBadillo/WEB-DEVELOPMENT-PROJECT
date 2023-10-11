@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation</title>
     <style>
-        .error {
+        .error{
             background-color: #FF9185;
             font-size: 12px;
         }
 
-        .correcto {
+        .correcto{
             background-color: #a0dea7;
             font-size: 12px;
         }
+
     </style>
 </head>
 <body>
