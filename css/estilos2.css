@@ -125,19 +125,3 @@ button {
 .registrar p a :hover {
   text-decoration: underline;
 }
-.center{
-  display: flex;
-  justify-content: center;
-}
-.button {
-  width: 100%;
-  height: 45px;
-  border-radius: 40px;
-  background: white;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-  font-size: 1rem;
-  transition: 0.4s;
-}
