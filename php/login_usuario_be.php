@@ -1,5 +1,5 @@
 <?php
-
+    session_start();
     include 'conexion_be.php';
 
     $usuario = $_POST['usuario'];
@@ -9,14 +9,8 @@
      WHERE usuario='$usuario' and contrasena='$contrasena'");
 
     if(mysqli_num_rows($validar_login) > 0){
-        /*header("location: ../bienvenida.php");*/
-        echo'
-            <script>
-                alert("Usuario existe, por favor verifique datos introducidos");    
-                window.location = "../index.php";  
-            </script>
-
-        ';
+        $_SESSION['usuario'] = $usuario;
+        header("location: ../bienvenida.php");
         exit;
     }else{
         echo'

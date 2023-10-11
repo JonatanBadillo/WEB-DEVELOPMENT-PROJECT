@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(isset($_SESSION['usuario'])){ // Si sesion no existe
+        header("location: bienvenida.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
