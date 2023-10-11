@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="assets/estilos.css">
 </head>
 <body>
 
@@ -36,7 +36,7 @@
                 </form>
 
                 <!--Register-->
-                <form action="./php/registro_usuario_br.php" method="POST" class="formulario__register">
+                <form action="php/registro_usuario_br.php" method="POST" class="formulario__register">
                     <h2>Regístrarse</h2>
                     <input type="text" placeholder="Nombre completo" name="nombre_completo">
                     <input type="text" placeholder="Correo Electronico" name="correo">
@@ -49,6 +49,6 @@
 
     </main>
 
-    <script src="/PRUEBA/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
