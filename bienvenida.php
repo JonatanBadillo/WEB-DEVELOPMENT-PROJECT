@@ -26,6 +26,7 @@
 <body>
 
     <h1>BIENVENIDO A MI MUNDO</h1>
+    <a a href="php/cerrar_sesion.php">Cerrar Sesión</a> 
 
         
 </body>
