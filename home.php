@@ -26,7 +26,8 @@
     <link rel="stylesheet" href="css/estilos.css"> -->
 </head>
 <body>
-    <header class="header">
+
+<header class="header">
         <div class="logo">
             <a a href="/html/index.html" ><img src="img/logo.png" alt="Logo"></a>
         </div>
@@ -38,14 +39,8 @@
                 <li><a href="#">Goleadores</a></li>
                 <li><a href="#">Equipos</a></li>
             </ul>
-        </nav> 
-    
-   
-
-    
-
-
-
-    </header> 
+        </nav>
+        <a href="php/cerrar_sesion.php" class="btn"><button>Cerrar Sesión</button> </a>
+    </header>
 </body>
 </html>
