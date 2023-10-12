@@ -29,7 +29,7 @@
 
 <header class="header">
         <div class="logo">
-            <a a href="/html/index.html" ><img src="img/logo.png" alt="Logo"></a>
+            <a a href="home.php" ><img src="img/logo.png" alt="Logo"></a>
         </div>
         <nav>
             <ul class="nav-links">
