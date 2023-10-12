@@ -1,6 +1,6 @@
 <?php
 
-    include 'conexion_be.php';
+    include 'conexion_be.php'; // Establecemos conexion a la BD
 
     $nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
@@ -38,14 +38,14 @@
         exit();
     }
     $ejecutar = mysqli_query($conexion, $query);
-    if($ejecutar){
+    if($ejecutar){ // si toda la ejecucion salio de manera adecauda, se registro correctamente los datos
         echo '
             <script>
-                alert("Usuario almacenado exitosamente");
+                alert("Usuario almacenado exitosamente"); 
                 window.location = "../index.php"
             </script>
         ';
-    }else{
+    }else{ // no se pudo registrar 
         echo '
         <script>
             alert("Intentalo de nuevo, usuario no almacenado");
