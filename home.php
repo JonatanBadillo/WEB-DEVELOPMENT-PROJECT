@@ -20,13 +20,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>+Futbolotravez</title>
-    <link rel="stylesheet" href="/css/estilos.css">
+    <title>+Futbol</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <a a href="/html/index.html" ><img src="/img/logo.png" alt="Logo"></a>
+            <a a href="/html/index.html" ><img src="img/logo.png" alt="Logo"></a>
         </div>
         <nav>
             <ul class="nav-links">
