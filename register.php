@@ -11,7 +11,7 @@
     <section>
         <div class="contenedor2">
             <div class="formulario">
-                <form action="php/registro_usuario_br.php" method="POST" class="formulario__register">
+                <form action="php/registro_usuario_be.php" method="POST" class="formulario__register">
                     <h2>Registro</h2>
 
                     <div class="input-contenedor">
