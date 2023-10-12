@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(isset($_SESSION['usuario'])){ // Si sesion no existe
+        header("location: bienvenida.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,33 +22,31 @@
                 <form action="php/login_usuario_be.php" method="POST" class="formulario__login">
                     <h2>Iniciar Sesi&oacute;n</h2>
 
-                    <div class="input-contenedor">
-                        <i class="fa-solid fa-user"></i>
-                        <input type="text" name="usuario" required>
-                        <label for="#">Usuario</label>
-                    </div>
-
-                    <div class="input-contenedor">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="password" name="contrasena" required>
-                        <label for="#">Contraseña</label>
-                    </div>
-
-                
-
-                <div>
-                    <div class="center">
-                        <input type="submit" value="Acceder" class="button">
-                    </div>
-                    <div class="registrar">
-                        <p>No tengo Cuenta <a href="register.php">Crear Cuenta</a></p>
-                    </div>
-                </div>
+            <!--Formulario de Login y registro-->
+            <div class="contenedor__login-register">
+                <!--Login-->
+                <form action="php/login_usuario_be.php" method="POST" class="formulario__login">
+                    <h2>Iniciar Sesión</h2>
+                    <input type="text" placeholder="Usuario" name="usuario">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
+                    <button>Entrar</button>
                 </form>
 
+                <!--Register-->
+                <form action="php/registro_usuario_br.php" method="POST" class="formulario__register">
+                    <h2>Regístrarse</h2>
+                    <input type="text" placeholder="Nombre completo" name="nombre_completo">
+                    <input type="text" placeholder="Correo Electronico" name="correo">
+                    <input type="text" placeholder="Usuario" name="usuario">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
+                    <button>Regístrarse</button>
+                </form>
             </div>
             
         </div>
-    </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
