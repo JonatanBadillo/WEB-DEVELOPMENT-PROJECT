@@ -27,14 +27,17 @@
                         <label for="#">Contraseña</label>
                     </div>
 
-                </form>
+                
 
                 <div>
-                    <button>Acceder</button>
+                    <div class="center">
+                        <input type="submit" value="Acceder" class="button">
+                    </div>
                     <div class="registrar">
                         <p>No tengo Cuenta <a href="register.php">Crear Cuenta</a></p>
                     </div>
                 </div>
+                </form>
 
             </div>
             

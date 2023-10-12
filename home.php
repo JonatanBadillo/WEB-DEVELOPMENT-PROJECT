@@ -1,3 +1,19 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['usuario'])){ // Si sesion no existe
+        echo'
+            <script>
+                alert("Por favor debes iniciar sesión");
+                window.location = "index.php";
+            </script>
+        ';
+        // header("location: index.php");
+        session_destroy();
+        die();
+        
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +37,7 @@
                 <li><a href="#">Equipos</a></li>
             </ul>
         </nav>
-        <a href="/html/signin.html" class="btn"><button>Iniciar Sesion</button> </a>
+        <a href="php/cerrar_sesion.php" class="btn"><button>Cerrar Sesión</button> </a>
     </header>
 </body>
 </html>
