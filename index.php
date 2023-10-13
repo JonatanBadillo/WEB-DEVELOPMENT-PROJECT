@@ -70,7 +70,7 @@ if (isset($_SESSION['usuario'])) { // Si sesion no existe
 
     </main>
 
-    <script src="js/script.js"></script>
+    <script src="js/script-login.js"></script>
 </body>
 
 </html>
