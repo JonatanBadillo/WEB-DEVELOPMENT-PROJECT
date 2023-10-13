@@ -70,14 +70,13 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                 </p>
 
                 <div class="buttons__cover">
-                    <input type="button" class="btn__register-cover" value="Registrarse">
                     <input type="button" class="btn__readMore-cover" value="Leer más">
                 </div>
 
             </div>
 
             <div class="media__cover">
-                <video src="media/animacion_cover.webm" autoplay playinline loop muted preload="auto"></video>
+                <video src="assets/media/video/video-home.mp4" autoplay playinline loop muted preload="auto"></video>
             </div>
 
 
