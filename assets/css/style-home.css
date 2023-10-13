@@ -191,8 +191,9 @@ main{
 #icon_stadium{
     width: 300px;
     position: relative;
-    margin-top: -100px;
+    margin-top: -15px;
     opacity: 0.6;
+    
 }
 
 
