@@ -14,6 +14,17 @@ if (isset($_SESSION['usuario'])) { // Si sesion no existe
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="assets/estilos.css">
+
+    <style>
+        body{
+            background-image: url(assets/images/fondo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+
 </head>
 
 <body>
