@@ -85,7 +85,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                 <div class="banner">
                     <div class="banner__icon-ball">
-                        <img src="assets/images/ball.jpg" id="icon_ball" alt="">
+                        <img src="assets/images/ball.png" id="icon_ball" alt="">
                     </div>
                     <div class="banner__icon-stadium">
                         <img src="assets/images/stadium.jpg" id="icon_stadium" alt="">
