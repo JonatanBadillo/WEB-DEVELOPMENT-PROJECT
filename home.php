@@ -28,18 +28,42 @@
 <body>
 
 <header class="header">
-        <div class="logo">
-            <a a href="home.php" ><img src="img/logo.png" alt="Logo"></a>
+<div class="container__header">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/Logo/logo-magtimus.png" alt="">
+                </a>
+            </div>
+
+            <div class="menu"> magtimus pro de la manera mas facil que se pudiera crear ytu sabes klk pero para mi tu no eres nadie
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Obras</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                </nav>
+
+                <a href="#" class="btn__quote">Cotizar</a>
+
+                <div class="socialMedia">
+                    <a href="#">
+                        <img src="assets/images/social media/facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/social media/instagram.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/social media/twitter.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/social media/youtube.png" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="/html/resultados.html">Resultados</a></li>
-                <li><a href="#">Tabla</a></li>
-                <li><a href="#">Jugadores</a></li>
-                <li><a href="#">Goleadores</a></li>
-                <li><a href="#">Equipos</a></li>
-            </ul>
-        </nav>
         <a href="php/cerrar_sesion.php" class="btn"><button>Cerrar Sesión</button> </a>
     </header>
 </body>
