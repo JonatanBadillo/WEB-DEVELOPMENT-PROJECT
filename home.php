@@ -33,7 +33,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="container__header">
 
             <div class="logo">
-                <img src="assets/images/Logos/logo-white.png" alt="fgdh">
+                <img src="assets/images/Logos/logo-black.png" alt="fgdh">
             </div>
 
             <div class="menu">
@@ -49,9 +49,10 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
             <i class="fa-solid fa-bars" id="icon_menu"></i>
 
-            <div class="header__register">
-                
-                <a href="php/cerrar_sesion.php" class="btn"><input type="button" class="btn__header-cerrar" value="Cerrar Sesion"></a>
+            <div class="header__cerrar">
+
+                <a href="php/cerrar_sesion.php" class="btn"><input type="button" class="btn__header-cerrar"
+                        value="Cerrar Sesion"></a>
             </div>
 
         </div>
@@ -65,7 +66,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="text__information-cover">
                 <h1>La Experiencia Definitiva para Fanáticos del Fútbol"</h1>
 
-                <p>Tu pasión por el fútbol merece más que solo ver los partidos. Merece una experiencia completa.
+                <p>
                     La herramienta definitiva para fanáticos del fútbol: sigue, analiza y disfruta.
                 </p>
 
@@ -78,10 +79,30 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="media__cover">
                 <video src="assets/media/video/video-home.mp4" autoplay playinline loop muted preload="auto"></video>
             </div>
-
-
         </div>
+
+            <div class="container__banner">
+
+                <div class="banner">
+                    <div class="banner__icon-ball">
+                        <img src="assets/images/ball.jpg" id="icon_ball" alt="">
+                    </div>
+                    <div class="banner__icon-stadium">
+                        <img src="assets/images/stadium.jpg" id="icon_stadium" alt="">
+                    </div>
+                    <div class="banner__text">
+                        <h2>Toma el control de tu experiencia futbolística con nosotros.</h2>
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+
+            </div>
+
+        
     </main>
+
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
