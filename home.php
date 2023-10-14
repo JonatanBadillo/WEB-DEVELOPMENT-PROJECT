@@ -29,11 +29,13 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 <body>
     <header>
-
+        <!--   MENU  -->
         <div class="container__header">
 
             <div class="logo">
-                <img src="assets/images/Logos/logo-black.png" alt="fgdh">
+                <a href="#">
+                    <img src="assets/images/Logos/logo-black.png" alt="Logo">
+                </a>
             </div>
 
             <div class="menu">
@@ -47,6 +49,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                     </ul>
                 </nav>
             </div>
+
             <i class="fa-solid fa-bars" id="icon_menu"></i>
 
             <div class="header__cerrar">
@@ -81,24 +84,47 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
         </div>
 
-            <div class="container__banner">
+        <div class="container__banner">
 
-                <div class="banner">
-                    <div class="banner__icon-ball">
-                        <img src="assets/images/ball.png" id="icon_ball" alt="">
-                    </div>
-                    <div class="banner__icon-stadium">
-                        <img src="assets/images/stadium.png" id="icon_stadium" alt="">
-                    </div>
-                    <div class="banner__text">
-                        <h2>Toma el control de tu experiencia futbolística con nosotros.</h2>
-                        <a href="#">Leer más</a>
-                    </div>
+            <div class="banner">
+                <div class="banner__icon-ball">
+                    <img src="assets/images/ball.png" id="icon_ball" alt="">
                 </div>
-
+                <div class="banner__icon-stadium">
+                    <img src="assets/images/stadium.png" id="icon_stadium" alt="">
+                </div>
+                <div class="banner__text">
+                    <h2>Toma el control de tu experiencia futbolística con nosotros.</h2>
+                    <a href="#">Leer más</a>
+                </div>
             </div>
 
-        
+        </div>
+
+        <!--Sobre nosotros -->
+
+        <div class="container__about div__offset">
+            <div class="about">
+                <div class="text__about">
+                    <h1>Nuestra Pasión: Facilitar tu Pasión por el Fútbol</h1>
+                    <p>Nuestro equipo está comprometido en construir el futuro del seguimiento de partidos de fútbol, y estamos entusiasmados por tener la oportunidad de compartir esta pasión contigo.
+                        Así que únete a nosotros en este emocionante viaje, y 
+                        juntos hagamos que cada partido de fútbol sea aún más emocionante y significativo.</p>
+                        <div class="buttons__cover">
+                    <input type="button" class="btn__readMore-cover" value="Saber más">
+                </div>
+                </div>
+                
+                <div class="image__about">
+                    <img src="assets/images/player1.jpg" alt="">
+                    <img src="assets/images/player2.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+
+
     </main>
 
     <script src="js/script.js"></script>
