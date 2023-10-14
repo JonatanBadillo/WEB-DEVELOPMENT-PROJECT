@@ -29,85 +29,33 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 <body>
     <header>
-        <!--   MENU  -->
-        <div class="container__header">
 
-            <div class="logo">
-                <a href="#">
-                    <img src="assets/images/Logos/logo-black.png" alt="Logo">
-                </a>
-            </div>
+        <div class="container__menu">
 
             <div class="menu">
+                
                 <nav>
                     <ul>
-                        <li><a href="#">Resultados</a></li>
-                        <li><a href="#">Posiciones</a></li>
-                        <li><a href="#">Equipos</a></li>
-                        <li><a href="#">Jugadores</a></li>
-                        <li><a href="#">Goleadores</a></li>
+                        <li><a href="#">Servicios</a>
+                            <ul>
+                                <li><a href="#">Diseño Web</a></li>
+                                <li><a href="#">Diseño Gráfico</a></li>
+                                <li><a href="#">Ordenadores</a></li>
+                                <li><a href="#">Servidores</a></li>
+                                <li><a href="#">Analista</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a href="#">Contactos</a></li>
                     </ul>
                 </nav>
             </div>
 
-            <i class="fa-solid fa-bars" id="icon_menu"></i>
-
-            <div class="header__cerrar">
-
-                <a href="php/cerrar_sesion.php" class="btn"><input type="button" class="btn__header-cerrar"
-                        value="Cerrar Sesion"></a>
-            </div>
-
         </div>
-
 
     </header>
-
-    <main>
-        <div class="cover">
-
-            <div class="text__information-cover">
-                <h1>La Experiencia Definitiva para Fanáticos del Fútbol"</h1>
-
-                <p>
-                    La herramienta definitiva para fanáticos del fútbol: sigue, analiza y disfruta.
-                </p>
-
-                <div class="buttons__cover">
-                    <input type="button" class="btn__readMore-cover" value="Leer más">
-                </div>
-
-            </div>
-
-            <div class="media__cover">
-                <video src="assets/media/video/video-home.mp4" autoplay playinline loop muted preload="auto"></video>
-            </div>
-        </div>
-
-        <div class="container__banner">
-
-            <div class="banner">
-                <div class="banner__icon-ball">
-                    <img src="assets/images/ball.png" id="icon_ball" alt="">
-                </div>
-                <div class="banner__icon-stadium">
-                    <img src="assets/images/stadium.png" id="icon_stadium" alt="">
-                </div>
-                <div class="banner__text">
-                    <h2>Toma el control de tu experiencia futbolística con nosotros.</h2>
-                    <a href="#">Leer más</a>
-                </div>
-            </div>
-
-        </div>
-
-       
-
-
-
-    </main>
-
-    <script src="js/script.js"></script>
 
 </body>
 
