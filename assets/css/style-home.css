@@ -36,7 +36,7 @@ header{
 }
 
 .logo img {
-  width: 175px;
+  width: 165px;
 }
 
 .menu nav ul {
@@ -59,8 +59,12 @@ header{
   opacity: 0.6;
 }
 
+
 .btn__header-cerrar {
-  padding: 14px 50px;
+  margin: 0;
+  height: 40px;  
+  padding-right: 40px;
+  padding-left: 40px;
   border: none;
   background: #000;
   color: white;
@@ -69,6 +73,8 @@ header{
   cursor: pointer;
   transition: background, color, 300ms;
 }
+
+
 
 .btn__header-cerrar:hover {
   background: #69f1a1;
@@ -294,48 +300,6 @@ main {
     width: 100%;
     margin-top: -100px;
   }
-}
-
-/*Sobre nosotros*/
-
-.container__about {
-  padding: 100px 0px;
-  background-color: rgb(244, 240, 240);
-  margin-top: 100px;
-}
-
-.about {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.text__about {
-  width: 100%;
-  padding-right: 40px;
-}
-
-.text__about h1 {
-  color: var(--color_text-secundary);
-  font-weight: 600;
-}
-
-.text__about p {
-  font-size: var(--text_paragraph);
-  margin-top: 40px;
-  color: var(--color_text-tertiary);
-}
-
-.image__about {
-  width: 100%;
-  display: flex;
-}
-
-.image__about img {
-  width: 300px;
 }
 
 

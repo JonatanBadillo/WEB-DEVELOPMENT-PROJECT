@@ -101,27 +101,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
         </div>
 
-        <!--Sobre nosotros -->
-
-        <div class="container__about div__offset">
-            <div class="about">
-                <div class="text__about">
-                    <h1>Nuestra Pasión: Facilitar tu Pasión por el Fútbol</h1>
-                    <p>Nuestro equipo está comprometido en construir el futuro del seguimiento de partidos de fútbol, y estamos entusiasmados por tener la oportunidad de compartir esta pasión contigo.
-                        Así que únete a nosotros en este emocionante viaje, y 
-                        juntos hagamos que cada partido de fútbol sea aún más emocionante y significativo.</p>
-                        <div class="buttons__cover">
-                    <input type="button" class="btn__readMore-cover" value="Saber más">
-                </div>
-                </div>
-                
-                <div class="image__about">
-                    <img src="assets/images/player1.jpg" alt="">
-                    <img src="assets/images/player2.jpg" alt="">
-                </div>
-            </div>
-            
-        </div>
+       
 
 
 
