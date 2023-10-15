@@ -58,25 +58,25 @@ if (isset($_SESSION['usuario'])) { // Si sesion no existe
             </form>
         </div>
 
-        <!--  Mensajes dentro del login -->
-        <div class="overlay-container">
-            <div class="overlay">
-                <div class="overlay-panel overlay-left">
-                    <h1 class="title">¡Regístrate y únete a la mejor comunidad futbolera!</h1>
-                    <p>Si ya tienes una cuenta, inicia sesión aquí y disfruta.</p>
-                    <button class="ghost" id="login">Iniciar Secion
-                        <i class="lni lni-arrow-left login"></i>
-                    </button>
-                </div>
-                <div class="overlay-panel overlay-right">
-                    <h1 class="title">Comienza tu viaje ahora.</h1>
-                    <p>Si aún no tienes una cuenta, únete a nosotros y empieza tu viaje.</p>
-                    <button class="ghost" id="register">Regístrate
-                        <i class="lni lni-arrow-right register"></i>
-                    </button>
-                </div>
-            </div>
+    <!--  Mensajes dentro del login -->
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1 class="title">¡Regístrate y únete a la mejor comunidad futbolera!</h1>
+          <p>Si ya tienes una cuenta, inicia sesión aquí y disfruta.</p>
+          <button class="ghost" id="login">Iniciar Sesión
+            <i class="lni lni-arrow-left login"></i>
+          </button>
         </div>
+        <div class="overlay-panel overlay-right">
+          <h1 class="title">Comienza tu viaje ahora.</h1>
+          <p>Si aún no tienes una cuenta, únete a nosotros y empieza tu viaje.</p>
+          <button class="ghost" id="register">Regístrate
+            <i class="lni lni-arrow-right register"></i>
+          </button>
+        </div>
+      </div>
+    </div>
 
     </div>
 
