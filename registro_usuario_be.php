@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Navbar Template · Bootstrap v5.1</title>
+    <title>Login</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <!-- estilos para animar el Pop Up -->
@@ -14,18 +14,9 @@
 </head>
 
 <body>
-    <!-- Esta parte solamente se encarga de realizar la validacion de los datos del registro del form-->
-    <!--Los datos se recibieron mediante el action que esta en el form del index.php -->
-    <div class="wrapper fadeInDown">
-        <div id="formContent">
-            <div>
-                <!-- Redimensionar el logo de error -->
-                <i class="far fa-frown fa-6x" style="color: red;"></i>
-            </div>
-            <div>
-                <h2 style="color: black">errores al registrarse: </h2>
-                <!-- Validacion de los campos del registro del formulario-->
-                <?php
+    <?php
+            /* Aca guardo los valores de los campos del registro para su validacion*/
+            /* Los datos se recibieron mediante el action que esta en el form del index.php */
             if (isset($_POST['nombre'])) {
                 $nombre = $_POST['nombre'];
                 $correo = $_POST['correo'];
@@ -33,7 +24,7 @@
                 $contrasena = $_POST['contrasena'];
 
                 $campos = array();
-
+                /* Hacemos una validacion por cada campo */
                 if ($nombre == "") {
                     array_push($campos, "El campo nombre no puede estar vacío.");
                 } elseif (strlen($nombre) < 3 || strlen($nombre) > 15) {
@@ -53,14 +44,34 @@
                 if ($contrasena == "" || strlen($contrasena) < 6 || strlen($contrasena) > 15) {
                     array_push($campos, "El campo contraseña debe tener entre 6 y 15 caracteres.");
                 }
-
+                /* Se realiza el conteo de derrores en caso de haberlos tenido en el registro */
                 if (count($campos) > 0) {
-                  echo "<div class='error'>";
-                  for ($i = 0; $i < count($campos); $i++) {
-                      echo "<li>" . $campos[$i] . "</li>";
-                  }
-                  echo "</div>";
-              } else {
+                    /* Formato del Pop Up de error en el registro */
+                    echo "<div class=\"wrapper fadeInDown\">";
+                      echo "<div id=\"formContent\">";
+                        echo "";
+                        echo "<div>";
+                        /* Redimensionar el logo de error */
+                          echo "<i class=\"far fa-frown fa-6x\" style=\"color: red;\"></i>";
+                        echo "</div>";
+                        echo "<div>";
+                          echo "<h2 style=\"color: black\"> errores al registrarse: </h2>";
+                   
+                    /* Se imprime la cantidad de errores en los campos que hubo en el registro  */
+                    echo "<div class='error'>";
+                    for ($i = 0; $i < count($campos); $i++) {
+                        echo "<li>" . $campos[$i] . "</li>";
+                    }
+                    echo "</div>";
+                            /* Boton de regresar al Index del Pop Up error */
+                            echo "<br>";
+                            echo "<div>";
+                              echo "<a class=\"btn2 btn-danger btn-lg\" href=\"index.php\">regresar</a>";
+                            echo "</div>";
+                        echo "</div>";
+                      echo "</div>";
+                    echo "</div>";
+            } else {
                   
                 /* Esta parte del codigo se encarga de almacenar los datos del registro en ls BD*/
                 /* Esta parte SOLO SE EJECUTA cuando los datos son validados y no hay errores*/
@@ -81,33 +92,71 @@
                 // Verificar que el correo no se repita en la BD
                 $verificar_correo = mysqli_query($conexion,"SELECT * FROM usuarios where correo='$correo'");
                 if(mysqli_num_rows($verificar_correo) > 0 ){ // si encuentra un dato repetido
-                    echo'
-                        <script>
-                            alert("Este correo ya esta registrado, intenta con otro diferente");
-                            window.location = "../index.php";
-                        </script>
-                    ';
-                    exit();
+                    /* Formato del Pop Up de error en la validacion del correo en la BD*/
+                    echo "<div class=\"wrapper fadeInDown\">";
+                      echo "<div id=\"formContent\">";
+                        echo "";
+                        echo "<div>";
+                        /* Redimensionar el logo de error */
+                          echo "<i class=\"far fa-frown fa-6x\" style=\"color: red;\"></i>";
+                        echo "</div>";
+                        echo "<div>";
+                          echo "<h2 style=\"color: black\"> errores al registrarse: </h2>";
+                          /* Mensaje del error correspondiente a un correo repetido en la BD */
+                          echo "<div class=\"error\"> • Este correo ya esta registrado, intenta con otro diferente</div>";
+                            echo "<br>";
+                            echo "<div>";
+                              /* Boton de regresar al Index del Pop Up error */
+                              echo "<a class=\"btn2 btn-danger btn-lg\" href=\"index.php\">regresar</a>";
+                            echo "</div>";
+                        echo "</div>";
+                      echo "</div>";
+                    echo "</div>";
+                    exit(); /* Setencia la cual aunque se cumpla el condicional, no deja que se registren los datos en la BD */
                 }
                 // Verificar que el user no se repita en la BD
                 $verificar_usuario = mysqli_query($conexion,"SELECT * FROM usuarios where usuario='$usuario'");
                 if(mysqli_num_rows($verificar_usuario) > 0 ){ // si encuentra un dato repetido
-                    echo'
-                        <script>
-                            alert("Este usuario ya esta registrado, intenta con otro diferente");
-                            window.location = "../index.php";
-                        </script>
-                    ';
-                    exit();
+                    /* Formato del Pop Up de error en la validacion del usuario en la BD*/
+                    echo "<div class=\"wrapper fadeInDown\">";
+                      echo "<div id=\"formContent\">";
+                        echo "";
+                        echo "<div>";
+                        /* Redimensionar el logo de error */
+                          echo "<i class=\"far fa-frown fa-6x\" style=\"color: red;\"></i>";
+                        echo "</div>";
+                        echo "<div>";
+                          echo "<h2 style=\"color: black\"> errores al registrarse: </h2>";
+                          /* Mensaje del error correspondiente a un usuario repetido en la BD */
+                          echo "<div class=\"error\"> • Este usuario ya esta registrado, intenta con otro diferente</div>";
+                            echo "<br>";
+                            echo "<div>";
+                              /* Boton de regresar al Index del Pop Up error */
+                              echo "<a class=\"btn2 btn-danger btn-lg\" href=\"index.php\">regresar</a>";
+                            echo "</div>";
+                        echo "</div>";
+                      echo "</div>";
+                    echo "</div>";
+                    exit(); /* Setencia la cual aunque se cumpla el condicional, no deja que se registren los datos en la BD */
                 }
                 $ejecutar = mysqli_query($conexion, $query);
                 if($ejecutar){ // si toda la ejecucion salio de manera adecauda, se registro correctamente los datos
-                    echo '
-                        <script>
-                            alert("Usuario almacenado exitosamente"); 
-                            window.location = "../index.php"
-                        </script>
-                    ';
+                  /* Formato del Pop Up de registro correcto en la BD*/
+                  echo "<div class=\"wrapper2 fadeInDown2\">";
+                    echo "<div id=\"formContent2\">";
+                    echo "";
+                      echo "<div>";
+                        /* Redimensionar el logo de registro correcto */
+                        echo "<i class=\"far fa-smile-beam fa-6x\" style=\"color: blue;\"></i>";
+                      echo "</div>";
+                      echo "<div>";
+                        /* Mensaje de registro correcto en la BD */
+                        echo "<h2 style=\"color: black\">¡Bienvenido a la comunidad!</h2>";
+                        /* Boton de regresar al Index del Pop Up registro correcto*/
+                        echo "<a class=\"btn btn-success btn-lg\" href=\"index.php\">Salir</a>";
+                      echo "</div>";
+                    echo "</div>";
+                  echo "</div>";
                 }else{ // no se pudo registrar 
                     echo '
                     <script>
@@ -118,16 +167,11 @@
                 }
             
                 mysqli_close($conexion);  
-              }
+            }
+
           }
-      ?>
-                <br>
-                <div>
-                    <a class="btn btn-danger btn-lg" href="index.php">Regresar</a>
-                </div>
-            </div>
-        </div>
-    </div>
+        ?>
+
 </body>
 
 </html>

@@ -40,8 +40,31 @@ h2 {
   min-height: 100%;
   padding: 20px;
 }
+.wrapper2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
 
 #formContent {
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border-radius: 25px 25px 25px 25px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 350px;
+  position: relative;
+  /* Mueve el atributo padding aquí */
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 35px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+#formContent2 {
   -webkit-border-radius: 20px 20px 20px 20px;
   border-radius: 25px 25px 25px 25px;
   background: #fff;
@@ -152,6 +175,15 @@ input[type=text]:placeholder {
 
 /* Simple CSS3 Fade-in-down Animation */
 .fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeInDown2 {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   -webkit-animation-duration: 1s;
