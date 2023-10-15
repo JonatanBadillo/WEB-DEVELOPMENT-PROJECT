@@ -64,7 +64,7 @@ if (isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="overlay-panel overlay-left">
           <h1 class="title">¡Regístrate y únete a la mejor comunidad futbolera!</h1>
           <p>Si ya tienes una cuenta, inicia sesión aquí y disfruta.</p>
-          <button class="ghost" id="login">Iniciar Sesión
+          <button class="ghost" id="login">Iniciar Secion
             <i class="lni lni-arrow-left login"></i>
           </button>
         </div>
