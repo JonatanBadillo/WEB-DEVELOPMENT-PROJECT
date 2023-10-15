@@ -47,8 +47,10 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                 </nav>
             </div>
             <i class="fa-solid fa-bars" id="icon_menu"></i>
-            <div class="header__register">
-                <input type="button" class="btn__header-register" value="Registrarse">
+            <div class="header__cerrar">
+
+                <a href="php/cerrar_sesion.php" class="btn"><input type="button" class="btn__header-cerrar"
+                        value="Cerrar Sesion"></a>
             </div>
         </div>
 
@@ -73,7 +75,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
 
             <div class="media__cover">
-            <video src="assets/media/video/video-home.mp4" autoplay playinline loop muted preload="auto"></video>
+                <video src="assets/media/video/video-home.mp4" autoplay playinline loop muted preload="auto"></video>
             </div>
 
 
@@ -83,10 +85,10 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
             <div class="banner">
                 <div class="banner__icon-ball">
-                <img src="assets/images/ball.png" id="icon_ball" alt="">
+                    <img src="assets/images/ball.png" id="icon_ball" alt="">
                 </div>
                 <div class="banner__icon-player">
-                <img src="assets/images/stadium.png" id="icon_player" alt="">
+                    <img src="assets/images/stadium.png" id="icon_player" alt="">
                 </div>
                 <div class="banner__text">
                     <h2>La pila moderna de inteligencia de datos en la nube para su negocio de misión crítica.</h2>
