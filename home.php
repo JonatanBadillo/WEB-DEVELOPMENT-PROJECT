@@ -38,11 +38,11 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="#">Productos</a></li>
-                        <li><a href="#">Soluciones</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Compañía</a></li>
-                        <li><a href="#">Contactos</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Posiciones</a></li>
+                        <li><a href="#">Equipos</a></li>
+                        <li><a href="#">Jugadores</a></li>
+                        <li><a href="#">Goleadores</a></li>
                     </ul>
                 </nav>
             </div>
@@ -61,14 +61,11 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="cover">
 
             <div class="text__information-cover">
-                <h1>Haz historia. No se limite a informar sobre ello.</h1>
+                <h1>La Experiencia Definitiva para Fanáticos del Fútbol</h1>
 
-                <p>Vaya más allá de informar sobre datos históricos. Utilice la inteligencia procesable de cada
-                    evento digital para impactar positivamente en los resultados comerciales. Continuamente. En
-                    tiempo real. A escala.</p>
+                <p>La herramienta definitiva para fanáticos del fútbol: sigue, analiza y disfruta.</p>
 
                 <div class="buttons__cover">
-                    <input type="button" class="btn__register-cover" value="Registrarse">
                     <input type="button" class="btn__readMore-cover" value="Leer más">
                 </div>
 
@@ -91,7 +88,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                     <img src="assets/images/stadium.png" id="icon_player" alt="">
                 </div>
                 <div class="banner__text">
-                    <h2>La pila moderna de inteligencia de datos en la nube para su negocio de misión crítica.</h2>
+                    <h2>Toma el control de tu experiencia futbolística con nosotros.</h2>
                     <a href="#">Leer más</a>
                 </div>
             </div>
@@ -100,7 +97,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
     </main>
 
-    <script src="js/script-home.js"></script>
+    <script src="/js/script-home.js"></script>
 </body>
 
 </html>
