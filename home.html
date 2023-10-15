@@ -5,54 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu con subemenu - MagtimusPro</title>
-    <script
-      src="https://kit.fontawesome.com/41bcea2ae3.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="/assets/css/style-home.css" />
   </head>
   <body>
-    <header>
-      <!-- 
-      <div class="header__superior">
-        <div class="logo">
-          <img src="assets/images/Logos/logo-black.png" alt="Logo" />
-        </div>
-        --> 
+    <header class="header">
+        <a href="#" class="header__logo">Clay</a>
 
-      </div>
+        <i class='bx bx-menu header__toggle' id="header-toggle"></i>
 
-      <div class="container__menu">
-        <div class="menu">
-          
-          <input type="checkbox" id="check__menu" />
-          <label for="check__menu" id="label__check">
-            <i class="fas fa-bars icon__menu"></i>
-          </label>
-          
-          <nav>
-            <ul>
-                
-              <li><a href="#" id="selected"></a></li>
-              
-              <li>
-                <a href="#">Servicios</a>
-                <ul>
-                  <li><a href="#">Diseño Web</a></li>
-                  <li><a href="#">Diseño Gráfico</a></li>
-                  <li><a href="#">Ordenadores</a></li>
-                  <li><a href="#">Servidores</a></li>
-                  <li><a href="#">Analista</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Nosotros</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Cursos</a></li>
-              <li><a href="#">Contactos</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+                <a href="" class="nav__perfil">
+                    <div class="nav__img">
+                      <img src="assets/images/Logos/logo-black.png" alt="Logo">
+                    </div>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+
+                        <li class="nav__item dropdown">
+                            <a href="#" class="nav__link dropdown__link">About <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                
+
+                            <ul class="dropdown__menu">
+                                <li class="dropdown__item"><a href="#" class="nav__link">About me</a></li>
+                                <li class="dropdown__item"><a href="#" class="nav__link">Location</a></li>
+                                <li class="dropdown__item"><a href="#" class="nav__link">Studies</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+
+                        <li class="nav__item dropdown">
+                            <a href="#" class="nav__link dropdown__link">Works <i class='bx bx-chevron-down dropdown__icon'></i></a>
+                                
+
+                            <ul class="dropdown__menu">
+                                <li class="dropdown__item"><a href="#" class="nav__link">Recent jobs</a></li>
+                                <li class="dropdown__item"><a href="#" class="nav__link">Better jobs</a></li>
+                                <li class="dropdown__item"><a href="#" class="nav__link">Work Awards</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-  </body>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
