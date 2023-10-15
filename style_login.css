@@ -12,7 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   overflow: hidden;
   height: 100vh;
-  background-image: url("assets/images/fondo.webp")
+  background-image: url("assets/images/fondo.webp");
 }
 
 h1 {
@@ -117,26 +117,26 @@ button.ghost {
   color: #fff;
 }
 
-button.ghost i{
+button.ghost i {
   position: absolute;
   opacity: 0;
   transition: 0.3s ease-in-out;
 }
 
-button.ghost i.register{
+button.ghost i.register {
   right: 70px;
 }
 
-button.ghost i.login{
+button.ghost i.login {
   left: 70px;
 }
 
-button.ghost:hover i.register{
+button.ghost:hover i.register {
   right: 40px;
   opacity: 1;
 }
 
-button.ghost:hover i.login{
+button.ghost:hover i.login {
   left: 40px;
   opacity: 1;
 }
@@ -233,7 +233,7 @@ input {
 }
 
 .overlay {
-  background-image: url('assets/images/image.gif');
+  background-image: url("assets/images/image.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 1;
@@ -319,4 +319,3 @@ input {
 .logo img {
   width: 130px;
 }
-
