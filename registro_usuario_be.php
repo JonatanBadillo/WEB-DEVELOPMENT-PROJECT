@@ -66,7 +66,7 @@
                             /* Boton de regresar al Index del Pop Up error */
                             echo "<br>";
                             echo "<div>";
-                              echo "<a class=\"btn2 btn-danger btn-lg\" href=\"index.php\">regresar</a>";
+                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">regresar</a>";
                             echo "</div>";
                         echo "</div>";
                       echo "</div>";
@@ -107,7 +107,7 @@
                             echo "<br>";
                             echo "<div>";
                               /* Boton de regresar al Index del Pop Up error */
-                              echo "<a class=\"btn2 btn-danger btn-lg\" href=\"index.php\">regresar</a>";
+                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">regresar</a>";
                             echo "</div>";
                         echo "</div>";
                       echo "</div>";
@@ -132,7 +132,7 @@
                             echo "<br>";
                             echo "<div>";
                               /* Boton de regresar al Index del Pop Up error */
-                              echo "<a class=\"btn2 btn-danger btn-lg\" href=\"index.php\">regresar</a>";
+                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">regresar</a>";
                             echo "</div>";
                         echo "</div>";
                       echo "</div>";
@@ -142,8 +142,8 @@
                 $ejecutar = mysqli_query($conexion, $query);
                 if($ejecutar){ // si toda la ejecucion salio de manera adecauda, se registro correctamente los datos
                   /* Formato del Pop Up de registro correcto en la BD*/
-                  echo "<div class=\"wrapper2 fadeInDown2\">";
-                    echo "<div id=\"formContent2\">";
+                  echo "<div class=\"wrapper fadeInDown\">";
+                    echo "<div id=\"formContent\">";
                     echo "";
                       echo "<div>";
                         /* Redimensionar el logo de registro correcto */
