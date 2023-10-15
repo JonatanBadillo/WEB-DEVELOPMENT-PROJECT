@@ -24,6 +24,30 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <title>+Futbol</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style-home.css">
+    <style>
+        /* seccion F O O T E R */
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin: 5px;
+            font-size: 26px;
+        }
+
+        footer img {
+            width: 200px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -61,15 +85,12 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="cover">
 
             <div class="text__information-cover">
-                <h1>Haz historia. No se limite a informar sobre ello.</h1>
+                <h1>La Experiencia Definitiva para Fanáticos del Fútbol</h1>
 
-                <p>Vaya más allá de informar sobre datos históricos. Utilice la inteligencia procesable de cada
-                    evento digital para impactar positivamente en los resultados comerciales. Continuamente. En
-                    tiempo real. A escala.</p>
+                <p>La herramienta definitiva para fanáticos del fútbol: sigue, analiza y disfruta.</p>
 
                 <div class="buttons__cover">
-                    <input type="button" class="btn__register-cover" value="Registrarse">
-                    <input type="button" class="btn__readMore-cover" value="Leer más">
+                    <input type="button" class="btn__register-cover" value="Leer más">
                 </div>
 
             </div>
@@ -91,7 +112,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                     <img src="assets/images/stadium.png" id="icon_player" alt="">
                 </div>
                 <div class="banner__text">
-                    <h2>La pila moderna de inteligencia de datos en la nube para su negocio de misión crítica.</h2>
+                    <h2>Toma el control de tu experiencia futbolística con nosotros.</h2>
                     <a href="#">Leer más</a>
                 </div>
             </div>
@@ -101,6 +122,16 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     </main>
 
     <script src="js/script-home.js"></script>
+
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        
+        <div>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>                    
+        </div>
+
+    </footer>
 </body>
 
 </html>
