@@ -111,7 +111,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="#">Productos</a></li>
+                        <li><a href="php/resultados.html">Resultados</a></li>
                         <li><a href="#">Soluciones</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Compañía</a></li>
