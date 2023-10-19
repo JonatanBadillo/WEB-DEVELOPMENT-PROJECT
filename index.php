@@ -45,7 +45,7 @@ if (isset($_SESSION['usuario'])) { // Si sesion no existe
 
         <!--  Solicitar datos de login al usuario -->
         <div class="form-container login-container">
-            <form action="php/login_usuario_be.php" method="POST" class="formulario__login">
+            <form action="login_usuario_be.php" method="POST" class="formulario__login">
                 <h1>Iniciar Sesión</h1>
                 <input type="text" placeholder="Usuario" name="usuario" required>
                 <input type="password" placeholder="Contraseña" name="contrasena" required>

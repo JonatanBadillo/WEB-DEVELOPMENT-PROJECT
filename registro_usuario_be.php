@@ -41,8 +41,8 @@
                     array_push($campos, "El campo usuario debe tener entre 5 y 15 caracteres.");
                 }
 
-                if ($contrasena == "" || strlen($contrasena) < 6 || strlen($contrasena) > 15) {
-                    array_push($campos, "El campo contraseña debe tener entre 6 y 15 caracteres.");
+                if (!preg_match('/[0-9]/', $contrasena) || strlen($contrasena) < 6 || strlen($contrasena) > 15) {
+                  array_push($campos, "La contraseña debe tener entre 6 y 15 caracteres y al menos 1 número.");
                 }
                 /* Se realiza el conteo de derrores en caso de haberlos tenido en el registro */
                 if (count($campos) > 0) {
@@ -66,7 +66,7 @@
                             /* Boton de regresar al Index del Pop Up error */
                             echo "<br>";
                             echo "<div>";
-                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">regresar</a>";
+                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">Regresar</a>";
                             echo "</div>";
                         echo "</div>";
                       echo "</div>";
@@ -107,7 +107,7 @@
                             echo "<br>";
                             echo "<div>";
                               /* Boton de regresar al Index del Pop Up error */
-                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">regresar</a>";
+                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">Regresar</a>";
                             echo "</div>";
                         echo "</div>";
                       echo "</div>";
@@ -132,7 +132,7 @@
                             echo "<br>";
                             echo "<div>";
                               /* Boton de regresar al Index del Pop Up error */
-                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">regresar</a>";
+                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">Regresar</a>";
                             echo "</div>";
                         echo "</div>";
                       echo "</div>";
