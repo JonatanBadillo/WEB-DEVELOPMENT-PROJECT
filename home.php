@@ -35,7 +35,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="container__header">
 
             <div class="logo">
-                <img src="assets/images/Logos/logo-black.png" alt="Logo">
+                <a href="#"><img src="assets/images/Logos/logo-black.png" alt="Logo"></a>
             </div>
 
             <div class="menu">
