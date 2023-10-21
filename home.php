@@ -48,9 +48,9 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                                 </div>
                                 <div class="dropdown-menu-box">
                                     <ul class="dropdown-menu">
-                                        <a><li class="dropdown-item">your profile</li></a>
-                                        <a><li class="dropdown-item">your dashboard</li></a>
-                                        <a><li class="dropdown-item">recent activity</li></a>
+                                        <a href="php/resultados_mx.html" target="_blank"><li class="dropdown-item">Liga MX</li></a>
+                                        <a href="php/resultados_es.html" target="_blank"><li class="dropdown-item">Liga Espanola</li></a>
+                                        <a href="php/resultados_en.html" target="_blank"><li class="dropdown-item">Liga Inglesa</li></a>
                                     </ul>
                                 </div>
                             </a>
@@ -161,24 +161,12 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     </footer>
     <!-- js code -->
     <script>
-let dropdown = document.querySelector('.dropdown');
-let dropdownBtn = document.getElementById('dropdown-btn');
+    let dropdown = document.querySelector('.dropdown');
+    let dropdownBtn = document.getElementById('dropdown-btn');
 
-dropdownBtn.addEventListener('click', () => {
-    dropdown.classList.toggle('dropdown-active');
-});
-
-document.addEventListener('click', (event) => {
-    if (event.target === dropdown) {
-        // No hacer nada
-    } else {
-        dropdown.classList.remove('dropdown-active');
-    }
-});
-
-
-
-
+    dropdownBtn.addEventListener('click', () => {
+      dropdown.classList.toggle('dropdown-active');
+    });
     </script>
 
     
