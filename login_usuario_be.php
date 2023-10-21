@@ -35,7 +35,7 @@
                          echo "<i class=\"far fa-smile-beam fa-6x\" style=\"color: blue;\"></i>";
                     echo "</div>";
                     echo "<div>";
-                        echo "<h2 style=\"color: black\"> ¡Bienvenido a la comunidad! </h2>";
+                        echo "<h2 style=\"color: black\"> ¡Bienvenido! </h2>";
                             echo "<br>";
                             echo "<div>";
                                 /* Boton de ENTRAR al Home*/

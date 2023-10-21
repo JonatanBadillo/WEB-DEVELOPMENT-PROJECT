@@ -25,77 +25,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style-home.css">
     <style>
-        /* seccion F O O T E R */
 
-        footer {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-            padding: 30px 0;
-        }
-
-        footer a {
-            text-decoration: none;
-            color: #fff;
-            display: inline-block;
-            margin: 5px;
-            font-size: 26px;
-        }
-
-        footer img {
-            width: 200px;
-            margin-bottom: 5px;
-            margin-top: 5px;
-        }
-
-        /* TARJETA JUGADORES */
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            height: 430px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin: auto;
-        }
-
-        .container .card {
-            width: 330px;
-            height: 430px;
-            border-radius: 8px;
-            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            margin: 20px;
-            text-align: center;
-            transition: all 0.25s;
-        }
-
-        .container .card:hover {
-            transform: translateY(-15px);
-            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        .container .card img {
-            width: 330px;
-            height: 220px;
-        }
-
-
-        .container .card h4 {
-            font-weight: 600;
-        }
-
-        .container .card p {
-            padding: 0 1rem;
-            font-size: 16px;
-            font-weight: 300;
-        }
-
-        .container .card a {
-            font-weight: 500;
-            text-decoration: none;
-            color: #3498db;
-        }
     </style>
 </head>
 
@@ -111,13 +41,28 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="php/resultados.html">Resultados</a></li>
+                        <li class="dropdown">
+                            <a>
+                                <div id="dropdown-btn">
+                                <a href="#"><span class="dropdown-name">Resultados</span></a>
+                                </div>
+                                <div class="dropdown-menu-box">
+                                    <ul class="dropdown-menu">
+                                        <a><li class="dropdown-item">your profile</li></a>
+                                        <a><li class="dropdown-item">your dashboard</li></a>
+                                        <a><li class="dropdown-item">recent activity</li></a>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
                         <li><a href="#">Soluciones</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Compañía</a></li>
                         <li><a href="#">Contactos</a></li>
                     </ul>
                 </nav>
+
+
             </div>
             <i class="fa-solid fa-bars" id="icon_menu"></i>
             <div class="header__cerrar">
@@ -178,21 +123,24 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="card">
                 <img src="assets/images/player1.jpg">
                 <h4>Gavi</h4>
-                <p>Gavi es un jugador muy intenso y con mucho carácter, lo que le hace ser una pieza importante para el equipo en fase defensiva.</p>
+                <p>Gavi es un jugador muy intenso y con mucho carácter, lo que le hace ser una pieza importante para el
+                    equipo en fase defensiva.</p>
                 <a href="#">Leer más</a>
             </div>
 
             <div class="card">
                 <img src="assets/images/player2.jpg">
                 <h4>Jude Bellingham</h4>
-                <p>Jugador muy versátil, capaz de jugar en varias posiciones del centro del campo. Tiene una gran calidad técnica, visión de juego y capacidad de asociación.</p>
+                <p>Jugador muy versátil, capaz de jugar en varias posiciones del centro del campo. Tiene una gran
+                    calidad técnica, visión de juego y capacidad de asociación.</p>
                 <a href="#">Leer más</a>
             </div>
 
             <div class="card">
                 <img src="assets/images/player3.jpg">
                 <h4>Florian Wirtz</h4>
-                <p>Tiene una gran visión de juego, capacidad de pase y regate. También es un jugador muy habilidoso y con buen disparo.</p>
+                <p>Tiene una gran visión de juego, capacidad de pase y regate. También es un jugador muy habilidoso y
+                    con buen disparo.</p>
                 <a href="#">Leer más</a>
             </div>
 
@@ -211,6 +159,34 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         </div>
 
     </footer>
+    <!-- js code -->
+    <script>
+let dropdown = document.querySelector('.dropdown');
+let dropdownBtn = document.getElementById('dropdown-btn');
+
+dropdownBtn.addEventListener('click', () => {
+    dropdown.classList.toggle('dropdown-active');
+});
+
+document.addEventListener('click', (event) => {
+    if (event.target === dropdown) {
+        // No hacer nada
+    } else {
+        dropdown.classList.remove('dropdown-active');
+    }
+});
+
+
+
+
+    </script>
+
+    
+
+
+  
+
+
 </body>
 
 </html>
