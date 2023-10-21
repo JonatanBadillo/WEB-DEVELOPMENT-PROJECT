@@ -15,16 +15,21 @@ header{
   height: 100px;
 }
 
-.container__header{
+.container__header {
   max-width: 1200px;
-  height: 100%;
-  margin: auto;
-  padding: 40px;
-  padding-top: 80px;
+  height: 100px; /* Cambié esto para un valor fijo de altura, ajusta según tus necesidades */
+  margin: 0 auto;
+  padding: 20px; /* Reduje el padding para hacer el header más compacto */
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:#f5f5f5; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Agregamos una sombra en la parte inferior */
 }
 
 .logo img {
