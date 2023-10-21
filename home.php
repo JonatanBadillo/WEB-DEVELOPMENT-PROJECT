@@ -48,9 +48,9 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                                 </div>
                                 <div class="dropdown-menu-box">
                                     <ul class="dropdown-menu">
-                                        <a href="php/resultados_mx.html" target="_blank"><li class="dropdown-item">Liga MX</li></a>
-                                        <a href="php/resultados_es.html" target="_blank"><li class="dropdown-item">Liga Espanola</li></a>
-                                        <a href="php/resultados_en.html" target="_blank"><li class="dropdown-item">Liga Inglesa</li></a>
+                                        <a href="php/resultados_mx.html"><li class="dropdown-item">Liga MX</li></a>
+                                        <a href="php/resultados_es.html" ><li class="dropdown-item">Liga Espanola</li></a>
+                                        <a href="php/resultados_en.html"><li class="dropdown-item">Liga Inglesa</li></a>
                                     </ul>
                                 </div>
                             </a>
