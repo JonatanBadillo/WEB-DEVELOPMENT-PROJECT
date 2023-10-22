@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="assets/css/style-home.css">
+    <style>
+
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+      </style>
+    
+</head>
+
+<body>
+  <header>
+
+    <div class="container__header">
+
+        <div class="logo">
+            <a href="../home.php"><img src="../assets/images/Logos/logo-black.png" alt="Logo"></a>
+        </div>
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a>
+                            <div id="dropdown-btn">
+                            <a href="#"><span class="dropdown-name">Resultados</span></a>
+                            </div>
+                            <div class="dropdown-menu-box">
+                                <ul class="dropdown-menu">
+                                    <a href="php/resultados_mx.html"><li class="dropdown-item">Liga MX</li></a>
+                                    <a href="php/resultados_es.html" ><li class="dropdown-item">Liga Espanola</li></a>
+                                    <a href="php/resultados_en.html"><li class="dropdown-item">Liga Inglesa</li></a>
+                                </ul>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="#">Soluciones</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Compañía</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+        <i class="fa-solid fa-bars" id="icon_menu"></i>
+        <div class="header__cerrar">
+
+            <a href="php/cerrar_sesion.php" class="btn"><input type="button" class="btn__header-cerrar"
+                    value="Cerrar Sesion"></a>
+        </div>
+    </div>
+
+</header>
+
+  <!-- js code -->
+  <script>
+    let dropdown = document.querySelector('.dropdown');
+    let dropdownBtn = document.getElementById('dropdown-btn');
+
+    dropdownBtn.addEventListener('click', () => {
+      dropdown.classList.toggle('dropdown-active');
+    });
+  </script>
+    
+</body>
+
+</html>

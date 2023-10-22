@@ -182,9 +182,9 @@ header {
                                 </div>
                                 <div class="dropdown-menu-box">
                                     <ul class="dropdown-menu">
-                                        <a href="php/resultados_mx.html""><li class="dropdown-item">Liga MX</li></a>
-                                        <a href="php/resultados_es.html""><li class="dropdown-item">Liga Espanola</li></a>
-                                        <a href="php/resultados_en.html""><li class="dropdown-item">Liga Inglesa</li></a>
+                                        <a href="resultados_mx.html""><li class="dropdown-item">Liga MX</li></a>
+                                        <a href="resultados_es.html""><li class="dropdown-item">Liga Espanola</li></a>
+                                        <a href="resultados_en.html""><li class="dropdown-item">Liga Inglesa</li></a>
                                     </ul>
                                 </div>
                             </a>
@@ -213,7 +213,7 @@ header {
      data-date=""
      data-league="262"
      data-season="2023"
-     data-theme="dark"
+     data-theme=""
      data-refresh="15"
      data-show-toolbar="false"
      data-show-errors="false"
@@ -226,6 +226,16 @@ header {
     type="module"
     src="https://widgets.api-sports.io/2.0.3/widgets.js">
 </script>
+
+  <!-- js code -->
+  <script>
+    let dropdown = document.querySelector('.dropdown');
+    let dropdownBtn = document.getElementById('dropdown-btn');
+
+    dropdownBtn.addEventListener('click', () => {
+      dropdown.classList.toggle('dropdown-active');
+    });
+  </script>
 
 </body>
 
