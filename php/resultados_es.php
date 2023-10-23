@@ -6,12 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados</title>
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style-home.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <script src="js/script-home.js"></script>
+  <?php
+session_start();
+if (!isset($_SESSION['usuario'])) { // Si sesion no existe
+    echo '
+            <script>
+                alert("Por favor debes iniciar sesión");
+                window.location = "../index.php";
+            </script>
+        ';
+    // header("location: index.php");
+    session_destroy();
+    die();
+
+}
+?>
   <header>
 
     <div class="container__header">
@@ -30,9 +45,9 @@
                             </div>
                             <div class="dropdown-menu-box">
                                 <ul class="dropdown-menu">
-                                    <a href="resultados_mx.html"><li class="dropdown-item">Liga MX</li></a>
-                                    <a href="resultados_es.html" ><li class="dropdown-item">Liga Espanola</li></a>
-                                    <a href="resultados_en.html"><li class="dropdown-item">Liga Inglesa</li></a>
+                                    <a href="resultados_mx.php"><li class="dropdown-item">Liga MX</li></a>
+                                    <a href="resultados_es.php" ><li class="dropdown-item">Liga Espanola</li></a>
+                                    <a href="resultados_en.php"><li class="dropdown-item">Liga Inglesa</li></a>
                                 </ul>
                             </div>
                         </a>
@@ -60,7 +75,7 @@
      data-host="v3.football.api-sports.io"
      data-key="34ccb3f6f2a867678253dc930a92c86d"
      data-date=""
-     data-league="262"
+     data-league="140"
      data-season="2023"
      data-theme=""
      data-refresh="15"

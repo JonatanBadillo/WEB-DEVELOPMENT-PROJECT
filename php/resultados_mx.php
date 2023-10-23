@@ -1,3 +1,18 @@
+<?php
+session_start();
+if (!isset($_SESSION['usuario'])) { // Si sesion no existe
+    echo '
+            <script>
+                alert("Por favor debes iniciar sesión");
+                window.location = "../index.php";
+            </script>
+        ';
+    // header("location: index.php");
+    session_destroy();
+    die();
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +23,6 @@
     <title>Resultados</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style-home.css">
-    
 </head>
 
 <body>
@@ -31,9 +45,9 @@
                             </div>
                             <div class="dropdown-menu-box">
                                 <ul class="dropdown-menu">
-                                    <a href="resultados_mx.html"><li class="dropdown-item">Liga MX</li></a>
-                                    <a href="resultados_es.html" ><li class="dropdown-item">Liga Espanola</li></a>
-                                    <a href="resultados_en.html"><li class="dropdown-item">Liga Inglesa</li></a>
+                                    <a href="resultados_mx.php"><li class="dropdown-item">Liga MX</li></a>
+                                    <a href="resultados_es.php" ><li class="dropdown-item">Liga Espanola</li></a>
+                                    <a href="resultados_en.php"><li class="dropdown-item">Liga Inglesa</li></a>
                                 </ul>
                             </div>
                         </a>
@@ -61,7 +75,7 @@
      data-host="v3.football.api-sports.io"
      data-key="34ccb3f6f2a867678253dc930a92c86d"
      data-date=""
-     data-league="39"
+     data-league="262"
      data-season="2023"
      data-theme=""
      data-refresh="15"
@@ -87,44 +101,43 @@
     });
   </script>
 </main>
+<footer>
 
-  <footer>
+  <div class="container__footer">
+      <div class="box__footer">
+          <div class="logo">
+          <img src="../assets/images/Logos/logo-white.png" alt="Logo">
+          </div>
+          <div class="terms">
+              <p>Sitio web diseñado con pasión por +Futbol. © 2023 Todos los derechos reservados.</p>
+          </div>
+      </div>
+      <div class="box__footer">
+          <h2>Soluciones</h2>
+          <a href="https://www.google.com">APIS empleadas</a>
+          <a href="#">API SPORTS</a>
+      </div>
 
-    <div class="container__footer">
-        <div class="box__footer">
-            <div class="logo">
-            <img src="../assets/images/Logos/logo-white.png" alt="Logo">
-            </div>
-            <div class="terms">
-                <p>Sitio web diseñado con pasión por +Futbol. © 2023 Todos los derechos reservados.</p>
-            </div>
-        </div>
-        <div class="box__footer">
-            <h2>Soluciones</h2>
-            <a href="https://www.google.com">APIS empleadas</a>
-            <a href="#">API SPORTS</a>
-        </div>
+      <div class="box__footer">
+          <h2>Compañia</h2>
+          <a href="#">Acerca de</a>
+          <a href="#">Servicios</a>              
+      </div>
 
-        <div class="box__footer">
-            <h2>Compañia</h2>
-            <a href="#">Acerca de</a>
-            <a href="#">Servicios</a>              
-        </div>
+      <div class="box__footer">
+          <h2>Redes Sociales</h2>
+          <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+          <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+          <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+          <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+      </div>
 
-        <div class="box__footer">
-            <h2>Redes Sociales</h2>
-            <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
-            <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
-            <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-            <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
-        </div>
+  </div>
 
-    </div>
-
-    <div class="box__copyright">
-        <hr>
-        <p>Todos los derechos reservados © 2023 <b>+Futbol</b></p>
-    </div>
+  <div class="box__copyright">
+      <hr>
+      <p>Todos los derechos reservados © 2023 <b>+Futbol</b></p>
+  </div>
 </footer>
 
 </body>

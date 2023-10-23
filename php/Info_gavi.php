@@ -1,3 +1,18 @@
+<?php
+session_start();
+if (!isset($_SESSION['usuario'])) { // Si sesion no existe
+    echo '
+            <script>
+                alert("Por favor debes iniciar sesión");
+                window.location = "../index.php";
+            </script>
+        ';
+    // header("location: index.php");
+    session_destroy();
+    die();
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,9 +51,9 @@
                             </div>
                             <div class="dropdown-menu-box">
                                 <ul class="dropdown-menu">
-                                    <a href="resultados_mx.html"><li class="dropdown-item">Liga MX</li></a>
-                                    <a href="resultados_es.html" ><li class="dropdown-item">Liga Espanola</li></a>
-                                    <a href="resultados_en.html"><li class="dropdown-item">Liga Inglesa</li></a>
+                                    <a href="resultados_mx.php"><li class="dropdown-item">Liga MX</li></a>
+                                    <a href="resultados_es.php" ><li class="dropdown-item">Liga Espanola</li></a>
+                                    <a href="resultados_en.php"><li class="dropdown-item">Liga Inglesa</li></a>
                                 </ul>
                             </div>
                         </a>
