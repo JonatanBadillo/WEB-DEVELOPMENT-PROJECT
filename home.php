@@ -151,13 +151,42 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <script src="js/script-home.js"></script>
 
     <footer>
-        <p>Todos los derechos reservados - 2023</p>
 
-        <div>
-            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                <img src="assets/images/Logos/logo-white.png" alt="Logo">
+                </div>
+                <div class="terms">
+                    <p>Sitio web diseñado con pasión por +Futbol. © 2023 Todos los derechos reservados.</p>
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="https://www.google.com">APIS empleadas</a>
+                <a href="#">API SPORTS</a>
+            </div>
+
+            <div class="box__footer">
+                <h2>Compañia</h2>
+                <a href="#">Acerca de</a>
+                <a href="#">Servicios</a>              
+            </div>
+
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+
         </div>
 
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2023 <b>+Futbol</b></p>
+        </div>
     </footer>
     
 
