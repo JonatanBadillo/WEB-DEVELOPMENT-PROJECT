@@ -55,7 +55,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                                 </div>
                             </a>
                         </li>
-                        <li><a href="#">Soluciones</a></li>
+                        <li><a href="#">Posiciones</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Compañía</a></li>
                         <li><a href="#">Contactos</a></li>
