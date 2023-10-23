@@ -159,15 +159,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         </div>
 
     </footer>
-    <!-- js code -->
-    <script>
-    let dropdown = document.querySelector('.dropdown');
-    let dropdownBtn = document.getElementById('dropdown-btn');
-
-    dropdownBtn.addEventListener('click', () => {
-      dropdown.classList.toggle('dropdown-active');
-    });
-    </script>
+    
 
     
 
