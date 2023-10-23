@@ -188,6 +188,16 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <p>Todos los derechos reservados © 2023 <b>+Futbol</b></p>
         </div>
     </footer>
+
+     <!-- js code -->
+     <script>
+    let dropdown = document.querySelector('.dropdown');
+    let dropdownBtn = document.getElementById('dropdown-btn');
+
+    dropdownBtn.addEventListener('click', () => {
+      dropdown.classList.toggle('dropdown-active');
+    });
+    </script>
     
 
     
