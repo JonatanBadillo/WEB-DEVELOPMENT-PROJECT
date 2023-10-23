@@ -6,207 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados</title>
-    <style>
-        body {
-            background-color: black;
-        }
-
-        @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-body {
-  background: #f5f5f5;
-}
-
-header {
-  height: 100px;
-}
-
-.container__header {
-  height: 100px; /* Cambié esto para un valor fijo de altura, ajusta según tus necesidades */
-  margin: 0 auto;
-  padding: 20px; /* Reduje el padding para hacer el header más compacto */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #f5f5f5;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Agregamos una sombra en la parte inferior */
-}
-
-.logo img {
-  width: 180px;
-}
-
-.menu nav ul {
-  display: flex;
-}
-
-.menu nav ul li {
-  list-style: none;
-  padding: 0px 20px;
-}
-
-.menu nav ul li a {
-  font-size: 16px;
-  text-decoration: none;
-  color: #000;
-  transition: opacity 300ms;
-}
-
-.menu nav ul li a:hover {
-  opacity: 0.6;
-}
-
-.btn__header-cerrar,
-.btn__register-cover {
-  padding: 14px 50px;
-  border: none;
-  background: #000;
-  color: white;
-  font-weight: 500;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background, color, 300ms;
-}
-
-.btn__header-cerrar:hover,
-.btn__register-cover:hover {
-  background: #69f1a1;
-  color: #000;
-}
-
-#icon_menu {
-  display: none;
-}
-
-
-.dropdown {
-    position: relative;
-    width: 150px;
-    top: 30%;
-  }
-  
-  .dropdown-name {
-    font-size: 16px;
-    text-decoration: none;
-    color: #000;
-    transition: opacity 300ms;
-  }
-  .menu span:hover {
-    opacity: 0.6;
-  }
-  
-  .dropdown-active #dropdown-btn {
-    border-radius: 25px 25px 10px 10px;
-  }
-  
-  .dropdown-active .dropdown-menu-box {
-    visibility: visible;
-    margin-top: 15px;
-    opacity: 1;
-  }
-  
-  .dropdown-menu-box {
-    position: absolute;
-    left: 0;
-    margin-top: 75px;
-    border-radius: 10px 10px 25px 25px;
-    background-color: #000000;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.862);
-    visibility: hidden;
-    transition: 0.3s ease;
-    opacity: 0;
-    width: auto;
-    /* Ajustar el ancho automáticamente */
-  }
-  
-  .dropdown-menu {
-    margin: 0;
-    padding: 25px;
-    list-style: none;
-  }
-  
-  .dropdown-item {
-    position: relative;
-    font-size: 14px;
-    /* Aumentar el tamaño de fuente para una mejor legibilidad */
-    letter-spacing: 0;
-    text-align: left;
-    color: #69f1a1;
-    background-color: none;
-    border-radius: 8px 8px 13px 13px;
-    padding: 10px 20px;
-    margin: 5px 0;
-    transition: 0.3s ease;
-  
-    /* Mostrar elementos en lista vertical */
-  }
-  
-  .dropdown-item:hover {
-    letter-spacing: 1.5px;
-  
-    background: #69f1a1;
-    color: #000;
-  }
-    </style>
-    
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/style-home.css">
 </head>
 
 <body>
-    <header>
+  <header>
 
-        <div class="container__header">
+    <div class="container__header">
 
-            <div class="logo">
-                <a href="../home.php"><img src="../assets/images/Logos/logo-black.png" alt="Logo"></a>
-            </div>
-
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li class="dropdown">
-                            <a>
-                                <div id="dropdown-btn">
-                                <a href="#"><span class="dropdown-name">Resultados</span></a>
-                                </div>
-                                <div class="dropdown-menu-box">
-                                    <ul class="dropdown-menu">
-                                        <a href="resultados_mx.html""><li class="dropdown-item">Liga MX</li></a>
-                                        <a href="resultados_es.html""><li class="dropdown-item">Liga Espanola</li></a>
-                                        <a href="resultados_en.html""><li class="dropdown-item">Liga Inglesa</li></a>
-                                    </ul>
-                                </div>
-                            </a>
-                        </li>
-                        <li><a href="#">Soluciones</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Compañía</a></li>
-                        <li><a href="#">Contactos</a></li>
-                    </ul>
-                </nav>
-
-
-            </div>
-            <i class="fa-solid fa-bars" id="icon_menu"></i>
-            <div class="header__cerrar">
-
-                <a href="php/cerrar_sesion.php" class="btn"><input type="button" class="btn__header-cerrar"
-                        value="Cerrar Sesion"></a>
-            </div>
+        <div class="logo">
+            <a href="../home.php"><img src="../assets/images/Logos/logo-black.png" alt="Logo"></a>
         </div>
 
-    </header>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a>
+                            <div id="dropdown-btn">
+                            <a href="#"><span class="dropdown-name">Resultados</span></a>
+                            </div>
+                            <div class="dropdown-menu-box">
+                                <ul class="dropdown-menu">
+                                    <a href="php/resultados_mx.html"><li class="dropdown-item">Liga MX</li></a>
+                                    <a href="php/resultados_es.html" ><li class="dropdown-item">Liga Espanola</li></a>
+                                    <a href="php/resultados_en.html"><li class="dropdown-item">Liga Inglesa</li></a>
+                                </ul>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="#">Soluciones</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Compañía</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+        <i class="fa-solid fa-bars" id="icon_menu"></i>
+        <div class="header__cerrar">
+
+            <a href="php/cerrar_sesion.php" class="btn"><input type="button" class="btn__header-cerrar"
+                    value="Cerrar Sesion"></a>
+        </div>
+    </div>
+
+</header>
     <div id="wg-api-football-games"
      data-host="v3.football.api-sports.io"
      data-key="34ccb3f6f2a867678253dc930a92c86d"
