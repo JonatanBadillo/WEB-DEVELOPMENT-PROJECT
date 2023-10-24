@@ -490,7 +490,7 @@ footer {
 
     <main>
         <br>
-        <center><h1>Jude Bellingham</h1></center>
+        <center><h1>Florian Wirtz </h1></center>
 
         <br>
         <br>
@@ -500,12 +500,11 @@ footer {
         
             <br>
             <div class="rectangulo">
-            <p class="p"> 
-Nació el 29 de junio de 2003 en Stourbridge, Inglaterra.
+            <p class="p">Florian Wirtz es un futbolista alemán que juega como centrocampista ofensivo en el Bayer Leverkusen. Nació el 3 de mayo de 2003 en Pulheim, Alemania.
 
-Bellingham comenzó su carrera en el Birmingham City, donde debutó con el primer equipo a los 16 años. En 2020, fue fichado por el Borussia Dortmund , convirtiéndose en el jugador más joven en fichar por el club alemán.
+Wirtz debutó con el Leverkusen en 2020, con 17 años  convirtiéndose en el jugador más joven en debutar en la Bundesliga. 
 
-A pesar de su corta edad, Bellingham ha demostrado un gran talento y potencial. Es un centrocampista completo, con un buen manejo de balón, visión de juego y capacidad de recuperación. También es un jugador físico y con buen juego aéreo.
+Wirtz es un jugador con un gran talento y potencial. Es un centrocampista ofensivo con una gran habilidad técnica, visión de juego y capacidad de gol.
 
             </p>
         </div>
