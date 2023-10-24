@@ -55,6 +55,20 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                                 </div>
                             </a>
                         </li>
+                        <li class="dropdown">
+                            <a>
+                                <div id="dropdown-btn"> <!-- MOMENTANEMAENTE A LIGA MX--->
+                                <a href="php/tabla_mx.php"><span class="dropdown-name">Posiciones</span></a>
+                                </div>
+                                <div class="dropdown-menu-box">
+                                    <ul class="dropdown-menu">
+                                        <a href="php/tabla_mx.php"><li class="dropdown-item">Liga MX</li></a>
+                                        <a href="php/tabla_es.php" ><li class="dropdown-item">Liga Espanola</li></a>
+                                        <a href="php/rtabla_en.php"><li class="dropdown-item">Liga Inglesa</li></a>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
                         <li><a href="#">Posiciones</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Compañía</a></li>
