@@ -155,7 +155,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                 <h4>Florian Wirtz</h4>
                 <p>Tiene una gran visión de juego, capacidad de pase y regate. También es un jugador muy habilidoso y
                     con buen disparo.</p>
-                <a href="#">Leer más</a>
+                <a href="php/Info_wirtz.php">Leer más</a>
             </div>
 
         </div>
