@@ -564,6 +564,7 @@ Wirtz es un jugador con un gran talento y potencial. Es un centrocampista ofensi
 
             <br>
             <br>
+            <!--NO HA GANDO TROFEOS, QUE HACEMOSSSSS?-->
             <center><H2>Trofeos Ganados</H2></center>
             
         <div class="cover">
