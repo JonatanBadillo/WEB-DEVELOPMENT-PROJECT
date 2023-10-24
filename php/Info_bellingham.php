@@ -496,14 +496,14 @@ footer {
         <br>
         <center><H2>Biografia</H2></center>
         <div class="cover">
-            <img src="GAVI.jpg" class="img" id="image_gavi" alt="">
+            <img src="../assets/images/bellingham.jpg" class="img" id="image_bellingham" alt="">
         
             <br>
             <div class="rectangulo">
             <p class="p"> 
 Nació el 29 de junio de 2003 en Stourbridge, Inglaterra.
 
-Bellingham comenzó su carrera en el Birmingham City, donde debutó con el primer equipo a los 16 años. En 2020, fue fichado por el Borussia Dortmund por 25 millones de euros, convirtiéndose en el jugador más joven en fichar por el club alemán.
+Bellingham comenzó su carrera en el Birmingham City, donde debutó con el primer equipo a los 16 años. En 2020, fue fichado por el Borussia Dortmund , convirtiéndose en el jugador más joven en fichar por el club alemán.
 
 A pesar de su corta edad, Bellingham ha demostrado un gran talento y potencial. Es un centrocampista completo, con un buen manejo de balón, visión de juego y capacidad de recuperación. También es un jugador físico y con buen juego aéreo.
 
@@ -515,7 +515,7 @@ A pesar de su corta edad, Bellingham ha demostrado un gran talento y potencial. 
         <br>
         <br>
         <br>
-        <center><h2>Skill de Gavi</h2></center> 
+        <center><h2>Skill de Bellingham</h2></center> 
 
            
 
@@ -574,34 +574,14 @@ A pesar de su corta edad, Bellingham ha demostrado un gran talento y potencial. 
                 <div class="personaje">
                     <div class="imagen_personaje"></div>
                     <div class="detalle">
-                        <h2>LaLiga</h2>
+                        <h2>Copa de Liga de Inglaterra Sub-18</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ex inventore, provident corporis natus esse dolore.</p>
                       
                     </div>
                 </div>
             </div>
     
-            <div class="card">
-                <div class="personaje_2">
-                    <div class="imagen_personaje_2"></div>
-                    <div class="detalle_2">
-                        <h2>Spanish Super Cup</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ex inventore, provident corporis natus esse dolore.</p>
-                        
-                    </div>
-                </div>
-            </div>
-    
-            <div class="card">
-                <div class="personaje_3">
-                    <div class="imagen_personaje_3"></div>
-                    <div class="detalle_3">
-                        <h2>Golden Boy</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ex inventore, provident corporis natus esse dolore.</p>
-                       
-                    </div>
-                </div>
-            </div>
+          
         
 
        </div>
