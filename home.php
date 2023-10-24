@@ -139,7 +139,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                 <h4>Gavi</h4>
                 <p>Gavi es un jugador muy intenso y con mucho carácter, lo que le hace ser una pieza importante para el
                     equipo en fase defensiva.</p>
-                <a href="php/Info_gavi.html">Leer más</a>
+                <a href="php/Info_gavi.php">Leer más</a>
             </div>
 
             <div class="card">
