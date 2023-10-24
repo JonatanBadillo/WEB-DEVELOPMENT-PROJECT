@@ -69,10 +69,10 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                                 </div>
                             </a>
                         </li>
-                        <li><a href="#">Goleadores</a></li><!-- MOMENTANEMAENTE SOLO UNA LIGA--->
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Compañía</a></li>
-                        <li><a href="#">Contactos</a></li>
+                        <!-- INSERTAR LOS ESTADIOS MAS EMBLEMATICOS DEL MUNDO--->
+                        <li><a href="#">Estadios</a></li>
+                        <!-- INSERTAR LOS MEJORES JUGADORES DE LA HISTORIA--->
+                        <li><a href="#">GOATS</a></li>
                     </ul>
                 </nav>
 
@@ -147,7 +147,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                 <h4>Jude Bellingham</h4>
                 <p>Jugador muy versátil, capaz de jugar en varias posiciones del centro del campo. Tiene una gran
                     calidad técnica, visión de juego y capacidad de asociación.</p>
-                <a href="#">Leer más</a>
+                <a href="php/Info_bellingham.php">Leer más</a>
             </div>
 
             <div class="card">
