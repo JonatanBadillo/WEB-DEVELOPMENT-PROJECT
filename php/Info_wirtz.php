@@ -514,7 +514,7 @@ Wirtz es un jugador con un gran talento y potencial. Es un centrocampista ofensi
         <br>
         <br>
         <br>
-        <center><h2>Skill de Bellingham</h2></center> 
+        <center><h2>Skill de Wirtz</h2></center> 
 
            
 
@@ -526,7 +526,7 @@ Wirtz es un jugador con un gran talento y potencial. Es un centrocampista ofensi
         
                     <div class="skill-bar">
                         <span class="skill-per html">
-                            <span class="tooltip">75%</span>
+                            <span class="tooltip">83%</span>
                         </span>
                     </div>
                 </div>
@@ -536,7 +536,7 @@ Wirtz es un jugador con un gran talento y potencial. Es un centrocampista ofensi
         
                     <div class="skill-bar">
                         <span class="skill-per css">
-                            <span class="tooltip">75%</span>
+                            <span class="tooltip">70%</span>
                         </span>
                     </div>
                 </div>
@@ -545,7 +545,7 @@ Wirtz es un jugador con un gran talento y potencial. Es un centrocampista ofensi
         
                     <div class="skill-bar">
                         <span class="skill-per javascript">
-                            <span class="tooltip">80%</span>
+                            <span class="tooltip">88%</span>
                         </span>
                     </div>
                 </div>
@@ -554,7 +554,7 @@ Wirtz es un jugador con un gran talento y potencial. Es un centrocampista ofensi
         
                     <div class="skill-bar">
                         <span class="skill-per nodejs">
-                            <span class="tooltip">79%</span>
+                            <span class="tooltip">85%</span>
                         </span>
                     </div>
                 </div>
