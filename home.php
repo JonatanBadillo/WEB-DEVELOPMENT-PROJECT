@@ -69,7 +69,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                                 </div>
                             </a>
                         </li>
-                        <li><a href="#">Posiciones</a></li>
+                        <li><a href="#">Goleadores</a></li><!-- MOMENTANEMAENTE SOLO UNA LIGA--->
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Compañía</a></li>
                         <li><a href="#">Contactos</a></li>
