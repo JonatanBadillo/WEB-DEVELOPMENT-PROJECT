@@ -496,7 +496,7 @@ footer {
         <br>
         <center><H2>Biografia</H2></center>
         <div class="cover">
-            <img src="../assets/images/bellingham.jpg" class="img" id="image_bellingham" alt="">
+            <img src="../assets/images/wirtz.jpg" class="img" id="image_bellingham" alt="">
         
             <br>
             <div class="rectangulo">
