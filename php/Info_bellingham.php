@@ -317,22 +317,83 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
 
-        /* seccion F O O T E R */
-
-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 30px 0;
-  }
+        footer{
+  width: 100%;
+  padding: 50px 0px;
+  background-color: black;
+  background-size: cover;
   
-  footer a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    margin: 5px;
-    font-size: 26px;
-  }
+  /*background-color: #d0f0f8;
+  -webkit-mask-image: url("../Images/background-footer.svg");
+  mask-image: url("../Images/background-footer.svg");
+  -webkit-mask-size: cover;
+  mask-size: cover;*/
+}
+
+.container__footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box__footer .logo img{
+  width: 180px;
+}
+
+.box__footer .terms{
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
+
+.box__footer h2{
+  color: white;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.box__footer a{
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.box__footer a:hover{
+  opacity: 0.8;
+}
+
+.box__footer a .fab{
+  font-size: 20px;
+}
+
+.box__copyright{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p{
+  margin-top: 20px;
+  color: white;
+}
+
+.box__copyright hr{
+  border: none;
+  height: 1px;
+  color: white;
+}
 
 
 
@@ -572,13 +633,42 @@ A pesar de su corta edad, Bellingham ha demostrado un gran talento y potencial. 
 
 
     <footer>
-        <p>Todos los derechos reservados - 2023</p>
 
-        <div>
-            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                <img src="../assets/images/Logos/logo-white.png" alt="Logo">
+                </div>
+                <div class="terms">
+                    <p>Sitio web diseñado con pasión por +Futbol. © 2023 Todos los derechos reservados.</p>
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="https://www.google.com">APIS empleadas</a>
+                <a href="#">API SPORTS</a>
+            </div>
+
+            <div class="box__footer">
+                <h2>Compañia</h2>
+                <a href="#">Acerca de</a>
+                <a href="#">Servicios</a>              
+            </div>
+
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+
         </div>
 
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2023 <b>+Futbol</b></p>
+        </div>
     </footer>
 
 

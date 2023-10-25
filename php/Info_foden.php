@@ -317,22 +317,83 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
 
-        /* seccion F O O T E R */
-
-footer {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 30px 0;
-  }
+        footer{
+  width: 100%;
+  padding: 50px 0px;
+  background-color: black;
+  background-size: cover;
   
-  footer a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    margin: 5px;
-    font-size: 26px;
-  }
+  /*background-color: #d0f0f8;
+  -webkit-mask-image: url("../Images/background-footer.svg");
+  mask-image: url("../Images/background-footer.svg");
+  -webkit-mask-size: cover;
+  mask-size: cover;*/
+}
+
+.container__footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box__footer .logo img{
+  width: 180px;
+}
+
+.box__footer .terms{
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
+
+.box__footer h2{
+  color: white;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.box__footer a{
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.box__footer a:hover{
+  opacity: 0.8;
+}
+
+.box__footer a .fab{
+  font-size: 20px;
+}
+
+.box__copyright{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p{
+  margin-top: 20px;
+  color: white;
+}
+
+.box__copyright hr{
+  border: none;
+  height: 1px;
+  color: white;
+}
 
 
 
