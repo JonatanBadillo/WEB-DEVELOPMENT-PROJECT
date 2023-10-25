@@ -70,7 +70,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                             </a>
                         </li>
                         <!-- INSERTAR LOS ESTADIOS MAS EMBLEMATICOS DEL MUNDO--->
-                        <li><a href="#">Estadios</a></li>
+                        <li><a href="php/estadios.php">Estadios</a></li>
                         <!-- INSERTAR LOS MEJORES JUGADORES DE LA HISTORIA--->
                         <li><a href="php/goats.php">GOATS</a></li>
                     </ul>
