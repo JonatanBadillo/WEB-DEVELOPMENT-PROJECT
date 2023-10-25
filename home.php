@@ -143,7 +143,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
 
             <div class="card">
-                <img src="assets/images/player2.jpg">
+                <img src="assets/images/player22.jpg">
                 <h4>Jude Bellingham</h4>
                 <p>Jugador muy versátil, capaz de jugar en varias posiciones del centro del campo. Tiene una gran
                     calidad técnica, visión de juego y capacidad de asociación.</p>
@@ -151,11 +151,11 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
 
             <div class="card">
-                <img src="assets/images/player3.jpg">
-                <h4>Florian Wirtz</h4>
+                <img src="assets/images/player3.webp">
+                <h4>Phil Foden</h4>
                 <p>Tiene una gran visión de juego, capacidad de pase y regate. También es un jugador muy habilidoso y
                     con buen disparo.</p>
-                <a href="php/Info_wirtz.php">Leer más</a>
+                <a href="php/Info_foden.php">Leer más</a>
             </div>
 
         </div>

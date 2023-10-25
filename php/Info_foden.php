@@ -20,7 +20,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gavi</title>
+    <title>Foden</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style-home.css">
     <style>
@@ -190,19 +190,17 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         }
 
         .img {
-            width: 280px;
-            height: 280px;
-            border-radius: 900%;
-            border: 1px solid black;
+            width: 300px;
+            height: 300px;
           }
     /* Rectángulo */
     .rectangulo {
         justify-content: justify;
         margin-top: 50px;
-        margin-right: 100px;
+        margin-right: 110px;
         margin-left: 50px;
         width: 200;
-        height: 170px;
+        height: 160px;
         background-color: black;
         border: 1px solid black;
         border-radius: 10px;
@@ -368,9 +366,9 @@ footer {
   }
   
   .imagen_personaje{
-      height: 150px;
-      width: 140px;
-      background-image: url(LaLiga.png);
+      height: 175px;
+      width: 170px;
+      background-image: url(../assets/images/LigaDeCampeones.png);
       background-size: cover;
       margin-bottom: 200px;
       transition: 300ms;
@@ -378,9 +376,9 @@ footer {
   }
   
   .imagen_personaje_2{
-    height: 150px;
-    width: 100px;
-      background-image: url(SpanishSuperCup.png);
+    height: 170px;
+    width: 110px;
+      background-image: url(../assets/images/CampeonDeInglaterra.png);
       background-size: cover;
       margin-bottom: 200px;
       transition: 300ms;
@@ -389,8 +387,8 @@ footer {
   
   .imagen_personaje_3{
     height: 180px;
-    width: 130px;
-      background-image: url(GoldenBoy.png);
+    width: 120px;
+      background-image: url(../assets/images/FaCup.png);
       background-size: cover;
       margin-bottom: 200px;
       transition: 300ms;
@@ -490,21 +488,15 @@ footer {
 
     <main>
         <br>
-        <center><h1>Florian Wirtz </h1></center>
-
-        <br>
-        <br>
-        <center><H2>Biografia</H2></center>
+        <center><h1>Phil Foden </h1></center>
         <div class="cover">
-            <img src="../assets/images/wirtz.jpg" class="img" id="image_bellingham" alt="">
+            <img src="../assets/images/Foden.png" class="img" id="image_bellingham" alt="">
         
             <br>
             <div class="rectangulo">
-            <p class="p">Florian Wirtz es un futbolista alemán que juega como centrocampista ofensivo en el Bayer Leverkusen. Nació el 3 de mayo de 2003 en Pulheim, Alemania.
-
-Wirtz debutó con el Leverkusen en 2020, con 17 años  convirtiéndose en el jugador más joven en debutar en la Bundesliga. 
-
-Wirtz es un jugador con un gran talento y potencial. Es un centrocampista ofensivo con una gran habilidad técnica, visión de juego y capacidad de gol.
+            <p class="p">Phil Foden es un futbolista inglés que juega como centrocampista ofensivo en el Manchester City. Nació el 28 de mayo de 2000
+                en Stockport, Inglaterra. Foden debutó con el City en 2017, con 17 años convirtiéndose en el jugador más joven en debutar en la Premier League.
+                Foden es un jugador con un gran talento y potencial. Es un centrocampista ofensivo con una gran habilidad técnica, visión de juego y capacidad de gol.
 
             </p>
         </div>
@@ -564,27 +556,51 @@ Wirtz es un jugador con un gran talento y potencial. Es un centrocampista ofensi
 
             <br>
             <br>
-            <!--NO HA GANDO TROFEOS, QUE HACEMOSSSSS?-->
             <center><H2>Trofeos Ganados</H2></center>
             
-        <div class="cover">
-
-       
-            <div class="card">
-                <div class="personaje">
-                    <div class="imagen_personaje"></div>
-                    <div class="detalle">
-                        <h2>Copa de Liga de Inglaterra Sub-18</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ex inventore, provident corporis natus esse dolore.</p>
-                      
+            <div class="cover">
+    
+           
+                <div class="card">
+                    <div class="personaje">
+                        <div class="imagen_personaje"></div>
+                        <div class="detalle">
+                            <h2>Liga de Campeones</h2>
+                            <p>Phil Foden ganó la Liga de Campeones de la UEFA 2022-23 con el Manchester City, derrotando al Inter de Milán en la 
+                                final por 2-1. El centrocampista inglés, entonces de 22 años, jugó un papel importante en la victoria del City, 
+                                anotando el gol de la victoria en el minuto 81.</p>
+                          
+                        </div>
                     </div>
                 </div>
-            </div>
-    
-          
         
-
-       </div>
+                <div class="card">
+                    <div class="personaje_2">
+                        <div class="imagen_personaje_2"></div>
+                        <div class="detalle_2">
+                            <h2>Campeon de Inglaterra</h2>
+                            <p>Phil Foden celebró el título de la Premier League 2022-23 con el Manchester City. El centrocampista inglés se convirtió en 
+                                el jugador más joven en ganar la Premier League tres veces, a los 22 años.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="personaje_3">
+                        <div class="imagen_personaje_3"></div>
+                        <div class="detalle_3">
+                            <h2>Fa Cup de Inglaterra</h2>
+                            <p>Phil Foden fue una figura clave en la victoria del Manchester City en la FA Cup de Inglaterra 2022-23. El centrocampista inglés anotó un doblete en la final
+                                contra el Chelsea, que ayudó al City a ganar el partido por 3-2.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+            
+    
+           </div>
+              
           
 
 

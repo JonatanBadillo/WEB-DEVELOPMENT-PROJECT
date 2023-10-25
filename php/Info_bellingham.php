@@ -20,7 +20,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gavi</title>
+    <title>Bellingham</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style-home.css">
     <style>
@@ -192,8 +192,6 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         .img {
             width: 280px;
             height: 280px;
-            border-radius: 900%;
-            border: 1px solid black;
           }
     /* Rectángulo */
     .rectangulo {
@@ -368,34 +366,15 @@ footer {
   }
   
   .imagen_personaje{
-      height: 150px;
-      width: 140px;
-      background-image: url(LaLiga.png);
+      height: 148px;
+      width: 160px;
+      background-image: url(../assets/images/CopaDeAlemania.png);
       background-size: cover;
       margin-bottom: 200px;
       transition: 300ms;
       filter: drop-shadow(5px -4px 10px #000);
   }
   
-  .imagen_personaje_2{
-    height: 150px;
-    width: 100px;
-      background-image: url(SpanishSuperCup.png);
-      background-size: cover;
-      margin-bottom: 200px;
-      transition: 300ms;
-      filter: drop-shadow(5px -4px 10px #000);
-  }
-  
-  .imagen_personaje_3{
-    height: 180px;
-    width: 130px;
-      background-image: url(GoldenBoy.png);
-      background-size: cover;
-      margin-bottom: 200px;
-      transition: 300ms;
-      filter: drop-shadow(5px -4px 10px #000);
-  }
   
   .detalle, .detalle_2, .detalle_3{
       height: 200px;
@@ -491,12 +470,8 @@ footer {
     <main>
         <br>
         <center><h1>Jude Bellingham</h1></center>
-
-        <br>
-        <br>
-        <center><H2>Biografia</H2></center>
         <div class="cover">
-            <img src="../assets/images/bellingham.jpg" class="img" id="image_bellingham" alt="">
+            <img src="../assets/images/bellingham.png" class="img" id="image_bellingham" alt="">
         
             <br>
             <div class="rectangulo">
@@ -574,9 +549,10 @@ A pesar de su corta edad, Bellingham ha demostrado un gran talento y potencial. 
                 <div class="personaje">
                     <div class="imagen_personaje"></div>
                     <div class="detalle">
-                        <h2>Copa de Liga de Inglaterra Sub-18</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ex inventore, provident corporis natus esse dolore.</p>
-                      
+                        <h2>Copa de Alemania</h2>
+                        <p>Jude Bellingham ganó la Copa de Alemania 2022-23 con el Borussia Dortmund, derrotando al RB Leipzig en la final por 2-1.
+                            El centrocampista inglés, entonces de 19 años, fue una de las figuras destacadas del partido, anotando el segundo gol 
+                            del Dortmund en el minuto 85.</p>                    
                     </div>
                 </div>
             </div>

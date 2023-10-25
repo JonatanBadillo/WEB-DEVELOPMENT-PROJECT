@@ -192,8 +192,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         .img {
             width: 280px;
             height: 280px;
-            border-radius: 900%;
-            border: 1px solid black;
+
           }
     /* Rectángulo */
     .rectangulo {
@@ -370,7 +369,7 @@ footer {
   .imagen_personaje{
       height: 150px;
       width: 140px;
-      background-image: url(LaLiga.png);
+      background-image: url(../assets/images/LaLiga.png);
       background-size: cover;
       margin-bottom: 200px;
       transition: 300ms;
@@ -380,7 +379,7 @@ footer {
   .imagen_personaje_2{
     height: 150px;
     width: 100px;
-      background-image: url(SpanishSuperCup.png);
+      background-image: url(../assets/images/SpanishSuperCup.png);
       background-size: cover;
       margin-bottom: 200px;
       transition: 300ms;
@@ -390,7 +389,7 @@ footer {
   .imagen_personaje_3{
     height: 180px;
     width: 130px;
-      background-image: url(GoldenBoy.png);
+      background-image: url(../assets/images/GoldenBoy.png);
       background-size: cover;
       margin-bottom: 200px;
       transition: 300ms;
@@ -491,12 +490,8 @@ footer {
     <main>
         <br>
         <center><h1>Pablo Martín Páez Gavira</h1></center>
-
-        <br>
-        <br>
-        <center><H2>Biografia</H2></center>
         <div class="cover">
-            <img src="GAVI.jpg" class="img" id="image_gavi" alt="">
+            <img src="../assets/images/GAVI2.PNG" class="img" id="image_gavi" alt="">
         
             <br>
             <div class="rectangulo">
@@ -570,7 +565,9 @@ footer {
                     <div class="imagen_personaje"></div>
                     <div class="detalle">
                         <h2>LaLiga</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ex inventore, provident corporis natus esse dolore.</p>
+                        <p>El FC Barcelona ganó la Liga española 2023-24, su primer título de liga en tres años. Gavi, un centrocampista ofensivo de 
+                            18 años, fue un jugador clave del equipo, disputando 33 partidos de liga, 29 de ellos como titular. Gavi anotó dos goles 
+                            y dio cuatro asistencias en la liga..</p>
                       
                     </div>
                 </div>
@@ -581,7 +578,9 @@ footer {
                     <div class="imagen_personaje_2"></div>
                     <div class="detalle_2">
                         <h2>Spanish Super Cup</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ex inventore, provident corporis natus esse dolore.</p>
+                        <p>El FC Barcelona ganó la Supercopa de España 2023, su primer título en este torneo desde 2018. Gavi, un centrocampista ofensivo 
+                            de 17 años, fue un jugador clave del equipo, disputando 4 partidos, 3 de ellos como titular. Gavi anotó un gol y dio 
+                            una asistencia en la Supercopa.</p>
                         
                     </div>
                 </div>
@@ -592,7 +591,9 @@ footer {
                     <div class="imagen_personaje_3"></div>
                     <div class="detalle_3">
                         <h2>Golden Boy</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ex inventore, provident corporis natus esse dolore.</p>
+                        <p>
+                            Gavi ganó el Premio Golden Boy 2022, que reconoce al mejor jugador joven del mundo. El centrocampista ofensivo del FC Barcelona, ​​entonces de 17 años, 
+                            fue elegido por un jurado de periodistas deportivos de todo el mundo.</p>
                        
                     </div>
                 </div>
