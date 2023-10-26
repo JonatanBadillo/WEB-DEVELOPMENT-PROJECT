@@ -35,7 +35,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="container__header">
 
             <div class="logo">
-                <a href="#"><img src="assets/images/Logos/logo-black.png" alt="Logo"></a>
+                <a href="../home.php"><img src="assets/images/Logos/logo-black.png" alt="Logo"></a>
             </div>
 
             <div class="menu">
@@ -44,13 +44,19 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                         <li class="dropdown">
                             <a>
                                 <div id="dropdown-btn1">
-                                <a href="#"><span class="dropdown-name">Resultados</span></a>
+                                    <a href="#"><span class="dropdown-name">Resultados</span></a>
                                 </div>
                                 <div class="dropdown-menu-box">
                                     <ul class="dropdown-menu">
-                                        <a href="php/resultados_mx.php"><li class="dropdown-item">Liga MX</li></a>
-                                        <a href="php/resultados_es.php" ><li class="dropdown-item">Liga Espanola</li></a>
-                                        <a href="php/resultados_en.php"><li class="dropdown-item">Liga Inglesa</li></a>
+                                        <a href="php/resultados_mx.php">
+                                            <li class="dropdown-item">Liga MX</li>
+                                        </a>
+                                        <a href="php/resultados_es.php">
+                                            <li class="dropdown-item">Liga Espanola</li>
+                                        </a>
+                                        <a href="php/resultados_en.php">
+                                            <li class="dropdown-item">Liga Inglesa</li>
+                                        </a>
                                     </ul>
                                 </div>
                             </a>
@@ -58,14 +64,20 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                         <li class="dropdown">
                             <a>
                                 <div id="dropdown-btn2">
-                                 <!-- MOMENTANEMAENTE CON RUTA HACIA UNA TABLA EN ESPECIFICO--->
-                                 <a href="#"><span class="dropdown-name">Posiciones</span></a>
+                                    <!-- MOMENTANEMAENTE CON RUTA HACIA UNA TABLA EN ESPECIFICO--->
+                                    <a href="#"><span class="dropdown-name">Posiciones</span></a>
                                 </div>
                                 <div class="dropdown-menu-box">
                                     <ul class="dropdown-menu">
-                                        <a href="php/tabla_mx.php"><li class="dropdown-item">Liga MX</li></a>
-                                        <a href="php/tabla_es.php" ><li class="dropdown-item">Liga Espanola</li></a>
-                                        <a href="php/tabla_en.php"><li class="dropdown-item">Liga Inglesa</li></a>
+                                        <a href="php/tabla_mx.php">
+                                            <li class="dropdown-item">Liga MX</li>
+                                        </a>
+                                        <a href="php/tabla_es.php">
+                                            <li class="dropdown-item">Liga Espanola</li>
+                                        </a>
+                                        <a href="php/tabla_en.php">
+                                            <li class="dropdown-item">Liga Inglesa</li>
+                                        </a>
                                     </ul>
                                 </div>
                             </a>
@@ -170,7 +182,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="container__footer">
             <div class="box__footer">
                 <div class="logo">
-                <img src="assets/images/Logos/logo-white.png" alt="Logo">
+                    <img src="assets/images/Logos/logo-white.png" alt="Logo">
                 </div>
                 <div class="terms">
                     <p>Sitio web diseñado con pasión por +Futbol. © 2023 Todos los derechos reservados.</p>
@@ -185,7 +197,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="box__footer">
                 <h2>Compañia</h2>
                 <a href="#">Acerca de</a>
-                <a href="#">Servicios</a>              
+                <a href="#">Servicios</a>
             </div>
 
             <div class="box__footer">
@@ -204,8 +216,9 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         </div>
     </footer>
 
-     <!-- js code -->
-     <script>
+    <!-- js code -->
+    <!-- Version anterior -->
+    <!-- <script>
     let dropdown = document.querySelector('.dropdown');
     let dropdownBtn = document.getElementById('dropdown-btn');
 
@@ -213,30 +226,33 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
       dropdown.classList.toggle('dropdown-active');
     });
     </script>
-
-<script>
-let dropdown1 = document.querySelector('#dropdown-btn1').parentNode;
-let dropdownBtn1 = document.getElementById('dropdown-btn1');
-
-dropdownBtn1.addEventListener('click', () => {
-  dropdown1.classList.toggle('dropdown-active');
-});
-</script>
-
-<script>
-let dropdown2 = document.querySelector('#dropdown-btn2').parentNode;
-let dropdownBtn2 = document.getElementById('dropdown-btn2');
-
-dropdownBtn2.addEventListener('click', () => {
-  dropdown2.classList.toggle('dropdown-active');
-});
-</script>
+-->
 
 
-    
+    <!-- Animacion de JS para el menu deplegable en la Nav -->
+    <script>
+    let dropdown1 = document.querySelector('#dropdown-btn1').parentNode;
+    let dropdownBtn1 = document.getElementById('dropdown-btn1');
+
+    dropdownBtn1.addEventListener('click', () => {
+        dropdown1.classList.toggle('dropdown-active');
+    });
+    </script>
+
+    <script>
+    let dropdown2 = document.querySelector('#dropdown-btn2').parentNode;
+    let dropdownBtn2 = document.getElementById('dropdown-btn2');
+
+    dropdownBtn2.addEventListener('click', () => {
+        dropdown2.classList.toggle('dropdown-active');
+    });
+    </script>
 
 
-  
+
+
+
+
 
 
 </body>
