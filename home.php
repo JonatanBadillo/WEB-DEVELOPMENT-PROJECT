@@ -43,7 +43,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                     <ul>
                         <li class="dropdown">
                             <a>
-                                <div id="dropdown-btn">
+                                <div id="dropdown-btn1">
                                 <a href="#"><span class="dropdown-name">Resultados</span></a>
                                 </div>
                                 <div class="dropdown-menu-box">
@@ -57,13 +57,14 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                         </li>
                         <li class="dropdown">
                             <a>
-                                <div id="dropdown-btn">
-                                 <!-- MOMENTANEMAENTE CON RUTA HACIA UNA TABLA EN ESPECIFICO---><a href="php/tabla_en.php"><span class="dropdown-name">Posiciones</span></a>
+                                <div id="dropdown-btn2">
+                                 <!-- MOMENTANEMAENTE CON RUTA HACIA UNA TABLA EN ESPECIFICO--->
+                                 <a href="#"><span class="dropdown-name">Posiciones</span></a>
                                 </div>
                                 <div class="dropdown-menu-box">
                                     <ul class="dropdown-menu">
                                         <a href="php/tabla_mx.php"><li class="dropdown-item">Liga MX</li></a>
-                                        <a href="php/tabla_es.pph" ><li class="dropdown-item">Liga Espanola</li></a>
+                                        <a href="php/tabla_es.php" ><li class="dropdown-item">Liga Espanola</li></a>
                                         <a href="php/tabla_en.php"><li class="dropdown-item">Liga Inglesa</li></a>
                                     </ul>
                                 </div>
@@ -212,7 +213,25 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
       dropdown.classList.toggle('dropdown-active');
     });
     </script>
-    
+
+<script>
+let dropdown1 = document.querySelector('#dropdown-btn1').parentNode;
+let dropdownBtn1 = document.getElementById('dropdown-btn1');
+
+dropdownBtn1.addEventListener('click', () => {
+  dropdown1.classList.toggle('dropdown-active');
+});
+</script>
+
+<script>
+let dropdown2 = document.querySelector('#dropdown-btn2').parentNode;
+let dropdownBtn2 = document.getElementById('dropdown-btn2');
+
+dropdownBtn2.addEventListener('click', () => {
+  dropdown2.classList.toggle('dropdown-active');
+});
+</script>
+
 
     
 
