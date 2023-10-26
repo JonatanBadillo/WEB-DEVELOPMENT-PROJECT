@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
     <!-- estilos para animar el Pop Up -->
-    <link rel="stylesheet" href="assets/css/style_pop_up.css">
+    <link rel="stylesheet" href="/assets/css/style_pop_up.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
@@ -15,7 +15,7 @@
 <body>
     <?php
     session_start(); // Iniciamos Sesion    
-    include 'php/conexion_be.php'; // Nos conectamos a la BD
+    include 'conexion_be.php'; // Nos conectamos a la BD
 
     $usuario = $_POST['usuario']; // Obtenemos usuario ingresada
     $contrasena = $_POST['contrasena']; // Obtenemos contrasena ingresada
@@ -40,7 +40,7 @@
                             echo "<div>";
                                 /* Boton de ENTRAR al Home*/
                                 echo "<br>";
-                                echo "<a class=\"btn btn-success btn-lg\" href=\"home.php\">Entrar</a>";
+                                echo "<a class=\"btn btn-success btn-lg\" href=\"/home.php\">Entrar</a>";
                             echo "</div>";
                     echo "</div>";
                 echo "</div>";
@@ -66,7 +66,7 @@
                         echo "<br>";
                         echo "<div>";
                 /* Boton de regresar al Index del Pop Up error */
-                            echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">Regresar</a>";
+                            echo "<a class=\"btn btn-danger btn-lg\" href=\"/index.php\">Regresar</a>";
                         echo "</div>";
                 echo "</div>";
             echo "</div>";

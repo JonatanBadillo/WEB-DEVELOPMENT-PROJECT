@@ -15,7 +15,7 @@ if (isset($_SESSION['usuario'])) { // Si sesion no existe
     <title>Login</title>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <!--Estilos para decorar el login -->
-    <link rel="stylesheet" href="style_login.css">
+    <link rel="stylesheet" href="../assets/css/style_login.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@ if (isset($_SESSION['usuario'])) { // Si sesion no existe
             <!-- Formulario para el registro de usuarios y pre validacion de datos-->
             <!-- Se redirecciona los datos del form al archivo registro_usuarios y hace una validacion de datos -->
             <!-- En caso que los datos validados esten mal, salta un pop up de los erroes y  por lo contrario estan bien, lo registra en la BD-->
-            <form action="registro_usuario_be.php" method="POST">
+            <form action="php/registro_usuario_be.php" method="POST">
                 <!--  Solicitar datos de registro al usuario -->
                 <h1>Regístrarse</h1>
                 <input type="text" placeholder="Nombre" name="nombre" required>
@@ -45,7 +45,7 @@ if (isset($_SESSION['usuario'])) { // Si sesion no existe
 
         <!--  Solicitar datos de login al usuario -->
         <div class="form-container login-container">
-            <form action="login_usuario_be.php" method="POST" class="formulario__login">
+            <form action="php/login_usuario_be.php" method="POST" class="formulario__login">
                 <h1>Iniciar Sesión</h1>
                 <input type="text" placeholder="Usuario" name="usuario" required>
                 <input type="password" placeholder="Contraseña" name="contrasena" required>

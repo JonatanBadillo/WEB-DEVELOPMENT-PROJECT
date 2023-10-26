@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
     <!-- estilos para animar el Pop Up -->
-    <link rel="stylesheet" href="assets/css/style_pop_up.css">
+    <link rel="stylesheet" href="/assets/css/style_pop_up.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
@@ -66,7 +66,7 @@
                             /* Boton de regresar al Index del Pop Up error */
                             echo "<br>";
                             echo "<div>";
-                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">Regresar</a>";
+                              echo "<a class=\"btn btn-danger btn-lg\" href=\"/index.php\">Regresar</a>";
                             echo "</div>";
                         echo "</div>";
                       echo "</div>";
@@ -75,7 +75,7 @@
                   
                 /* Esta parte del codigo se encarga de almacenar los datos del registro en ls BD*/
                 /* Esta parte SOLO SE EJECUTA cuando los datos son validados y no hay errores*/
-                include 'php/conexion_be.php'; // Establecemos conexion a la BD
+                include 'conexion_be.php'; // Establecemos conexion a la BD
             
                 $nombre = $_POST['nombre'];
                 $usuario = $_POST['usuario'];
@@ -107,7 +107,7 @@
                             echo "<br>";
                             echo "<div>";
                               /* Boton de regresar al Index del Pop Up error */
-                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">Regresar</a>";
+                              echo "<a class=\"btn btn-danger btn-lg\" href=\"/index.php\">Regresar</a>";
                             echo "</div>";
                         echo "</div>";
                       echo "</div>";
@@ -132,7 +132,7 @@
                             echo "<br>";
                             echo "<div>";
                               /* Boton de regresar al Index del Pop Up error */
-                              echo "<a class=\"btn btn-danger btn-lg\" href=\"index.php\">Regresar</a>";
+                              echo "<a class=\"btn btn-danger btn-lg\" href=\"/index.php\">Regresar</a>";
                             echo "</div>";
                         echo "</div>";
                       echo "</div>";
@@ -153,7 +153,7 @@
                         /* Mensaje de registro correcto en la BD */
                         echo "<h2 style=\"color: black\">¡Bienvenido a la comunidad!</h2>";
                         /* Boton de regresar al Index del Pop Up registro correcto*/
-                        echo "<a class=\"btn btn-success btn-lg\" href=\"index.php\">Salir</a>";
+                        echo "<a class=\"btn btn-success btn-lg\" href=\"/index.php\">Salir</a>";
                       echo "</div>";
                     echo "</div>";
                   echo "</div>";
