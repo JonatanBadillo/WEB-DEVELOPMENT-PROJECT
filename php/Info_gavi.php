@@ -105,7 +105,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <h1>Pablo Martín Páez Gavira</h1>
         </center>
         <div class="cover">
-            <img src="../assets/images/GAVI2.PNG" class="img" id="image_gavi" alt="">
+            <img src="../assets/images/GAVI2.webp" class="img" id="image_gavi" alt="">
 
             <br>
             <div class="rectangulo">

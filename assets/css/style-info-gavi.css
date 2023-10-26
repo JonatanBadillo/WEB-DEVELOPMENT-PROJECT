@@ -421,7 +421,7 @@
     .imagen_personaje {
         height: 150px;
         width: 140px;
-        background-image: url(/assets/images/LaLiga.png);
+        background-image: url(/assets/images/LaLiga.webp);
         background-size: cover;
         margin-bottom: 200px;
         transition: 300ms;
@@ -431,7 +431,7 @@
     .imagen_personaje_2 {
         height: 150px;
         width: 100px;
-        background-image: url(/assets/images/SpanishSuperCup.png);
+        background-image: url(/assets/images/SpanishSuperCup.webp);
         background-size: cover;
         margin-bottom: 200px;
         transition: 300ms;
@@ -441,7 +441,7 @@
     .imagen_personaje_3 {
         height: 180px;
         width: 130px;
-        background-image: url(/assets/images/GoldenBoy.png);
+        background-image: url(/assets/images/GoldenBoy.webp);
         background-size: cover;
         margin-bottom: 200px;
         transition: 300ms;

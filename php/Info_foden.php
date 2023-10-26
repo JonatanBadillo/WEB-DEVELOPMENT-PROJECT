@@ -105,7 +105,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <h1>Phil Foden </h1>
         </center>
         <div class="cover">
-            <img src="../assets/images/Foden.png" class="img" id="image_bellingham" alt="">
+            <img src="../assets/images/Foden.webp" class="img" id="image_bellingham" alt="">
 
             <br>
             <div class="rectangulo">

@@ -127,10 +127,10 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
             <div class="banner">
                 <div class="banner__icon-ball">
-                    <img src="assets/images/ball.png" id="icon_ball" alt="">
+                    <img src="assets/images/ball.webp" id="icon_ball" alt="">
                 </div>
                 <div class="banner__icon-player">
-                    <img src="assets/images/stadium.png" id="icon_player" alt="">
+                    <img src="assets/images/stadium.webp" id="icon_player" alt="">
                 </div>
                 <div class="banner__text">
                     <h2>Toma el control de tu experiencia futbolística con nosotros.</h2>
@@ -148,7 +148,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="container">
 
             <div class="card">
-                <img src="assets/images/player1.jpg">
+                <img src="assets/images/player1.webp">
                 <h4>Gavi</h4>
                 <p>Gavi es un jugador muy intenso y con mucho carácter, lo que le hace ser una pieza importante para el
                     equipo en fase defensiva.</p>
@@ -156,7 +156,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
 
             <div class="card">
-                <img src="assets/images/player22.jpg">
+                <img src="assets/images/player2.webp">
                 <h4>Jude Bellingham</h4>
                 <p>Jugador muy versátil, capaz de jugar en varias posiciones del centro del campo. Tiene una gran
                     calidad técnica, visión de juego y capacidad de asociación.</p>

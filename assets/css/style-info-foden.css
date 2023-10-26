@@ -418,7 +418,7 @@
     .imagen_personaje {
         height: 175px;
         width: 170px;
-        background-image: url(/assets/images/LigaDeCampeones.png);
+        background-image: url(/assets/images/LigaDeCampeones.webp);
         background-size: cover;
         margin-bottom: 200px;
         transition: 300ms;
@@ -428,7 +428,7 @@
     .imagen_personaje_2 {
         height: 170px;
         width: 110px;
-        background-image: url(/assets/images/CampeonDeInglaterra.png);
+        background-image: url(/assets/images/CampeonDeInglaterra.webp);
         background-size: cover;
         margin-bottom: 200px;
         transition: 300ms;
@@ -438,7 +438,7 @@
     .imagen_personaje_3 {
         height: 180px;
         width: 120px;
-        background-image: url(/assets/images/FaCup.png);
+        background-image: url(/assets/images/FaCup.webp);
         background-size: cover;
         margin-bottom: 200px;
         transition: 300ms;

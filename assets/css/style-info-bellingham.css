@@ -418,7 +418,7 @@
     .imagen_personaje {
         height: 148px;
         width: 160px;
-        background-image: url(/assets/images/CopaDeAlemania.png);
+        background-image: url(/assets/images/CopaDeAlemania.webp);
         background-size: cover;
         margin-bottom: 200px;
         transition: 300ms;
