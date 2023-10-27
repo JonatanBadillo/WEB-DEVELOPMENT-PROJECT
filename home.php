@@ -175,7 +175,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
     </main>
 
-    <script src="js/script-home.js"></script>
+    
 
     <footer>
 
@@ -228,6 +228,8 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     </script>
 -->
 
+
+    <script src="js/script-home.js"></script>
 
     <!-- Animacion de JS para el menu deplegable en la Nav -->
     <script>
