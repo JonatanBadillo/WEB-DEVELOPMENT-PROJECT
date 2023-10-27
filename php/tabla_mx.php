@@ -98,6 +98,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
     </header>
     <main>
+        <!-- Otra key para ApiFutbol  5ae6b4f57b3f55596919d3289f106ee0-->
         <div id="wg-api-football-standings" data-host="v3.football.api-sports.io"
             data-key="34ccb3f6f2a867678253dc930a92c86d" data-league="262" data-team="" data-season="2023" data-theme=""
             data-show-errors="false" data-show-logos="true" class="wg_loader">
