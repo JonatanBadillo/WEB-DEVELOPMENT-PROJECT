@@ -138,14 +138,16 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <!-- Estadio 1 -->
             <div class="estadio">
                 <img src="../assets/images/Camp-Nou-1.jpg" alt="Estadio 1">
-                <h2>Camp Nou</h2>
+                <h2> Estadio Camp Nou</h2>
                 <p>El Camp Nou es un estadio icónico del fútbol mundial. Ubicado en Barcelona, España, es el estadio del Fútbol Club Barcelona y tiene una capacidad de 99.354 espectadores. Fue inaugurado en 1957 y ha sido sede de numerosos partidos importantes, como la final de la Copa Mundial de la FIFA 1982 y la final de la Liga de Campeones de la UEFA 1992.</p>
             </div>
             <!-- Estadio 2 -->
             <div class="estadio">
-                <img src="estadio2.jpg" alt="Estadio 2">
-                <h2>Estadio 2</h2>
-                <p></p>
+                <img src="../assets/images/Marcana.jpg" alt="Estadio 2">
+                <h2>Estadio Maracaná</h2>
+                <p>El Estadio Maracaná es el estadio más grande de América del Sur y uno de los más grandes del mundo. Se encuentra en Río de Janeiro, Brasil, y es el hogar de la selección brasileña de fútbol. El estadio fue inaugurado en 1950 y ha sido sede de dos finales de la Copa del Mundo, la final de la Copa América de 2014 y los Juegos Olímpicos de 2016.
+
+</p>
             </div>
             <!-- Estadio 3 -->
             <div class="estadio">
