@@ -107,11 +107,6 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <script type="module" src="https://widgets.api-sports.io/2.0.3/widgets.js">
         </script>
 
-
-    dropdownBtn.addEventListener('click', () => {
-      dropdown.classList.toggle('dropdown-active');
-    });
-  </script>
 </main>
 
 </footer>

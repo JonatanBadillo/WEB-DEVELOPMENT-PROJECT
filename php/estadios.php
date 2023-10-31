@@ -23,6 +23,41 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <title>Resultados</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style-home.css">
+    <style>
+        /* Estilos CSS para la sección de estadios */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .estadio {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f7f7f7;
+        }
+
+        .estadio img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
@@ -98,7 +133,22 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
     </header>
     <main>
+    <div class="container">
+            <h1>Estadios Emblemáticos del Mundo</h1>
+            <!-- Estadio 1 -->
+            <div class="estadio">
+                <img src="../assets/images/Camp-Nou-1.jpg" alt="Estadio 1">
+                <h2>Camp Nou</h2>
+                <p>El Camp Nou es un estadio icónico del fútbol mundial. Ubicado en Barcelona, España, es el estadio del Fútbol Club Barcelona y tiene una capacidad de 99.354 espectadores. Fue inaugurado en 1957 y ha sido sede de numerosos partidos importantes, como la final de la Copa Mundial de la FIFA 1982 y la final de la Liga de Campeones de la UEFA 1992.</p>
+            </div>
+            <!-- Estadio 2 -->
+            <div class="estadio">
+                <img src="estadio2.jpg" alt="Estadio 2">
+                <h2>Estadio 2</h2>
+                <p>El Estadio 2 se encuentra en una ubicación ficticia. Con su arquitectura impresionante y una historia rica en eventos deportivos de renombre, este estadio es un símbolo de la pasión por el deporte en la región.</p>
+            </div>
 
+        </div>
 
 
     </main>
