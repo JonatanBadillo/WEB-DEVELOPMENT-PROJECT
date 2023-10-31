@@ -145,31 +145,29 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="estadio">
                 <img src="../assets/images/Marcana.jpg" alt="Estadio 2">
                 <h2>Estadio Maracaná</h2>
-                <p>El Estadio Maracaná es el estadio más grande de América del Sur y uno de los más grandes del mundo. Se encuentra en Río de Janeiro, Brasil, y es el hogar de la selección brasileña de fútbol. El estadio fue inaugurado en 1950 y ha sido sede de dos finales de la Copa del Mundo, la final de la Copa América de 2014 y los Juegos Olímpicos de 2016.
-
-</p>
+                <p>El Estadio Maracaná es el estadio más grande de América del Sur y uno de los más grandes del mundo. Se encuentra en Río de Janeiro, Brasil, y es el hogar de la selección brasileña de fútbol. El estadio fue inaugurado en 1950 y ha sido sede de dos finales de la Copa del Mundo, la final de la Copa América de 2014 y los Juegos Olímpicos de 2016.</p>
             </div>
             <!-- Estadio 3 -->
             <div class="estadio">
-                <img src="estadio2.jpg" alt="Estadio 2">
-                <h2>Estadio 2</h2>
-                <p></p>
+                <img src="../assets/images/Azteca.jpg" alt="Estadio 3">
+                <h2>Estadio Azteca</h2>
+                <p>El Estadio Azteca es el estadio más grande de México y el segundo más grande de América del Norte. Se encuentra en la Ciudad de México y es el hogar del Club América y de la selección mexicana de fútbol. El estadio fue inaugurado en 1966 y ha sido sede de dos finales de la Copa del Mundo, dos finales de la Copa América y los Juegos Olímpicos de 1968.</p>
             </div>
             <!-- Estadio 4 -->
             <div class="estadio">
-                <img src="estadio2.jpg" alt="Estadio 2">
+                <img src="../assets/images/.jpg" alt="Estadio 4">
                 <h2>Estadio 2</h2>
                 <p></p>
             </div>
             <!-- Estadio 5 -->
             <div class="estadio">
-                <img src="estadio2.jpg" alt="Estadio 2">
+                <img src="./assets/images/.jpg" alt="Estadio 5">
                 <h2>Estadio 2</h2>
                 <p></p>
             </div>
             <!-- Estadio 6 -->
             <div class="estadio">
-                <img src="estadio2.jpg" alt="Estadio 2">
+                <img src="./assets/images/.jpg" alt="Estadio 6">
                 <h2>Estadio 2</h2>
                 <p></p>
             </div>
@@ -177,7 +175,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
     </main>
-    
+    <!--
     <footer>
 
         <div class="container__footer">
@@ -216,7 +214,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <p>Todos los derechos reservados © 2023 <b>+Futbol</b></p>
         </div>
     </footer>
-
+-->
     <script src="/js/script-home.js"></script>
 
     <!-- Animacion de JS para el menu deplegable en la Nav -->
