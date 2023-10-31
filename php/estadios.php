@@ -155,9 +155,9 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
             <!-- Estadio 4 -->
             <div class="estadio">
-                <img src="../assets/images/.jpg" alt="Estadio 4">
-                <h2>Estadio 2</h2>
-                <p></p>
+                <img src="../assets/images/Bernabeu.jpg" alt="Estadio 4">
+                <h2>Estadio Santiago Bernabéu</h2>
+                <p>El Estadio Santiago Bernabéu es el estadio más grande de España y uno de los más grandes de Europa. Se encuentra en Madrid y es el hogar del Real Madrid. El estadio fue inaugurado en 1947 y ha sido sede de dos finales de la Copa del Mundo, tres finales de la Liga de Campeones de la UEFA y la final de la Copa de Europa de 1957.</p>
             </div>
             <!-- Estadio 5 -->
             <div class="estadio">
