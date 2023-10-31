@@ -161,15 +161,11 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
             <!-- Estadio 5 -->
             <div class="estadio">
-                <img src="./assets/images/.jpg" alt="Estadio 5">
-                <h2>Estadio 2</h2>
-                <p></p>
-            </div>
-            <!-- Estadio 6 -->
-            <div class="estadio">
-                <img src="./assets/images/.jpg" alt="Estadio 6">
-                <h2>Estadio 2</h2>
-                <p></p>
+                <img src="../assets/images/Liverpool-Anfield.jpg" alt="Estadio 5">
+                <h2>Estadio Anfield</h2>
+                <p>Anfield es el estadio más grande de Inglaterra y el hogar del Liverpool. Se encuentra en Liverpool y fue inaugurado en 1884. Anfield es conocido por su atmósfera única y su importancia cultural. El estadio ha sido sede de numerosas finales de la FA Cup y de la final de la Liga de Campeones de la UEFA de 2005.
+
+Estos son solo algunos de los estadios más emblemáticos del mundo. Cada uno de estos estadios tiene su propia historia y su propio significado para los fanáticos del fútbol.</p>
             </div>
         </div>
 
