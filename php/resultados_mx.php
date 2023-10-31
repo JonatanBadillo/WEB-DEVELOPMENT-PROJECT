@@ -113,43 +113,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     });
   </script>
 </main>
-<footer>
 
-  <div class="container__footer">
-      <div class="box__footer">
-          <div class="logo">
-          <img src="../assets/images/Logos/logo-white.png" alt="Logo">
-          </div>
-          <div class="terms">
-              <p>Sitio web diseñado con pasión por +Futbol. © 2023 Todos los derechos reservados.</p>
-          </div>
-      </div>
-      <div class="box__footer">
-          <h2>Soluciones</h2>
-          <a href="https://www.google.com">APIS empleadas</a>
-          <a href="#">API SPORTS</a>
-      </div>
-
-      <div class="box__footer">
-          <h2>Compañia</h2>
-          <a href="#">Acerca de</a>
-          <a href="#">Servicios</a>              
-      </div>
-
-      <div class="box__footer">
-          <h2>Redes Sociales</h2>
-          <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
-          <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
-          <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-          <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
-      </div>
-
-  </div>
-
-  <div class="box__copyright">
-      <hr>
-      <p>Todos los derechos reservados © 2023 <b>+Futbol</b></p>
-  </div>
 </footer>
 
 
@@ -165,14 +129,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     });
     </script>
 
-    <script>
-    let dropdown2 = document.querySelector('#dropdown-btn2').parentNode;
-    let dropdownBtn2 = document.getElementById('dropdown-btn2');
-
-    dropdownBtn2.addEventListener('click', () => {
-        dropdown2.classList.toggle('dropdown-active');
-    });
-    </script>
+    
 
 </body>
 
