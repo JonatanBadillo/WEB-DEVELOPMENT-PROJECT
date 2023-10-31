@@ -25,37 +25,52 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <link rel="stylesheet" href="../assets/css/style-home.css">
     <style>
         /* Estilos CSS para la sección de estadios */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            text-align: center;
         }
 
         h1 {
-            font-size: 24px;
+            font-size: 36px;
+            text-align: center; /* Centrar el encabezado */
             margin-bottom: 20px;
+            color: #333;
         }
 
         .estadio {
             border: 1px solid #ccc;
+            border-radius: 10px;
             padding: 20px;
-            margin-bottom: 20px;
-            background-color: #f7f7f7;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
         .estadio img {
             max-width: 100%;
             height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         h2 {
-            font-size: 18px;
+            font-size: 24px;
             margin: 10px 0;
+            color: #333;
         }
 
         p {
-            font-size: 16px;
+            font-size: 18px;
+            line-height: 1.5;
+            color: #555;
         }
     </style>
 </head>
@@ -143,7 +158,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
             <!-- Estadio 2 -->
             <div class="estadio">
-                <img src="../assets/images/Marcana.jpg" alt="Estadio 2">
+                <img src="../assets/images/Maracana.jpg" alt="Estadio 2">
                 <h2>Estadio Maracaná</h2>
                 <p>El Estadio Maracaná es el estadio más grande de América del Sur y uno de los más grandes del mundo. Se encuentra en Río de Janeiro, Brasil, y es el hogar de la selección brasileña de fútbol. El estadio fue inaugurado en 1950 y ha sido sede de dos finales de la Copa del Mundo, la final de la Copa América de 2014 y los Juegos Olímpicos de 2016.</p>
             </div>
