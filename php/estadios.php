@@ -27,9 +27,10 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         /* Estilos CSS para la sección de estadios */
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f3f3f3;
+            background-color: #f7f7f7;
             margin: 0;
             padding: 0;
+            color: #333;
         }
 
         .container {
@@ -40,13 +41,12 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
         h1 {
             font-size: 36px;
-            text-align: center; /* Centrar el encabezado */
+            text-align: center;
             margin-bottom: 20px;
-            color: #333;
         }
 
         .estadio {
-            border: 1px solid #ccc;
+            border: 1px solid #eee;
             border-radius: 10px;
             padding: 20px;
             margin: 20px 0;
@@ -62,17 +62,18 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         }
 
         h2 {
-            font-size: 24px;
+            font-size: 28px;
             margin: 10px 0;
-            color: #333;
+            color: #000;
         }
 
         p {
             font-size: 18px;
-            line-height: 1.5;
-            color: #555;
+            line-height: 1.6;
+            color: #444;
         }
     </style>
+
 </head>
 
 <body>
@@ -153,31 +154,31 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <!-- Estadio 1 -->
             <div class="estadio">
                 <img src="../assets/images/Camp-Nou-1.jpg" alt="Estadio 1">
-                <h2> Estadio Camp Nou</h2>
+                <center><h2> Estadio Camp Nou</h2></center>
                 <p>El Camp Nou es un estadio icónico del fútbol mundial. Ubicado en Barcelona, España, es el estadio del Fútbol Club Barcelona y tiene una capacidad de 99.354 espectadores. Fue inaugurado en 1957 y ha sido sede de numerosos partidos importantes, como la final de la Copa Mundial de la FIFA 1982 y la final de la Liga de Campeones de la UEFA 1992.</p>
             </div>
             <!-- Estadio 2 -->
             <div class="estadio">
                 <img src="../assets/images/Maracana.jpg" alt="Estadio 2">
-                <h2>Estadio Maracaná</h2>
+                <center><h2>Estadio Maracaná</h2></center>
                 <p>El Estadio Maracaná es el estadio más grande de América del Sur y uno de los más grandes del mundo. Se encuentra en Río de Janeiro, Brasil, y es el hogar de la selección brasileña de fútbol. El estadio fue inaugurado en 1950 y ha sido sede de dos finales de la Copa del Mundo, la final de la Copa América de 2014 y los Juegos Olímpicos de 2016.</p>
             </div>
             <!-- Estadio 3 -->
             <div class="estadio">
                 <img src="../assets/images/Azteca.jpg" alt="Estadio 3">
-                <h2>Estadio Azteca</h2>
+                <center><h2>Estadio Azteca</h2></center>
                 <p>El Estadio Azteca es el estadio más grande de México y el segundo más grande de América del Norte. Se encuentra en la Ciudad de México y es el hogar del Club América y de la selección mexicana de fútbol. El estadio fue inaugurado en 1966 y ha sido sede de dos finales de la Copa del Mundo, dos finales de la Copa América y los Juegos Olímpicos de 1968.</p>
             </div>
             <!-- Estadio 4 -->
             <div class="estadio">
                 <img src="../assets/images/Bernabeu.jpg" alt="Estadio 4">
-                <h2>Estadio Santiago Bernabéu</h2>
+                <center><h2>Estadio Santiago Bernabéu</h2></center>
                 <p>El Estadio Santiago Bernabéu es el estadio más grande de España y uno de los más grandes de Europa. Se encuentra en Madrid y es el hogar del Real Madrid. El estadio fue inaugurado en 1947 y ha sido sede de dos finales de la Copa del Mundo, tres finales de la Liga de Campeones de la UEFA y la final de la Copa de Europa de 1957.</p>
             </div>
             <!-- Estadio 5 -->
             <div class="estadio">
                 <img src="../assets/images/Liverpool-Anfield.jpg" alt="Estadio 5">
-                <h2>Estadio Anfield</h2>
+                <center><h2>Estadio Anfield</h2></center>
                 <p>Anfield es el estadio más grande de Inglaterra y el hogar del Liverpool. Se encuentra en Liverpool y fue inaugurado en 1884. Anfield es conocido por su atmósfera única y su importancia cultural. El estadio ha sido sede de numerosas finales de la FA Cup y de la final de la Liga de Campeones de la UEFA de 2005.
 
 Estos son solo algunos de los estadios más emblemáticos del mundo. Cada uno de estos estadios tiene su propia historia y su propio significado para los fanáticos del fútbol.</p>
