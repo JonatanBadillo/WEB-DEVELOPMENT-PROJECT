@@ -145,9 +145,32 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="estadio">
                 <img src="estadio2.jpg" alt="Estadio 2">
                 <h2>Estadio 2</h2>
-                <p>El Estadio 2 se encuentra en una ubicación ficticia. Con su arquitectura impresionante y una historia rica en eventos deportivos de renombre, este estadio es un símbolo de la pasión por el deporte en la región.</p>
+                <p></p>
             </div>
-
+            <!-- Estadio 3 -->
+            <div class="estadio">
+                <img src="estadio2.jpg" alt="Estadio 2">
+                <h2>Estadio 2</h2>
+                <p></p>
+            </div>
+            <!-- Estadio 4 -->
+            <div class="estadio">
+                <img src="estadio2.jpg" alt="Estadio 2">
+                <h2>Estadio 2</h2>
+                <p></p>
+            </div>
+            <!-- Estadio 5 -->
+            <div class="estadio">
+                <img src="estadio2.jpg" alt="Estadio 2">
+                <h2>Estadio 2</h2>
+                <p></p>
+            </div>
+            <!-- Estadio 6 -->
+            <div class="estadio">
+                <img src="estadio2.jpg" alt="Estadio 2">
+                <h2>Estadio 2</h2>
+                <p></p>
+            </div>
         </div>
 
 
