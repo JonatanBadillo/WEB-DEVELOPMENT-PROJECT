@@ -178,6 +178,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <main>
     <div class="goats-section">
     <h2>Los Mejores Jugadores de la Historia</h2>
+    <h3>Lionel Andrés Messi Cuccittini</h3>
     <div id="player-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
         <!-- Indicador para las imagenes -->
@@ -227,29 +228,43 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
 <div class="goats-section">
-    <h2>Los Mejores Jugadores de la Historia</h2>
+    <h3>Diego Armando Maradona Franco</h3>
     <div id="player-carousel-2" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
         <ol class="carousel-indicators">
             <li data-target="#player-carousel-2" data-slide-to="0" class="active"></li>
             <li data-target="#player-carousel-2" data-slide-to="1"></li>
-            <!-- Agrega más indicadores según sea necesario -->
+            <li data-target="#player-carousel-2" data-slide-to="2"></li> 
+            <li data-target="#player-carousel-2" data-slide-to="3"></li>
+            <li data-target="#player-carousel-2" data-slide-to="4"></li>
         </ol>
 
         <!-- Imágenes del carrusel para Jugador 2 -->
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../assets/images/imagen_jugador2_1.jpg" alt="Jugador 2 - Imagen 1">
+        <div class="carousel-item active">
+                <img src="../assets/images/maradona1.jpg" alt="Jugador 2 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/imagen_jugador2_2.jpg" alt="Jugador 2 - Imagen 2">
+                <img src="../assets/images/maradona2.jpg" alt="Jugador 2 - Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/maradona3.jpg" alt="Jugador 2 - Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/maradona4.jpg" alt="Jugador 2 - Imagen 4">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/maradona5.jpg" alt="Jugador 2 - Imagen 4">
             </div>
             <!-- Agrega más imágenes para Jugador 2 según sea necesario -->
         </div>
 
         <!-- Carrusel Caption para Jugador 2 -->
         <div class="carousel-caption">
-            <p>Nombre del Jugador 2 - Breve descripción 1...</p>
+        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Maradona, un dios del fútbol,
+con el balón en los pies,
+era una obra de arte en movimiento,
+un poema de amor al juego.</p>
         </div>
 
         <!-- Controles del carrusel para Jugador 2 -->
