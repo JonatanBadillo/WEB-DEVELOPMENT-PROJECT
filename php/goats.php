@@ -28,6 +28,8 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+
+
     <style>
         /* Estilo para la sección GOATS */
 .goats-section {
@@ -184,6 +186,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <li data-target="#player-carousel" data-slide-to="1"></li>
             <li data-target="#player-carousel" data-slide-to="2"></li> 
             <li data-target="#player-carousel" data-slide-to="3"></li>
+            <li data-target="#player-carousel" data-slide-to="4"></li>
         </ol>
 
         <!-- Imágenes del carrusel -->
@@ -198,13 +201,16 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                 <img src="../assets/images/messi3.jpg" alt="Jugador 1 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/messi4.jpg" alt="Jugador 1 - Imagen 3">
+                <img src="../assets/images/messi4.jpg" alt="Jugador 1 - Imagen 4">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/messi5.jpg" alt="Jugador 1 - Imagen 4">
             </div>
         </div>
 
         <!-- Carrusel Caption -->
         <div class="carousel-caption">
-            <p>Nombre del Jugador 1 - Breve descripción 1...</p>
+            <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Messi es un poeta del fútbol, un artista que pinta con el balón. Su juego es fluido y elegante, como un tango. Es imposible predecir sus movimientos, es impredecible. Es un genio, un talento único..</p>
         </div>
 
         <!-- Controles del carrusel -->
