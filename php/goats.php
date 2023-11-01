@@ -279,6 +279,59 @@ un poema de amor al juego.</p>
     </div>
 </div>
 
+<div class="goats-section">
+    <h3>Cristiano Ronaldo dos Santos Aveiro</h3>
+    <div id="player-carousel-3" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+            <li data-target="#player-carousel-3" data-slide-to="0" class="active"></li>
+            <li data-target="#player-carousel-3" data-slide-to="1"></li>
+            <li data-target="#player-carousel-3" data-slide-to="2"></li> 
+            <li data-target="#player-carousel-3" data-slide-to="3"></li>
+            <li data-target="#player-carousel-3" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Imágenes del carrusel para Jugador 2 -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+                <img src="../assets/images/cr71.jpg" alt="Jugador 3 - Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/cr72.jpg" alt="Jugador 3 - Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/cr73.jpg" alt="Jugador 3 - Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/cr74.jpg" alt="Jugador 3 - Imagen 4">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/cr75.jpg" alt="Jugador 3 - Imagen 4">
+            </div>
+            <!-- Agrega más imágenes para Jugador 2 según sea necesario -->
+        </div>
+
+        <!-- Carrusel Caption para Jugador 2 -->
+        <div class="carousel-caption">
+        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Cristiano Ronaldo.
+        Un halcón sobre el campo,
+un cazador de goles,
+con la mirada fija en el arco,
+y la determinación en su corazón..</p>
+        </div>
+
+        <!-- Controles del carrusel para Jugador 2 -->
+        <a class="carousel-control-prev" href="#player-carousel-3" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#player-carousel-3" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+</div>
+
 
 </main>
 
