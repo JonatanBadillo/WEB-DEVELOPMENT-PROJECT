@@ -178,9 +178,12 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <h2>Los Mejores Jugadores de la Historia</h2>
     <div id="player-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
+        <!-- Indicador para las imagenes -->
         <ol class="carousel-indicators">
             <li data-target="#player-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#player-carousel" data-slide-to="1"></li>
+            <li data-target="#player-carousel" data-slide-to="2"></li> 
+            <li data-target="#player-carousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Imágenes del carrusel -->
@@ -191,7 +194,12 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="carousel-item">
                 <img src="../assets/images/messi2.jpg" alt="Jugador 1 - Imagen 2">
             </div>
-            <!-- Agrega más imágenes según sea necesario -->
+            <div class="carousel-item">
+                <img src="../assets/images/messi3.jpg" alt="Jugador 1 - Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/messi4.jpg" alt="Jugador 1 - Imagen 3">
+            </div>
         </div>
 
         <!-- Carrusel Caption -->
@@ -210,6 +218,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         </a>
     </div>
 </div>
+
 
 <div class="goats-section">
     <h2>Los Mejores Jugadores de la Historia</h2>
