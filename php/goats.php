@@ -188,7 +188,6 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     
     <h3>Lionel Andrés Messi Cuccittini</h3>
     <div id="player-carousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicadores -->
         <!-- Indicador para las imagenes -->
         <ol class="carousel-indicators">
             <li data-target="#player-carousel" data-slide-to="0" class="active"></li>
@@ -264,7 +263,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <div class="carousel-item">
                 <img src="../assets/images/maradona5.jpg" alt="Jugador 2 - Imagen 4">
             </div>
-            <!-- Agrega más imágenes para Jugador 2 según sea necesario -->
+
         </div>
 
         <!-- Carrusel Caption para Jugador 2 -->
