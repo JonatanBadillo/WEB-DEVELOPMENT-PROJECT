@@ -90,7 +90,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     cursor: pointer;
 }
 
-/* Estilos para la descripción de los jugadores */
+/* Estilos para la descripción de los Estadioes */
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
@@ -180,7 +180,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                         </li>
                         <!-- INSERTAR LOS ESTADIOS MAS EMBLEMATICOS DEL MUNDO--->
                         <li><a href="estadios.php">Estadios</a></li>
-                        <!-- INSERTAR LOS MEJORES JUGADORES DE LA HISTORIA--->
+                        <!-- INSERTAR LOS MEJORES EstadioES DE LA HISTORIA--->
                         <li><a href="stadium.php">stadium</a></li>
                     </ul>
                 </nav>
@@ -198,50 +198,50 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     </header>
     <main>
     <main>
-    <center><h2>Los Mejores Jugadores de la Historia</h2></center>
+    <center><h2>Los Mejores Estadios de la Historia</h2></center>
     <div class="stadium-section">
     
-    <h3>Lionel Andrés Messi Cuccittini</h3>
-    <div id="player-carousel" class="carousel slide" data-ride="carousel">
+    <h3>Estadio Azteca</h3>
+    <div id="stadium-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicador para las imagenes -->
         <ol class="carousel-indicators">
-            <li data-target="#player-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#player-carousel" data-slide-to="1"></li>
-            <li data-target="#player-carousel" data-slide-to="2"></li> 
-            <li data-target="#player-carousel" data-slide-to="3"></li>
-            <li data-target="#player-carousel" data-slide-to="4"></li>
+            <li data-target="#stadium-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#stadium-carousel" data-slide-to="1"></li>
+            <li data-target="#stadium-carousel" data-slide-to="2"></li> 
+            <li data-target="#stadium-carousel" data-slide-to="3"></li>
+            <li data-target="#stadium-carousel" data-slide-to="4"></li>
         </ol>
 
         <!-- Imágenes del carrusel -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../assets/images/messi1.jpg" alt="Jugador 1 - Imagen 1">
+                <img src="../assets/images/azteca.jpg" alt="Estadio 1 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/messi2.jpg" alt="Jugador 1 - Imagen 2">
+                <img src="../assets/images/azteca3.jpg" alt="Estadio 1 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/messi3.jpg" alt="Jugador 1 - Imagen 3">
+                <img src="../assets/images/azteca5.jpg" alt="Estadio 1 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/messi4.jpg" alt="Jugador 1 - Imagen 4">
+                <img src="../assets/images/azteca4.jpg" alt="Estadio 1 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/messi5.jpg" alt="Jugador 1 - Imagen 4">
+                <img src="../assets/images/azteca2.jpg" alt="Estadio 1 - Imagen 4">
             </div>
         </div>
 
         <!-- Carrusel Caption -->
         <div class="carousel-caption">
-            <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Messi es un poeta del fútbol, un artista que pinta con el balón. Su juego es fluido y elegante, como un tango. Es imposible predecir sus movimientos, es impredecible. Es un genio, un talento único..</p>
+            <p style="background-color: black; border-radius: 5px; opacity: 0.8;">azteca es un poeta del fútbol, un artista que pinta con el balón. Su juego es fluido y elegante, como un tango. Es imposible predecir sus movimientos, es impredecible. Es un genio, un talento único..</p>
         </div>
 
         <!-- Controles del carrusel -->
-        <a class="carousel-control-prev" href="#player-carousel" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#stadium-carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
         </a>
-        <a class="carousel-control-next" href="#player-carousel" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#stadium-carousel" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Siguiente</span>
         </a>
@@ -251,37 +251,37 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 <div class="stadium-section">
     <h3>Diego Armando Maradona Franco</h3>
-    <div id="player-carousel-2" class="carousel slide" data-ride="carousel">
+    <div id="stadium-carousel-2" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
         <ol class="carousel-indicators">
-            <li data-target="#player-carousel-2" data-slide-to="0" class="active"></li>
-            <li data-target="#player-carousel-2" data-slide-to="1"></li>
-            <li data-target="#player-carousel-2" data-slide-to="2"></li> 
-            <li data-target="#player-carousel-2" data-slide-to="3"></li>
-            <li data-target="#player-carousel-2" data-slide-to="4"></li>
+            <li data-target="#stadium-carousel-2" data-slide-to="0" class="active"></li>
+            <li data-target="#stadium-carousel-2" data-slide-to="1"></li>
+            <li data-target="#stadium-carousel-2" data-slide-to="2"></li> 
+            <li data-target="#stadium-carousel-2" data-slide-to="3"></li>
+            <li data-target="#stadium-carousel-2" data-slide-to="4"></li>
         </ol>
 
-        <!-- Imágenes del carrusel para Jugador 2 -->
+        <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/maradona1.jpg" alt="Jugador 2 - Imagen 1">
+                <img src="../assets/images/maradona1.jpg" alt="Estadio 2 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona2.jpg" alt="Jugador 2 - Imagen 2">
+                <img src="../assets/images/maradona2.jpg" alt="Estadio 2 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona3.jpg" alt="Jugador 2 - Imagen 3">
+                <img src="../assets/images/maradona3.jpg" alt="Estadio 2 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona4.jpg" alt="Jugador 2 - Imagen 4">
+                <img src="../assets/images/maradona4.jpg" alt="Estadio 2 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona5.jpg" alt="Jugador 2 - Imagen 4">
+                <img src="../assets/images/maradona5.jpg" alt="Estadio 2 - Imagen 4">
             </div>
 
         </div>
 
-        <!-- Carrusel Caption para Jugador 2 -->
+        <!-- Carrusel Caption para Estadio 2 -->
         <div class="carousel-caption">
         <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Maradona, un dios del fútbol,
 con el balón en los pies,
@@ -289,12 +289,12 @@ era una obra de arte en movimiento,
 un poema de amor al juego.</p>
         </div>
 
-        <!-- Controles del carrusel para Jugador 2 -->
-        <a class="carousel-control-prev" href="#player-carousel-2" role="button" data-slide="prev">
+        <!-- Controles del carrusel para Estadio 2 -->
+        <a class="carousel-control-prev" href="#stadium-carousel-2" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
         </a>
-        <a class="carousel-control-next" href="#player-carousel-2" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#stadium-carousel-2" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Siguiente</span>
         </a>
@@ -303,37 +303,37 @@ un poema de amor al juego.</p>
 
 <div class="stadium-section">
     <h3>Cristiano Ronaldo dos Santos Aveiro</h3>
-    <div id="player-carousel-3" class="carousel slide" data-ride="carousel">
+    <div id="stadium-carousel-3" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
         <ol class="carousel-indicators">
-            <li data-target="#player-carousel-3" data-slide-to="0" class="active"></li>
-            <li data-target="#player-carousel-3" data-slide-to="1"></li>
-            <li data-target="#player-carousel-3" data-slide-to="2"></li> 
-            <li data-target="#player-carousel-3" data-slide-to="3"></li>
-            <li data-target="#player-carousel-3" data-slide-to="4"></li>
+            <li data-target="#stadium-carousel-3" data-slide-to="0" class="active"></li>
+            <li data-target="#stadium-carousel-3" data-slide-to="1"></li>
+            <li data-target="#stadium-carousel-3" data-slide-to="2"></li> 
+            <li data-target="#stadium-carousel-3" data-slide-to="3"></li>
+            <li data-target="#stadium-carousel-3" data-slide-to="4"></li>
         </ol>
 
-        <!-- Imágenes del carrusel para Jugador 2 -->
+        <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/cr71.jpg" alt="Jugador 3 - Imagen 1">
+                <img src="../assets/images/cr71.jpg" alt="Estadio 3 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr72.jpg" alt="Jugador 3 - Imagen 2">
+                <img src="../assets/images/cr72.jpg" alt="Estadio 3 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr73.jpg" alt="Jugador 3 - Imagen 3">
+                <img src="../assets/images/cr73.jpg" alt="Estadio 3 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr74.jpg" alt="Jugador 3 - Imagen 4">
+                <img src="../assets/images/cr74.jpg" alt="Estadio 3 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr75.jpg" alt="Jugador 3 - Imagen 4">
+                <img src="../assets/images/cr75.jpg" alt="Estadio 3 - Imagen 4">
             </div>
-            <!-- Agrega más imágenes para Jugador 2 según sea necesario -->
+            <!-- Agrega más imágenes para Estadio 2 según sea necesario -->
         </div>
 
-        <!-- Carrusel Caption para Jugador 2 -->
+        <!-- Carrusel Caption para Estadio 2 -->
         <div class="carousel-caption">
         <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Cristiano Ronaldo.
         Un halcón sobre el campo,
@@ -342,12 +342,12 @@ con la mirada fija en el arco,
 y la determinación en su corazón..</p>
         </div>
 
-        <!-- Controles del carrusel para Jugador 2 -->
-        <a class="carousel-control-prev" href="#player-carousel-3" role="button" data-slide="prev">
+        <!-- Controles del carrusel para Estadio 2 -->
+        <a class="carousel-control-prev" href="#stadium-carousel-3" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
         </a>
-        <a class="carousel-control-next" href="#player-carousel-3" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#stadium-carousel-3" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Siguiente</span>
         </a>
@@ -356,37 +356,37 @@ y la determinación en su corazón..</p>
 
 <div class="stadium-section">
     <h3>Edson Arantes do Nascimento</h3>
-    <div id="player-carousel-4" class="carousel slide" data-ride="carousel">
+    <div id="stadium-carousel-4" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
         <ol class="carousel-indicators">
-            <li data-target="#player-carousel-4" data-slide-to="0" class="active"></li>
-            <li data-target="#player-carousel-4" data-slide-to="1"></li>
-            <li data-target="#player-carousel-4" data-slide-to="2"></li> 
-            <li data-target="#player-carousel-4" data-slide-to="3"></li>
-            <li data-target="#player-carousel-4" data-slide-to="4"></li>
+            <li data-target="#stadium-carousel-4" data-slide-to="0" class="active"></li>
+            <li data-target="#stadium-carousel-4" data-slide-to="1"></li>
+            <li data-target="#stadium-carousel-4" data-slide-to="2"></li> 
+            <li data-target="#stadium-carousel-4" data-slide-to="3"></li>
+            <li data-target="#stadium-carousel-4" data-slide-to="4"></li>
         </ol>
 
-        <!-- Imágenes del carrusel para Jugador 2 -->
+        <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/pele2.jpg" alt="Jugador 4 - Imagen 1">
+                <img src="../assets/images/pele2.jpg" alt="Estadio 4 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele1.jpg" alt="Jugador 4 - Imagen 2">
+                <img src="../assets/images/pele1.jpg" alt="Estadio 4 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele3.jpg" alt="Jugador 4 - Imagen 3">
+                <img src="../assets/images/pele3.jpg" alt="Estadio 4 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele4.jpg" alt="Jugador 4 - Imagen 4">
+                <img src="../assets/images/pele4.jpg" alt="Estadio 4 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele5.jpg" alt="Jugador 4 - Imagen 4">
+                <img src="../assets/images/pele5.jpg" alt="Estadio 4 - Imagen 4">
             </div>
-            <!-- Agrega más imágenes para Jugador 2 según sea necesario -->
+            <!-- Agrega más imágenes para Estadio 2 según sea necesario -->
         </div>
 
-        <!-- Carrusel Caption para Jugador 2 -->
+        <!-- Carrusel Caption para Estadio 2 -->
         <div class="carousel-caption">
         <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Pelé, el rey del fútbol,
 un dios de la cancha,
@@ -394,12 +394,12 @@ con el balón en sus pies,
 era una obra de arte en movimiento.</p>
         </div>
 
-        <!-- Controles del carrusel para Jugador 2 -->
-        <a class="carousel-control-prev" href="#player-carousel-4" role="button" data-slide="prev">
+        <!-- Controles del carrusel para Estadio 2 -->
+        <a class="carousel-control-prev" href="#stadium-carousel-4" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
         </a>
-        <a class="carousel-control-next" href="#player-carousel-4" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#stadium-carousel-4" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Siguiente</span>
         </a>
