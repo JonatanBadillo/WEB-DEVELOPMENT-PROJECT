@@ -19,7 +19,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GOATS</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style-home.css">
@@ -32,68 +32,64 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
     <style>
         /* Estilos para la sección GOATS */
-        .goats-section {
-            text-align: center;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin: 20px 0;
-        }
+.goats-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    max-width: 100%;
+}
 
-        .goats-section h2 {
-            font-size: 24px;
-        }
+.goats-section h2 {
+    font-size: 24px;
+}
 
-        .goats-section h3 {
-            font-size: 20px;
-        }
+.goats-section h3 {
+    font-size: 20px;
+}
 
-        .carousel-container {
-            position: relative;
-        }
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+}
 
-        .carousel {
-            display: flex;
-            overflow: hidden;
-            max-width: 80%;
-            margin: 0 auto;
-        }
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
 
-        .carousel-item {
-            flex: 0 0 100%;
-            text-align: center;
-            padding: 10px;
-        }
+.carousel-item {
+    flex: 0 0 100%;
+    text-align: center;
+    padding: 10px;
+}
 
-        .carousel-item img {
-            max-width: 100%;
-            height: auto;
-            border: 2px solid #333;
-            border-radius: 8px;
-        }
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
 
-        /* Estilos para los botones del carrusel */
-        .prev-button,
-        .next-button {
-            background: #333;
-            color: #fff;
-            padding: 8px 16px;
-            border: none;
-            cursor: pointer;
-        }
+/* Estilos para los botones del carrusel */
+.prev-button,
+.next-button {
+    background: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
 
-        .prev-button:hover,
-        .next-button:hover {
-            background: #444;
-        }
+/* Estilos para la descripción de los jugadores */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+}
 
-        /* Estilos para la descripción de los jugadores */
-        .carousel-caption {
-            background-color: rgba(0, 0, 0, 0.8);
-            border-radius: 5px;
-            padding: 10px;
-        }
         .carousel-item img {
         max-width: 100%;
         height: auto;
