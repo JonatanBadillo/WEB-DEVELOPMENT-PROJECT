@@ -257,7 +257,7 @@ El Estadio Azteca es uno de los estadios más emblemáticos del mundo. Ha sido s
 
 
 <div class="stadium-section">
-    <h3>Diego Armando Maradona Franco</h3>
+    <h3>Estadio de Maracaná</h3>
     <div id="stadium-carousel-2" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
         <ol class="carousel-indicators">
@@ -271,29 +271,30 @@ El Estadio Azteca es uno de los estadios más emblemáticos del mundo. Ha sido s
         <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/maradona1.jpg" alt="Estadio 2 - Imagen 1">
+                <img src="../assets/images/maracana.jpg" alt="Estadio 2 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona2.jpg" alt="Estadio 2 - Imagen 2">
+                <img src="../assets/images/maracana2.jpg" alt="Estadio 2 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona3.jpg" alt="Estadio 2 - Imagen 3">
+                <img src="../assets/images/maracana3.jpg" alt="Estadio 2 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona4.jpg" alt="Estadio 2 - Imagen 4">
+                <img src="../assets/images/maracana4.jpg" alt="Estadio 2 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona5.jpg" alt="Estadio 2 - Imagen 4">
+                <img src="../assets/images/maracana5.jpg" alt="Estadio 2 - Imagen 4">
             </div>
 
         </div>
 
         <!-- Carrusel Caption para Estadio 2 -->
         <div class="carousel-caption">
-        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Maradona, un dios del fútbol,
-con el balón en los pies,
-era una obra de arte en movimiento,
-un poema de amor al juego.</p>
+        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">El Estadio Maracaná es un estadio de fútbol ubicado en la ciudad de Río de Janeiro, Brasil. Es el estadio más grande de América del Sur, con una capacidad de 78 838 espectadores.
+
+El estadio fue construido en 1950 para albergar la Copa Mundial de la FIFA de 1950. Fue inaugurado el 19 de junio de 1950 con un partido amistoso entre Brasil y Uruguay.
+
+El Estadio Maracaná es uno de los estadios más emblemáticos del mundo. Ha sido sede de dos Copas Mundiales de la FIFA, dos Juegos Olímpicos, dos finales de la Copa América y dos finales de la Copa Libertadores. </p>
         </div>
 
         <!-- Controles del carrusel para Estadio 2 -->
