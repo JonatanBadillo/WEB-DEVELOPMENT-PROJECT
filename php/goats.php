@@ -90,12 +90,23 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     padding: 10px;
 }
 
-        .carousel-item img {
-        max-width: 100%;
-        height: auto;
-        width: 1000px; /* Establece el ancho deseado */
-        height: 500px; /* Establece la altura deseada */
+
+/* Estilos para las imágenes en pantallas grandes */
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+    width: 1000px; /* Tamaño fijo para pantallas grandes */
+
+}
+
+/* Media query para ajustar el tamaño en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .carousel-item img {
+        width: 100%; /* Ajusta el tamaño al ancho de la pantalla en pantallas más pequeñas */
     }
+}
 
     /* Estilo para los carruseles */
     .carousel-container {
