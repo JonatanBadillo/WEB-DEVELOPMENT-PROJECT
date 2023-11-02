@@ -104,7 +104,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     height: auto;
     border: 2px solid #333;
     border-radius: 8px;
-    width: 1000px; /* Tamaño fijo para pantallas grandes */
+    width: auto; /* Tamaño fijo para pantallas grandes */
 
 }
 
