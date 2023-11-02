@@ -31,63 +31,70 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
     <style>
-        /* Estilo para la sección GOATS */
-.goats-section {
-    text-align: center;
-    padding: 20px;
-}
+        /* Estilos para la sección GOATS */
+        .goats-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
 
-.goats-section h2 {
-    font-size: 24px;
-}
+        .goats-section h2 {
+            font-size: 24px;
+        }
 
-.carousel-container {
-    position: relative;
-    margin: 20px 0;
-}
+        .goats-section h3 {
+            font-size: 20px;
+        }
 
-.carousel {
-    display: flex;
-    overflow: hidden;
-    max-width: 80%;
-    margin: 0 auto;
-}
+        .carousel-container {
+            position: relative;
+        }
 
-.carousel-item {
-    flex: 0 0 100%;
-    text-align: center;
-    padding: 10px;
-}
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            max-width: 80%;
+            margin: 0 auto;
+        }
 
-.carousel-item img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #333;
-    border-radius: 8px;
-}
+        .carousel-item {
+            flex: 0 0 100%;
+            text-align: center;
+            padding: 10px;
+        }
 
-/* Estilo para los botones del carrusel */
-.prev-button,
-.next-button {
-    background: #333;
-    color: #fff;
-    padding: 8px 16px;
-    border: none;
-    cursor: pointer;
-}
+        .carousel-item img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
 
-.prev-button:hover,
-.next-button:hover {
-    background: #444;
-}
+        /* Estilos para los botones del carrusel */
+        .prev-button,
+        .next-button {
+            background: #333;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+        }
 
-/* Estilo para la descripción de los jugadores */
-.carousel-item p {
-    margin-top: 10px;
-}
+        .prev-button:hover,
+        .next-button:hover {
+            background: #444;
+        }
 
-/* Estilo para las imágenes del carrusel */
-.carousel-item img {
+        /* Estilos para la descripción de los jugadores */
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .carousel-item img {
         max-width: 100%;
         height: auto;
         width: 1000px; /* Establece el ancho deseado */
@@ -176,8 +183,9 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
     </header>
     <main>
+    <center><h2>Los Mejores Jugadores de la Historia</h2></center>
     <div class="goats-section">
-    <h2>Los Mejores Jugadores de la Historia</h2>
+    
     <h3>Lionel Andrés Messi Cuccittini</h3>
     <div id="player-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
