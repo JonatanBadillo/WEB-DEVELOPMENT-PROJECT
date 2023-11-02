@@ -310,7 +310,7 @@ El Estadio Maracaná es uno de los estadios más emblemáticos del mundo. Ha sid
 </div>
 
 <div class="stadium-section">
-    <h3>Cristiano Ronaldo dos Santos Aveiro</h3>
+    <h3>Estadio Camp Nou</h3>
     <div id="stadium-carousel-3" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
         <ol class="carousel-indicators">
@@ -324,30 +324,26 @@ El Estadio Maracaná es uno de los estadios más emblemáticos del mundo. Ha sid
         <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/cr71.jpg" alt="Estadio 3 - Imagen 1">
+                <img src="../assets/images/Camp-Nou-1.jpg" alt="Estadio 3 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr72.jpg" alt="Estadio 3 - Imagen 2">
+                <img src="../assets/images/campnou4.jpg" alt="Estadio 3 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr73.jpg" alt="Estadio 3 - Imagen 3">
+                <img src="../assets/images/campnou5.jpg" alt="Estadio 3 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr74.jpg" alt="Estadio 3 - Imagen 4">
+                <img src="../assets/images/campnou3.jpg" alt="Estadio 3 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr75.jpg" alt="Estadio 3 - Imagen 4">
+                <img src="../assets/images/campnou2.jpg" alt="Estadio 3 - Imagen 4">
             </div>
             <!-- Agrega más imágenes para Estadio 2 según sea necesario -->
         </div>
 
         <!-- Carrusel Caption para Estadio 2 -->
         <div class="carousel-caption">
-        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Cristiano Ronaldo.
-        Un halcón sobre el campo,
-un cazador de goles,
-con la mirada fija en el arco,
-y la determinación en su corazón..</p>
+        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">El Camp Nou, ubicado en Barcelona, es uno de los estadios más icónicos del mundo. Es el hogar del FC Barcelona y ha sido testigo de innumerables momentos históricos en el fútbol. Con una capacidad para más de 99,000 espectadores, el Camp Nou es un coloso que rezuma pasión y tradición. Su arquitectura emblemática combina una estructura modernista con instalaciones de última generación. </p>
         </div>
 
         <!-- Controles del carrusel para Estadio 2 -->
