@@ -366,11 +366,10 @@ y la determinación en su corazón..</p>
 
         <!-- Carrusel Caption para Jugador 2 -->
         <div class="carousel-caption">
-        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Cristiano Ronaldo.
-        Un halcón sobre el campo,
-un cazador de goles,
-con la mirada fija en el arco,
-y la determinación en su corazón..</p>
+        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Pelé, el rey del fútbol,
+un dios de la cancha,
+con el balón en sus pies,
+era una obra de arte en movimiento.</p>
         </div>
 
         <!-- Controles del carrusel para Jugador 2 -->
