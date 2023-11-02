@@ -182,7 +182,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                         <!-- INSERTAR LOS ESTADIOS MAS EMBLEMATICOS DEL MUNDO--->
                         <li><a href="estadios.php">Estadios</a></li>
                         <!-- INSERTAR LOS MEJORES EstadioES DE LA HISTORIA--->
-                        <li><a href="stadium.php">stadium</a></li>
+                        <li><a href="goats.php">GOATS</a></li>
                     </ul>
                 </nav>
 
