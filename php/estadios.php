@@ -97,15 +97,13 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     padding: 10px;
 }
 
-
 /* Estilos para las imágenes en pantallas grandes */
 .carousel-item img {
     max-width: 100%;
     height: auto;
     border: 2px solid #333;
     border-radius: 8px;
-    width: auto; /* Tamaño fijo para pantallas grandes */
-
+    width: 1000px; /* Tamaño fijo para pantallas grandes */
 }
 
 /* Media query para ajustar el tamaño en pantallas más pequeñas */
@@ -336,7 +334,7 @@ El Estadio Maracaná es uno de los estadios más emblemáticos del mundo. Ha sid
                 <img src="../assets/images/campnou2.jpg" alt="Estadio 3 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/Camp-Nou-1campnou2.jpg" alt="Estadio 3 - Imagen 4">
+                <img src="../assets/images/Camp-Nou-1.jpg" alt="Estadio 3 - Imagen 4">
             </div>
             <!-- Agrega más imágenes para Estadio 2 según sea necesario -->
         </div>
