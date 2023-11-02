@@ -113,6 +113,9 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     .carousel-item img {
         width: 100%; /* Ajusta el tamaño al ancho de la pantalla en pantallas más pequeñas */
     }
+    .carousel-caption{
+        display: none;
+    }
 }
 
     /* Estilo para los carruseles */
@@ -218,10 +221,10 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                 <img src="../assets/images/azteca.jpg" alt="Estadio 1 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/azteca3.jpg" alt="Estadio 1 - Imagen 2">
+                <img src="../assets/images/azteca5.jpg" alt="Estadio 1 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/azteca5.jpg" alt="Estadio 1 - Imagen 3">
+                <img src="../assets/images/azteca3.jpg" alt="Estadio 1 - Imagen 3">
             </div>
             <div class="carousel-item">
                 <img src="../assets/images/azteca4.jpg" alt="Estadio 1 - Imagen 4">
@@ -233,7 +236,11 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
         <!-- Carrusel Caption -->
         <div class="carousel-caption">
-            <p style="background-color: black; border-radius: 5px; opacity: 0.8;">azteca es un poeta del fútbol, un artista que pinta con el balón. Su juego es fluido y elegante, como un tango. Es imposible predecir sus movimientos, es impredecible. Es un genio, un talento único..</p>
+            <p style="background-color: black; border-radius: 5px; opacity: 0.8;">El Estadio Azteca es un estadio de fútbol ubicado en la Ciudad de México, México. Es el estadio más grande del país, con una capacidad de 83 264 espectadores.
+
+
+
+El Estadio Azteca es uno de los estadios más emblemáticos del mundo. Ha sido sede de dos Copas Mundiales de la FIFA, dos Juegos Olímpicos, dos finales de la Copa América y dos finales de la Copa Libertadores.</p>
         </div>
 
         <!-- Controles del carrusel -->

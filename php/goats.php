@@ -106,6 +106,9 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     .carousel-item img {
         width: 100%; /* Ajusta el tamaño al ancho de la pantalla en pantallas más pequeñas */
     }
+    .carousel-caption{
+        display: none;
+    }
 }
 
     /* Estilo para los carruseles */
