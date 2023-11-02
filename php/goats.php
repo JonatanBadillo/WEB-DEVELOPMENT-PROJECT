@@ -332,6 +332,59 @@ y la determinación en su corazón..</p>
     </div>
 </div>
 
+<div class="goats-section">
+    <h3>Edson Arantes do Nascimento</h3>
+    <div id="player-carousel-4" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+            <li data-target="#player-carousel-4" data-slide-to="0" class="active"></li>
+            <li data-target="#player-carousel-4" data-slide-to="1"></li>
+            <li data-target="#player-carousel-4" data-slide-to="2"></li> 
+            <li data-target="#player-carousel-4" data-slide-to="3"></li>
+            <li data-target="#player-carousel-4" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Imágenes del carrusel para Jugador 2 -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+                <img src="../assets/images/pele2.jpg" alt="Jugador 4 - Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/pele1.jpg" alt="Jugador 4 - Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/pele3.jpg" alt="Jugador 4 - Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/pele4.jpg" alt="Jugador 4 - Imagen 4">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/pele5.jpg" alt="Jugador 4 - Imagen 4">
+            </div>
+            <!-- Agrega más imágenes para Jugador 2 según sea necesario -->
+        </div>
+
+        <!-- Carrusel Caption para Jugador 2 -->
+        <div class="carousel-caption">
+        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Cristiano Ronaldo.
+        Un halcón sobre el campo,
+un cazador de goles,
+con la mirada fija en el arco,
+y la determinación en su corazón..</p>
+        </div>
+
+        <!-- Controles del carrusel para Jugador 2 -->
+        <a class="carousel-control-prev" href="#player-carousel-4" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#player-carousel-4" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+</div>
+
 
 </main>
 
