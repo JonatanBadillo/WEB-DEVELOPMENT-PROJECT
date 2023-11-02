@@ -324,19 +324,19 @@ El Estadio Maracaná es uno de los estadios más emblemáticos del mundo. Ha sid
         <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/Camp-Nou-1.jpg" alt="Estadio 3 - Imagen 1">
+                <img src="../assets/images/campnou4.jpg" alt="Estadio 3 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/campnou4.jpg" alt="Estadio 3 - Imagen 2">
+                <img src="../assets/images/campnou5.jpg" alt="Estadio 3 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/campnou5.jpg" alt="Estadio 3 - Imagen 3">
-            </div>
-            <div class="carousel-item">
-                <img src="../assets/images/campnou3.jpg" alt="Estadio 3 - Imagen 4">
+                <img src="../assets/images/campnou3.jpg" alt="Estadio 3 - Imagen 3">
             </div>
             <div class="carousel-item">
                 <img src="../assets/images/campnou2.jpg" alt="Estadio 3 - Imagen 4">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/Camp-Nou-1campnou2.jpg" alt="Estadio 3 - Imagen 4">
             </div>
             <!-- Agrega más imágenes para Estadio 2 según sea necesario -->
         </div>
@@ -359,7 +359,7 @@ El Estadio Maracaná es uno de los estadios más emblemáticos del mundo. Ha sid
 </div>
 
 <div class="stadium-section">
-    <h3>Edson Arantes do Nascimento</h3>
+    <h3>Estadio Santiago Bernabéu</h3>
     <div id="stadium-carousel-4" class="carousel slide" data-ride="carousel">
         <!-- Indicadores -->
         <ol class="carousel-indicators">
@@ -373,29 +373,28 @@ El Estadio Maracaná es uno de los estadios más emblemáticos del mundo. Ha sid
         <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/pele2.jpg" alt="Estadio 4 - Imagen 1">
+                <img src="../assets/images/bernabeu5.jpg" alt="Estadio 4 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele1.jpg" alt="Estadio 4 - Imagen 2">
+                <img src="../assets/images/Bernabeu.jpg" alt="Estadio 4 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele3.jpg" alt="Estadio 4 - Imagen 3">
+                <img src="../assets/images/bernabeu3.jpg" alt="Estadio 4 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele4.jpg" alt="Estadio 4 - Imagen 4">
+                <img src="../assets/images/bernabeu4.jpg" alt="Estadio 4 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele5.jpg" alt="Estadio 4 - Imagen 4">
+                <img src="../assets/images/bernabeu2.jpg" alt="Estadio 4 - Imagen 4">
             </div>
             <!-- Agrega más imágenes para Estadio 2 según sea necesario -->
         </div>
 
         <!-- Carrusel Caption para Estadio 2 -->
         <div class="carousel-caption">
-        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Pelé, el rey del fútbol,
-un dios de la cancha,
-con el balón en sus pies,
-era una obra de arte en movimiento.</p>
+        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">El Estadio Santiago Bernabéu es un estadio de fútbol ubicado en Madrid, España. Es el estadio del Real Madrid, uno de los clubes de fútbol más exitosos del mundo.
+
+El estadio tiene capacidad para 81 044 espectadores y es uno de los estadios de fútbol más grandes del mundo. Fue inaugurado en 1947 y ha sido sede de numerosos partidos internacionales y eventos deportivos, incluidas dos finales de la Copa Mundial de la FIFA.</p>
         </div>
 
         <!-- Controles del carrusel para Estadio 2 -->
@@ -404,6 +403,57 @@ era una obra de arte en movimiento.</p>
             <span class="sr-only">Anterior</span>
         </a>
         <a class="carousel-control-next" href="#stadium-carousel-4" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+</div>
+
+<div class="stadium-section">
+    <h3>Estadio Anfield</h3>
+    <div id="stadium-carousel-5" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+            <li data-target="#stadium-carousel-5" data-slide-to="0" class="active"></li>
+            <li data-target="#stadium-carousel-5" data-slide-to="1"></li>
+            <li data-target="#stadium-carousel-5" data-slide-to="2"></li> 
+            <li data-target="#stadium-carousel-5" data-slide-to="3"></li>
+            <li data-target="#stadium-carousel-5" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Imágenes del carrusel para Estadio 2 -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+                <img src="../assets/images/Anfield.jpg" alt="Estadio 4 - Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/anfield2.jpg" alt="Estadio 4 - Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/anfield3.jpg" alt="Estadio 4 - Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/anfield4.jpg" alt="Estadio 4 - Imagen 4">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/anfield2.jpg" alt="Estadio 4 - Imagen 4">
+            </div>
+            <!-- Agrega más imágenes para Estadio 2 según sea necesario -->
+        </div>
+
+        <!-- Carrusel Caption para Estadio 2 -->
+        <div class="carousel-caption">
+        <p style="background-color: black; border-radius: 5px; opacity: 0.8;">Anfield es un estadio histórico, construido en 1884. Ha sido sede de algunos de los momentos más memorables de la historia del fútbol, ​​incluidos los tres títulos de la Copa de Europa del Liverpool en la década de 1970.
+
+El estadio es conocido por su atmósfera eléctrica, que crea una experiencia de fútbol única para los fanáticos. Anfield es un lugar especial para los fanáticos del Liverpool y un lugar donde se han forjado grandes momentos deportivos.</p>
+        </div>
+
+        <!-- Controles del carrusel para Estadio 2 -->
+        <a class="carousel-control-prev" href="#stadium-carousel-5" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#stadium-carousel-5" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Siguiente</span>
         </a>
