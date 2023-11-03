@@ -219,6 +219,9 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <p>Todos los derechos reservados © 2023 <b>+Futbol</b></p>
         </div>
     </footer>
+
+
+    
     <script src="js/script-home.js"></script>
      <!-- js code -->
      <script>
@@ -229,10 +232,8 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
       dropdown.classList.toggle('dropdown-active');
     });
     </script>
--->
 
 
-    <script src="js/script-home.js"></script>
 
     <!-- Animacion de JS para el menu deplegable en la Nav -->
     <script>

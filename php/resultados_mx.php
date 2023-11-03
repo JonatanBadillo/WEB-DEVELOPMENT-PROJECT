@@ -30,77 +30,76 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 </head>
 
 <body>
-    <script src="js/script-home.js"></script>
     <header>
 
-        <div class="container__header">
+<div class="container__header">
 
-            <div class="logo">
-                <a href="../home.php"><img src="../assets/images/Logos/logo-black.png" alt="Logo"></a>
-            </div>
+    <div class="logo">
+        <a href="../home.php"><img src="/assets/images/Logos/logo-black.png" alt="Logo"></a>
+    </div>
 
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li class="dropdown">
-                            <a>
-                                <div id="dropdown-btn1">
-                                    <a href="#"><span class="dropdown-name">Resultados</span></a>
-                                </div>
-                                <div class="dropdown-menu-box">
-                                    <ul class="dropdown-menu">
-                                        <a href="resultados_mx.php">
-                                            <li class="dropdown-item">Liga MX</li>
-                                        </a>
-                                        <a href="resultados_es.php">
-                                            <li class="dropdown-item">Liga Espanola</li>
-                                        </a>
-                                        <a href="resultados_en.php">
-                                            <li class="dropdown-item">Liga Inglesa</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                            <a>
-                                <div id="dropdown-btn2">
-                                    <!-- MOMENTANEMAENTE CON RUTA HACIA UNA TABLA EN ESPECIFICO--->
-                                    <a href="#"><span class="dropdown-name">Posiciones</span></a>
-                                </div>
-                                <div class="dropdown-menu-box">
-                                    <ul class="dropdown-menu">
-                                        <a href="tabla_mx.php">
-                                            <li class="dropdown-item">Liga MX</li>
-                                        </a>
-                                        <a href="tabla_es.php">
-                                            <li class="dropdown-item">Liga Espanola</li>
-                                        </a>
-                                        <a href="tabla_en.php">
-                                            <li class="dropdown-item">Liga Inglesa</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </a>
-                        </li>
-                        <!-- INSERTAR LOS ESTADIOS MAS EMBLEMATICOS DEL MUNDO--->
-                        <li><a href="estadios.php">Estadios</a></li>
-                        <!-- INSERTAR LOS MEJORES JUGADORES DE LA HISTORIA--->
-                        <li><a href="goats.php">GOATS</a></li>
-                    </ul>
-                </nav>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a>
+                        <div id="dropdown-btn1">
+                            <a href="#"><span class="dropdown-name">Resultados</span></a>
+                        </div>
+                        <div class="dropdown-menu-box">
+                            <ul class="dropdown-menu">
+                                <a href="resultados_mx.php">
+                                    <li class="dropdown-item">Liga MX</li>
+                                </a>
+                                <a href="resultados_es.php">
+                                    <li class="dropdown-item">Liga Espanola</li>
+                                </a>
+                                <a href="resultados_en.php">
+                                    <li class="dropdown-item">Liga Inglesa</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a>
+                        <div id="dropdown-btn2">
+                            <!-- MOMENTANEMAENTE CON RUTA HACIA UNA TABLA EN ESPECIFICO--->
+                            <a href="#"><span class="dropdown-name">Posiciones</span></a>
+                        </div>
+                        <div class="dropdown-menu-box">
+                            <ul class="dropdown-menu">
+                                <a href="tabla_mx.php">
+                                    <li class="dropdown-item">Liga MX</li>
+                                </a>
+                                <a href="tabla_es.php">
+                                    <li class="dropdown-item">Liga Espanola</li>
+                                </a>
+                                <a href="tabla_en.php">
+                                    <li class="dropdown-item">Liga Inglesa</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <!-- INSERTAR LOS ESTADIOS MAS EMBLEMATICOS DEL MUNDO--->
+                <li><a href="estadios.php">Estadios</a></li>
+                <!-- INSERTAR LOS MEJORES JUGADORES DE LA HISTORIA--->
+                <li><a href="goats.php">GOATS</a></li>
+            </ul>
+        </nav>
 
 
-            </div>
-            <i class="fa-solid fa-bars" id="icon_menu"></i>
-            <div class="header__cerrar">
+    </div>
+    <i class="fa-solid fa-bars" id="icon_menu"></i>
+    <div class="header__cerrar">
 
-                <a href="cerrar_sesion.php" class="btn"><input type="button" class="btn__header-cerrar"
-                        value="Cerrar Sesion"></a>
-            </div>
-        </div>
+        <a href="cerrar_sesion.php" class="btn"><input type="button" class="btn__header-cerrar"
+                value="Cerrar Sesion"></a>
+    </div>
+</div>
 
-    </header>
+</header>
     <main>
         <!-- Otra key para ApiFutbol  5ae6b4f57b3f55596919d3289f106ee0-->
         <div id="wg-api-football-games" data-host="v3.football.api-sports.io"
@@ -116,7 +115,18 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 </footer>
 
 
-    <script src="/js/script-home.js"></script>
+<script src="/js/script-home.js"></script>
+     <!-- js code -->
+     <script>
+    let dropdown = document.querySelector('.dropdown');
+    let dropdownBtn = document.getElementById('dropdown-btn');
+
+    dropdownBtn.addEventListener('click', () => {
+      dropdown.classList.toggle('dropdown-active');
+    });
+    </script>
+
+
 
     <!-- Animacion de JS para el menu deplegable en la Nav -->
     <script>
@@ -125,6 +135,15 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
     dropdownBtn1.addEventListener('click', () => {
         dropdown1.classList.toggle('dropdown-active');
+    });
+    </script>
+
+    <script>
+    let dropdown2 = document.querySelector('#dropdown-btn2').parentNode;
+    let dropdownBtn2 = document.getElementById('dropdown-btn2');
+
+    dropdownBtn2.addEventListener('click', () => {
+        dropdown2.classList.toggle('dropdown-active');
     });
     </script>
 
