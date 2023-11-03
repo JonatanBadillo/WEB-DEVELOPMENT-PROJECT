@@ -23,7 +23,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <title>Gavi</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style-info-gavi.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -32,7 +32,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="container__header">
 
             <div class="logo">
-                <a href="../home.php"><img src="../assets/images/Logos/logo-black.png" alt="Logo"></a>
+                <a href="../home.php"><img src="/assets/images/Logos/logo-black.png" alt="Logo"></a>
             </div>
 
             <div class="menu">
@@ -131,13 +131,13 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
         <div class="cover">
-            <div class="container">
+            <div class="containerSkill">
                 <div class="skill-box">
                     <span class="title">ACELERACION</span>
 
                     <div class="skill-bar">
                         <span class="skill-per html">
-                            <span class="tooltip">77%</span>
+                            <span class="tooltipp">77%</span>
                         </span>
                     </div>
                 </div>
@@ -147,7 +147,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                     <div class="skill-bar">
                         <span class="skill-per css">
-                            <span class="tooltip">58%</span>
+                            <span class="tooltipp">58%</span>
                         </span>
                     </div>
                 </div>
@@ -156,7 +156,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                     <div class="skill-bar">
                         <span class="skill-per javascript">
-                            <span class="tooltip">86%</span>
+                            <span class="tooltipp">86%</span>
                         </span>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                     <div class="skill-bar">
                         <span class="skill-per nodejs">
-                            <span class="tooltip">75%</span>
+                            <span class="tooltipp">75%</span>
                         </span>
                     </div>
                 </div>
@@ -182,45 +182,63 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="cover">
 
 
-            <div class="card">
+            <div class="cardd">
                 <div class="personaje">
                     <div class="imagen_personaje"></div>
                     <div class="detalle">
-                        <h2>LaLiga</h2>
-                        <p>El FC Barcelona ganó la Liga española 2023-24, su primer título de liga en tres años. Gavi,
-                            un centrocampista ofensivo de
-                            18 años, fue un jugador clave del equipo, disputando 33 partidos de liga, 29 de ellos como
-                            titular. Gavi anotó dos goles
-                            y dio cuatro asistencias en la liga..</p>
+                        <div class="titulo_trofeo">
+                            <h3>LaLiga</h3>
+                        </div>
+                        <div class="parrafo_trofeo">
+                            <p>El FC Barcelona ganó la Liga española 2023-24, su primer título de liga en tres años. Gavi,
+                                un centrocampista ofensivo de
+                                18 años, fue un jugador clave del equipo, disputando 33 partidos de liga, 29 de ellos como
+                                titular. Gavi anotó dos goles
+                                y dio cuatro asistencias en la liga..</p>
+                        </div>
+
 
                     </div>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="cardd">
                 <div class="personaje_2">
                     <div class="imagen_personaje_2"></div>
                     <div class="detalle_2">
-                        <h2>Spanish Super Cup</h2>
-                        <p>El FC Barcelona ganó la Supercopa de España 2023, su primer título en este torneo desde 2018.
-                            Gavi, un centrocampista ofensivo
-                            de 17 años, fue un jugador clave del equipo, disputando 4 partidos, 3 de ellos como titular.
-                            Gavi anotó un gol y dio
-                            una asistencia en la Supercopa.</p>
+                        <div class="titulo_trofeo">
+                            <h3>Spanish Super Cup</h3>
+                        </div>
+
+                        <div class="parrafo_trofeo">
+                            <p>El FC Barcelona ganó la Supercopa de España 2023, su primer título en este torneo desde
+                                2018.
+                                Gavi, un centrocampista ofensivo
+                                de 17 años, fue un jugador clave del equipo, disputando 4 partidos, 3 de ellos como
+                                titular.
+                                Gavi anotó un gol y dio
+                                una asistencia en la Supercopa.</p>
+                        </div>
+
 
                     </div>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="cardd">
                 <div class="personaje_3">
                     <div class="imagen_personaje_3"></div>
                     <div class="detalle_3">
-                        <h2>Golden Boy</h2>
-                        <p>
-                            Gavi ganó el Premio Golden Boy 2022, que reconoce al mejor jugador joven del mundo. El
-                            centrocampista ofensivo del FC Barcelona, ​​entonces de 17 años,
-                            fue elegido por un jurado de periodistas deportivos de todo el mundo.</p>
+                        <div class="titulo_trofeo">
+                            <h3>Golden Boy</h3>
+                        </div>
+                        <div class="parrafo_trofeo">
+                            <p>
+                                Gavi ganó el Premio Golden Boy 2022, que reconoce al mejor jugador joven del mundo. El
+                                centrocampista ofensivo del FC Barcelona, ​​entonces de 17 años,
+                                fue elegido por un jurado de periodistas deportivos de todo el mundo.</p>
+                        </div>
+
 
                     </div>
                 </div>
@@ -234,7 +252,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
     </main>
-    
+
 
 
 
@@ -278,12 +296,12 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         </div>
     </footer>
 
-     <!-- js code -->
-     <script src="/js/script-home.js"></script>
+    <!-- js code -->
+    <script src="/js/script-home.js"></script>
 
 
 
-   
+
     <!-- Animacion de JS para el menu deplegable en la Nav -->
     <script>
     let dropdown1 = document.querySelector('#dropdown-btn1').parentNode;
