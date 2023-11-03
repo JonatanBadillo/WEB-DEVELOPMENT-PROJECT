@@ -370,7 +370,7 @@ y la determinación en su corazón..</p>
                 <img src="../assets/images/pele1.jpg" alt="Jugador 4 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele3.jpg" alt="Jugador 4 - Imagen 3">
+                <img src="../assets/images/pele3.webp" alt="Jugador 4 - Imagen 3">
             </div>
             <div class="carousel-item">
                 <img src="../assets/images/pele4.jpg" alt="Jugador 4 - Imagen 4">
