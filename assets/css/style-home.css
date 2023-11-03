@@ -365,7 +365,7 @@ footer{
   color: white;
 }
 /* TARJETA JUGADORES */
-.container {
+.container_card {
   width: 100%;
   max-width: 1200px;
   height: 430px;
@@ -376,7 +376,7 @@ footer{
   margin-bottom: 50px;
 }
 
-.container .card {
+.container_card .card {
   width: 330px;
   height: 430px;
   border-radius: 8px;
@@ -387,27 +387,27 @@ footer{
   transition: all 0.25s;
 }
 
-.container .card:hover {
+.container_card .card:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.container .card img {
+.container_card .card img {
   width: 330px;
   height: 220px;
 }
 
-.container .card h4 {
+.container_card .card h4 {
   font-weight: 600;
 }
 
-.container .card p {
+.container_card .card p {
   padding: 0 1rem;
   font-size: 16px;
   font-weight: 300;
 }
 
-.container .card a {
+.container_card .card a {
   font-weight: 500;
   text-decoration: none;
   color: #3498db;

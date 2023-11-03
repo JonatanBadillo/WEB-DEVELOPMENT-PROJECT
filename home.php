@@ -149,7 +149,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <br>
         <h1 class="title">Las mayores promesas del futbol</h1>
 
-        <div class="container">
+        <div class="container_card">
 
             <div class="card">
                 <img src="assets/images/player1.webp">
