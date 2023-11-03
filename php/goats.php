@@ -310,10 +310,10 @@ un poema de amor al juego.</p>
         <!-- Imágenes del carrusel para Jugador 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/cr71.jpg" alt="Jugador 3 - Imagen 1">
+                <img src="../assets/images/cr72.jpg" alt="Jugador 3 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr72.jpg" alt="Jugador 3 - Imagen 2">
+                <img src="../assets/images/cr71.jpg" alt="Jugador 3 - Imagen 2">
             </div>
             <div class="carousel-item">
                 <img src="../assets/images/cr73.jpg" alt="Jugador 3 - Imagen 3">
