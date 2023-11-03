@@ -23,6 +23,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <title>Bellingham</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style-info-bellingham.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
 
@@ -135,13 +136,13 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
         <div class="cover">
-            <div class="container">
+            <div class="containerSkill">
                 <div class="skill-box">
                     <span class="title">ACELERACION</span>
 
                     <div class="skill-bar">
                         <span class="skill-per html">
-                            <span class="tooltip">75%</span>
+                            <span class="tooltipp">75%</span>
                         </span>
                     </div>
                 </div>
@@ -151,7 +152,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                     <div class="skill-bar">
                         <span class="skill-per css">
-                            <span class="tooltip">75%</span>
+                            <span class="tooltipp">75%</span>
                         </span>
                     </div>
                 </div>
@@ -160,7 +161,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                     <div class="skill-bar">
                         <span class="skill-per javascript">
-                            <span class="tooltip">80%</span>
+                            <span class="tooltipp">80%</span>
                         </span>
                     </div>
                 </div>
@@ -169,7 +170,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                     <div class="skill-bar">
                         <span class="skill-per nodejs">
-                            <span class="tooltip">79%</span>
+                            <span class="tooltipp">79%</span>
                         </span>
                     </div>
                 </div>
@@ -186,16 +187,21 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="cover">
 
 
-            <div class="card">
+            <div class="cardd">
                 <div class="personaje">
                     <div class="imagen_personaje"></div>
                     <div class="detalle">
-                        <h2>Copa de Alemania</h2>
-                        <p>Jude Bellingham ganó la Copa de Alemania 2022-23 con el Borussia Dortmund, derrotando al RB
-                            Leipzig en la final por 2-1.
-                            El centrocampista inglés, entonces de 19 años, fue una de las figuras destacadas del
-                            partido, anotando el segundo gol
-                            del Dortmund en el minuto 85.</p>
+                        <div class="titulo_trofeo">
+                            <h3>Copa de Alemania</h3>
+                        </div>
+                        <div class="parrafo_trofeo">
+                            <p>Jude Bellingham ganó la Copa de Alemania 2022-23 con el Borussia Dortmund, derrotando al RB
+                                Leipzig en la final por 2-1.
+                                El centrocampista inglés, entonces de 19 años, fue una de las figuras destacadas del
+                                partido, anotando el segundo gol
+                                del Dortmund en el minuto 85.</p>
+                        </div>
+
                     </div>
                 </div>
             </div>

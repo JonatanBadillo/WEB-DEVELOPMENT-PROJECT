@@ -23,6 +23,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
     <title>Foden</title>
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style-info-foden.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
 
@@ -132,13 +133,13 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
         <div class="cover">
-            <div class="container">
+            <div class="containerSkill">
                 <div class="skill-box">
                     <span class="title">ACELERACION</span>
 
                     <div class="skill-bar">
                         <span class="skill-per html">
-                            <span class="tooltip">83%</span>
+                            <span class="tooltipp">83%</span>
                         </span>
                     </div>
                 </div>
@@ -148,7 +149,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                     <div class="skill-bar">
                         <span class="skill-per css">
-                            <span class="tooltip">70%</span>
+                            <span class="tooltipp">70%</span>
                         </span>
                     </div>
                 </div>
@@ -157,7 +158,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                     <div class="skill-bar">
                         <span class="skill-per javascript">
-                            <span class="tooltip">88%</span>
+                            <span class="tooltipp">88%</span>
                         </span>
                     </div>
                 </div>
@@ -166,7 +167,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
                     <div class="skill-bar">
                         <span class="skill-per nodejs">
-                            <span class="tooltip">85%</span>
+                            <span class="tooltipp">85%</span>
                         </span>
                     </div>
                 </div>
@@ -183,42 +184,57 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <div class="cover">
 
 
-            <div class="card">
+            <div class="cardd">
                 <div class="personaje">
                     <div class="imagen_personaje"></div>
                     <div class="detalle">
-                        <h2>Liga de Campeones</h2>
-                        <p>Phil Foden ganó la Liga de Campeones de la UEFA 2022-23 con el Manchester City, derrotando al
-                            Inter de Milán en la
-                            final por 2-1. El centrocampista inglés, entonces de 22 años, jugó un papel importante en la
-                            victoria del City,
-                            anotando el gol de la victoria en el minuto 81.</p>
+                        <div class="titulo_trofeo">
+                            <h3>Liga de Campeones</h3>
+                        </div>
+                        <div class="parrafo_trofeo">
+                            <p>Phil Foden ganó la Liga de Campeones de la UEFA 2022-23 con el Manchester City, derrotando al
+                                Inter de Milán en la
+                                final por 2-1. El centrocampista inglés, entonces de 22 años, jugó un papel importante en la
+                                victoria del City,
+                                anotando el gol de la victoria en el minuto 81.</p>
+                        </div>
+
 
                     </div>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="cardd">
                 <div class="personaje_2">
                     <div class="imagen_personaje_2"></div>
                     <div class="detalle_2">
-                        <h2>Campeon de Inglaterra</h2>
-                        <p>Phil Foden celebró el título de la Premier League 2022-23 con el Manchester City. El
+                        <div class="titulo_trofeo">
+                            <h3>Campeon de Inglaterra</h3>
+                        </div>
+                        <div class="parrafo_trofeo">
+                            <p>Phil Foden celebró el título de la Premier League 2022-23 con el Manchester City. El
                             centrocampista inglés se convirtió en
                             el jugador más joven en ganar la Premier League tres veces, a los 22 años.</p>
+                        </div>
+
 
                     </div>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="cardd">
                 <div class="personaje_3">
                     <div class="imagen_personaje_3"></div>
                     <div class="detalle_3">
-                        <h2>Fa Cup de Inglaterra</h2>
-                        <p>Phil Foden fue una figura clave en la victoria del Manchester City en la FA Cup de Inglaterra
+                        <div class="titulo_trofeo">
+                            <h3>Fa Cup de Inglaterra</h3>
+                        </div>
+                        <div class="parrafo_trofeo">
+                            <p>Phil Foden fue una figura clave en la victoria del Manchester City en la FA Cup de Inglaterra
                             2022-23. El centrocampista inglés anotó un doblete en la final
                             contra el Chelsea, que ayudó al City a ganar el partido por 3-2.</p>
+                        </div>
+
 
                     </div>
                 </div>
