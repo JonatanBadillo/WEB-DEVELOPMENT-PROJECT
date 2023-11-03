@@ -295,7 +295,7 @@ main {
 /* seccion F O O T E R */
 footer{
   width: 100%;
-  padding: 50px 0px;
+  padding: 40px 0px;
   background-color: black;
   background-size: cover;
 }
@@ -306,7 +306,7 @@ footer{
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .box__footer{
@@ -412,6 +412,94 @@ footer{
   text-decoration: none;
   color: #3498db;
 }
+
+
+
+@media (min-width: 250px)  and (max-width: 870px) {
+  .container_card {
+    width: 90%;
+    height: auto;
+    max-height: 100px;
+  }
+
+  .container_card .card {
+    width: 100%;
+    height: auto;
+    margin: 12px 0;
+    position: relative;
+  }
+
+  .container_card .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 270%;
+    object-fit: cover;
+  }
+
+  .container_card .card h4 {
+    font-size: 14px;
+  }
+
+  .container_card .card p {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+@media (min-width: 870px) and (max-width: 1250px) {
+  .container_card {
+    width: 80%;
+    height: auto;
+    max-height: 450px;
+  }
+
+  .container_card .card {
+    width: 60%;
+    height: auto;
+    margin: 10px 0;
+    position: relative;
+  }
+
+  .container_card .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .container_card .card h4 {
+    margin-left: 210px;
+    font-size: 18px;
+  }
+
+  .container_card .card p {
+    float: right;
+    margin-left: 210px;
+    font-size: 13px;
+  }
+
+  .container_card .card a {
+    float: right;
+    margin-left: 210px;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 .dropdown {
   position: relative;

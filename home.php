@@ -160,7 +160,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             </div>
 
             <div class="card">
-                <img src="assets/images/player2.webp">
+                <img src="assets/images/player22.webp">
                 <h4>Jude Bellingham</h4>
                 <p>Jugador muy versátil, capaz de jugar en varias posiciones del centro del campo. Tiene una gran
                     calidad técnica, visión de juego y capacidad de asociación.</p>
