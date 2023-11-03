@@ -31,7 +31,6 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 </head>
 
 <body>
-    <script src="js/script-home.js"></script>
     <header>
 
         <div class="container__header">
@@ -115,10 +114,12 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
 
+     <!-- js code -->
+     <script src="/js/script-home.js"></script>
 
-    <script src="/js/script-home.js"></script>
 
 
+   
     <!-- Animacion de JS para el menu deplegable en la Nav -->
     <script>
     let dropdown1 = document.querySelector('#dropdown-btn1').parentNode;
@@ -137,6 +138,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         dropdown2.classList.toggle('dropdown-active');
     });
     </script>
+
 
 </body>
 

@@ -115,19 +115,12 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 </footer>
 
 
-<script src="/js/script-home.js"></script>
      <!-- js code -->
-     <script>
-    let dropdown = document.querySelector('.dropdown');
-    let dropdownBtn = document.getElementById('dropdown-btn');
-
-    dropdownBtn.addEventListener('click', () => {
-      dropdown.classList.toggle('dropdown-active');
-    });
-    </script>
+     <script src="/js/script-home.js"></script>
 
 
 
+   
     <!-- Animacion de JS para el menu deplegable en la Nav -->
     <script>
     let dropdown1 = document.querySelector('#dropdown-btn1').parentNode;
