@@ -105,7 +105,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <center>
             <h1>Phil Foden </h1>
         </center>
-        <div class="cover">
+        <div class="cover1">
             <img src="../assets/images/Foden.webp" class="img" id="image_bellingham" alt="">
 
             <br>
@@ -132,7 +132,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
 
 
-        <div class="cover">
+        <div class="cover1">
             <div class="containerSkill">
                 <div class="skill-box">
                     <span class="title">ACELERACION</span>
@@ -181,7 +181,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
             <H2>Trofeos Ganados</H2>
         </center>
 
-        <div class="cover">
+        <div class="cover2">
 
 
             <div class="cardd">
