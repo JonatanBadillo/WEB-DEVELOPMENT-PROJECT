@@ -182,13 +182,15 @@
         color: white;
     }
 
-    .cover {
-        display: flex;
-        justify-content: center;
-        margin-top: 60px;
-    }
 
-    .cover p {
+    .cover1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+      margin-bottom: 10px;  
+  }
+
+    .cover1 p {
         margin-right: 20px;
         text-align: justify;
         padding: 20px;
@@ -385,7 +387,19 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+    .cover2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 800px;
+      height: 80px;
+  }
 
+  .cover2 p {
+      margin-right: 20px;
+      text-align: justify;
+      padding: 20px;
+  }
 
 
 
@@ -393,6 +407,7 @@
         height: 350px;
         width: 300px;
         margin: 10px;
+        
         transition: 300ms;
     }
 
@@ -527,54 +542,5 @@
         .mostrar_menu {
           /*CLASE MANIPULADA POR JS*/
           height: 235px;
-        }
-      
-        .text__information-cover h1 {
-          font-size: 40px;
-        }
-      
-        .text__information-cover p {
-          font-size: 16px;
-        }
-      
-        .banner__text h2 {
-          font-size: 22px;
-        }
-      
-        #icon_ball {
-          left: -60px;
-        }
-      
-        .banner__icon-player {
-          right: -20px;
-        }
-      }
-      
-      @media (max-width: 920px) {
-        .text__information-cover {
-          width: 100%;
-        }
-      
-        .media__cover {
-          display: none;
-        }
-      
-        .banner {
-          width: 100%;
-          height: auto;
-          flex-wrap: wrap;
-        }
-      
-        #icon_player {
-          display: none;
-        }
-      
-        #icon_ball {
-          left: 0;
-        }
-      
-        .banner__text {
-          width: 100%;
-          margin-top: -100px;
         }
       }

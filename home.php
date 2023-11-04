@@ -151,7 +151,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
 
         <div class="container_card">
 
-            <div class="card">
+            <div class="card1">
                 <img src="assets/images/player1.webp">
                 <h4>Gavi</h4>
                 <p>Gavi es un jugador muy intenso y con mucho carácter, lo que le hace ser una pieza importante para el
@@ -159,7 +159,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                 <a href="php/Info_gavi.php">Leer más</a>
             </div>
 
-            <div class="card">
+            <div class="card1">
                 <img src="assets/images/player22.webp">
                 <h4>Jude Bellingham</h4>
                 <p>Jugador muy versátil, capaz de jugar en varias posiciones del centro del campo. Tiene una gran
@@ -167,7 +167,7 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
                 <a href="php/Info_bellingham.php">Leer más</a>
             </div>
 
-            <div class="card">
+            <div class="card1">
                 <img src="assets/images/player3.webp">
                 <h4>Phil Foden</h4>
                 <p>Tiene una gran visión de juego, capacidad de pase y regate. También es un jugador muy habilidoso y
