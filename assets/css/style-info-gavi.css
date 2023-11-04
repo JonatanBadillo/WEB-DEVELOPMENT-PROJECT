@@ -406,7 +406,7 @@
     .cardd {
         height: 350px;
         width: 300px;
-        margin: 10px;
+        margin: 40px;
         
         transition: 300ms;
     }
@@ -495,8 +495,55 @@
 
 
 
+    @media (min-width: 250px) and (max-width: 970px) {
+      .cover1 img{
+        margin-left: 50px;
+      }
 
+      .cardd {
+        height: 115px;
+        width: 100px;
+        margin: 60px;
+        margin-right: 100px;
+      }
+    
+      .imagen_personaje, .imagen_personaje_2, .imagen_personaje_3 {
+        width: 75%;
+        height: 55%;
+        margin-top: 140%;
+        margin-bottom: 140%;
+        margin-right: 5%;
+      }
+    
+      .detalle, .detalle_2, .detalle_3 {
+        width: 100%;
+        height: 42%;
 
+      }
+
+      .titulo_trofeo H3{
+        width: 30%;
+        height: 5%;
+       margin-top: 3%;
+       margin-bottom: auto;
+       margin-right: 25%;
+        font-size: 15px;
+      }
+
+      .parrafo_trofeo{
+        display: none;
+      }
+
+      .personaje, .personaje_2, .personaje_3 {
+        width: 18%;
+        height: 18%;
+        margin: auto;
+        
+      }
+      .cardd:hover {
+        transform: none;
+      }
+    }
 
 
 
