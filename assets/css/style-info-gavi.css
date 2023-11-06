@@ -590,4 +590,8 @@
           /*CLASE MANIPULADA POR JS*/
           height: 235px;
         }
+
+        .rectangulo{
+          display: none;
+        }
       }

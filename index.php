@@ -15,7 +15,7 @@ if (isset($_SESSION['usuario'])) { // Si sesion no existe
     <title>Login</title>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <!--Estilos para decorar el login -->
-    <link rel="stylesheet" href="../assets/css/style_login.css">
+    <link rel="stylesheet" href="assets/css/style_login.css">
 </head>
 
 <body>
