@@ -209,19 +209,19 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <!-- Imágenes del carrusel -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../assets/images/messi1.jpg" alt="Jugador 1 - Imagen 1">
+                <img src="../assets/images/messi1.webp" alt="Jugador 1 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/messi2.jpg" alt="Jugador 1 - Imagen 2">
+                <img src="../assets/images/messi2.webp" alt="Jugador 1 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/messi3.jpg" alt="Jugador 1 - Imagen 3">
+                <img src="../assets/images/messi3.webp" alt="Jugador 1 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/messi4.jpg" alt="Jugador 1 - Imagen 4">
+                <img src="../assets/images/messi4.webp" alt="Jugador 1 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/messi5.jpg" alt="Jugador 1 - Imagen 4">
+                <img src="../assets/images/messi5.webp" alt="Jugador 1 - Imagen 4">
             </div>
         </div>
 
@@ -258,19 +258,19 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <!-- Imágenes del carrusel para Jugador 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/maradona1.jpg" alt="Jugador 2 - Imagen 1">
+                <img src="../assets/images/maradona1.webp" alt="Jugador 2 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona2.jpg" alt="Jugador 2 - Imagen 2">
+                <img src="../assets/images/maradona2.webp" alt="Jugador 2 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona3.jpg" alt="Jugador 2 - Imagen 3">
+                <img src="../assets/images/maradona3.webp" alt="Jugador 2 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona4.jpg" alt="Jugador 2 - Imagen 4">
+                <img src="../assets/images/maradona4.webp" alt="Jugador 2 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maradona5.jpg" alt="Jugador 2 - Imagen 4">
+                <img src="../assets/images/maradona5.webp" alt="Jugador 2 - Imagen 4">
             </div>
 
         </div>
@@ -310,19 +310,19 @@ un poema de amor al juego.</p>
         <!-- Imágenes del carrusel para Jugador 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/cr72.jpg" alt="Jugador 3 - Imagen 1">
+                <img src="../assets/images/cr72.webp" alt="Jugador 3 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr71.jpg" alt="Jugador 3 - Imagen 2">
+                <img src="../assets/images/cr71.webp" alt="Jugador 3 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr73.jpg" alt="Jugador 3 - Imagen 3">
+                <img src="../assets/images/cr73.webp" alt="Jugador 3 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr74.jpg" alt="Jugador 3 - Imagen 4">
+                <img src="../assets/images/cr74.webp" alt="Jugador 3 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/cr75.jpg" alt="Jugador 3 - Imagen 4">
+                <img src="../assets/images/cr75.webp" alt="Jugador 3 - Imagen 4">
             </div>
             <!-- Agrega más imágenes para Jugador 2 según sea necesario -->
         </div>
@@ -363,19 +363,19 @@ y la determinación en su corazón..</p>
         <!-- Imágenes del carrusel para Jugador 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/pele2.jpg" alt="Jugador 4 - Imagen 1">
+                <img src="../assets/images/pele2.webp" alt="Jugador 4 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele1.jpg" alt="Jugador 4 - Imagen 2">
+                <img src="../assets/images/pele1.webp" alt="Jugador 4 - Imagen 2">
             </div>
             <div class="carousel-item">
                 <img src="../assets/images/pele3.webp" alt="Jugador 4 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele4.jpg" alt="Jugador 4 - Imagen 4">
+                <img src="../assets/images/pele4.webp" alt="Jugador 4 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/pele5.jpg" alt="Jugador 4 - Imagen 4">
+                <img src="../assets/images/pele5.webp" alt="Jugador 4 - Imagen 4">
             </div>
             <!-- Agrega más imágenes para Jugador 2 según sea necesario -->
         </div>

@@ -216,19 +216,19 @@ if (!isset($_SESSION['usuario'])) { // Si sesion no existe
         <!-- Imágenes del carrusel -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../assets/images/azteca.jpg" alt="Estadio 1 - Imagen 1">
+                <img src="../assets/images/azteca.webp" alt="Estadio 1 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/azteca5.jpg" alt="Estadio 1 - Imagen 2">
+                <img src="../assets/images/azteca5.webp" alt="Estadio 1 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/azteca3.jpg" alt="Estadio 1 - Imagen 3">
+                <img src="../assets/images/azteca3.webp" alt="Estadio 1 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/azteca4.jpg" alt="Estadio 1 - Imagen 4">
+                <img src="../assets/images/azteca4.webp" alt="Estadio 1 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/azteca2.jpg" alt="Estadio 1 - Imagen 4">
+                <img src="../assets/images/azteca2.webp" alt="Estadio 1 - Imagen 4">
             </div>
         </div>
 
@@ -269,19 +269,19 @@ El Estadio Azteca es uno de los estadios más emblemáticos del mundo. Ha sido s
         <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/maracana.jpg" alt="Estadio 2 - Imagen 1">
+                <img src="../assets/images/maracana.webp" alt="Estadio 2 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maracana2.jpg" alt="Estadio 2 - Imagen 2">
+                <img src="../assets/images/maracana2.webp" alt="Estadio 2 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maracana3.jpg" alt="Estadio 2 - Imagen 3">
+                <img src="../assets/images/maracana3.webp" alt="Estadio 2 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maracana4.jpg" alt="Estadio 2 - Imagen 4">
+                <img src="../assets/images/maracana4.webp" alt="Estadio 2 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/maracana5.jpg" alt="Estadio 2 - Imagen 4">
+                <img src="../assets/images/maracana5.webp" alt="Estadio 2 - Imagen 4">
             </div>
 
         </div>
@@ -322,19 +322,19 @@ El Estadio Maracaná es uno de los estadios más emblemáticos del mundo. Ha sid
         <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/campnou4.jpg" alt="Estadio 3 - Imagen 1">
+                <img src="../assets/images/campnou4.webp" alt="Estadio 3 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/campnou5.jpg" alt="Estadio 3 - Imagen 2">
+                <img src="../assets/images/campnou5.webp" alt="Estadio 3 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/campnou3.jpg" alt="Estadio 3 - Imagen 3">
+                <img src="../assets/images/campnou3.webp" alt="Estadio 3 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/campnou2.jpg" alt="Estadio 3 - Imagen 4">
+                <img src="../assets/images/campnou2.webp" alt="Estadio 3 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/Camp-Nou-1.jpg" alt="Estadio 3 - Imagen 4">
+                <img src="../assets/images/Camp-Nou-1.webp" alt="Estadio 3 - Imagen 4">
             </div>
             <!-- Agrega más imágenes para Estadio 2 según sea necesario -->
         </div>
@@ -371,19 +371,19 @@ El Estadio Maracaná es uno de los estadios más emblemáticos del mundo. Ha sid
         <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/bernabeu5.jpg" alt="Estadio 4 - Imagen 1">
+                <img src="../assets/images/bernabeu5.webp" alt="Estadio 4 - Imagen 1">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/Bernabeu.jpg" alt="Estadio 4 - Imagen 2">
+                <img src="../assets/images/Bernabeu.webp" alt="Estadio 4 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/bernabeu3.jpg" alt="Estadio 4 - Imagen 3">
+                <img src="../assets/images/bernabeu3.webp" alt="Estadio 4 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/bernabeu4.jpg" alt="Estadio 4 - Imagen 4">
+                <img src="../assets/images/bernabeu4.webp" alt="Estadio 4 - Imagen 4">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/bernabeu2.jpg" alt="Estadio 4 - Imagen 4">
+                <img src="../assets/images/bernabeu2.webp" alt="Estadio 4 - Imagen 4">
             </div>
             <!-- Agrega más imágenes para Estadio 2 según sea necesario -->
         </div>
@@ -422,16 +422,16 @@ El estadio tiene capacidad para 81 044 espectadores y es uno de los estadios de 
         <!-- Imágenes del carrusel para Estadio 2 -->
         <div class="carousel-inner">
         <div class="carousel-item active">
-                <img src="../assets/images/Anfield.jpg" alt="Estadio 4 - Imagen 1">
+                <img src="../assets/images/Anfield.webp" alt="Estadio 4 - Imagen 1">
             </div>
             <div class="carousel-item">
                 <img src="../assets/images/anfield2.jpg" alt="Estadio 4 - Imagen 2">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/anfield3.jpg" alt="Estadio 4 - Imagen 3">
+                <img src="../assets/images/anfield3.webp" alt="Estadio 4 - Imagen 3">
             </div>
             <div class="carousel-item">
-                <img src="../assets/images/anfield4.jpg" alt="Estadio 4 - Imagen 4">
+                <img src="../assets/images/anfield4.webp" alt="Estadio 4 - Imagen 4">
             </div>
             <div class="carousel-item">
                 <img src="../assets/images/anfield2.jpg" alt="Estadio 4 - Imagen 4">
@@ -462,46 +462,7 @@ El estadio es conocido por su atmósfera eléctrica, que crea una experiencia de
 </main>
 
     </main>
-    <!--
-    <footer>
-
-        <div class="container__footer">
-            <div class="box__footer">
-                <div class="logo">
-                    <img src="../assets/images/Logos/logo-white.png" alt="Logo">
-                </div>
-                <div class="terms">
-                    <p>Sitio web diseñado con pasión por +Futbol. © 2023 Todos los derechos reservados.</p>
-                </div>
-            </div>
-            <div class="box__footer">
-                <h2>Soluciones</h2>
-                <a href="https://www.google.com">APIS empleadas</a>
-                <a href="#">API SPORTS</a>
-            </div>
-
-            <div class="box__footer">
-                <h2>Compañia</h2>
-                <a href="#">Acerca de</a>
-                <a href="#">Servicios</a>
-            </div>
-
-            <div class="box__footer">
-                <h2>Redes Sociales</h2>
-                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
-                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
-                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
-            </div>
-
-        </div>
-
-        <div class="box__copyright">
-            <hr>
-            <p>Todos los derechos reservados © 2023 <b>+Futbol</b></p>
-        </div>
-    </footer>
--->
+  
      <!-- js code -->
      <script src="/js/script-home.js"></script>
 
